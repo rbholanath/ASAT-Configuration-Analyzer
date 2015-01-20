@@ -14,8 +14,8 @@ import javax.xml.parsers.DocumentBuilderFactory;
 
 public class CheckstyleParserTest
 {
-    Document document;
-    Parser parser;
+    private Document document;
+    private Parser parser;
 
     @Before
     public void setUp() throws Exception

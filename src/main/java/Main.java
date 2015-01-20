@@ -4,6 +4,7 @@ import main.java.configanalysis.ConfigAnalysis;
 import main.java.configreader.ConfigReader;
 import main.java.parser.Parser;
 import main.java.parser.implementations.CheckstyleParser;
+import main.java.parser.implementations.FindBugsParser;
 import main.java.parser.implementations.PMDParser;
 
 import java.util.ArrayList;
@@ -21,9 +22,13 @@ public class Main
         parsers.add(new CheckstyleParser());
         directories.add(System.getProperty("user.dir") + "/src/main/resources/checkstyle/");
 
-        //PMD
+        // PMD
         parsers.add(new PMDParser());
         directories.add(System.getProperty("user.dir") + "/src/main/resources/pmd/");
+
+        // FindBugs
+        parsers.add(new FindBugsParser());
+        directories.add(System.getProperty("user.dir") + "/src/main/resources/findbugs/");
 
         System.out.println("--- Reading config files");
 

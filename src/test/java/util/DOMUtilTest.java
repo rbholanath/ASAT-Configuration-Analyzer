@@ -14,9 +14,9 @@ import java.util.List;
 
 public class DOMUtilTest
 {
-    Document document;
+    private Document document;
 
-    Element parent;
+    private Element parent;
 
     @Before
     public void setUp() throws Exception
