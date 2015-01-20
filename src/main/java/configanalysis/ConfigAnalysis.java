@@ -4,9 +4,17 @@ import java.util.Map;
 
 public interface ConfigAnalysis
 {
-    void addOccurrence(String moduleName);
+    void addOccurrence(String name);
 
-    int getModuleOccurrences(String moduleName);
+    int getSingleOccurrence(String name);
+
+    void addExclusion(String name);
+
+    int getSingleExclusion(String name);
 
     Map<String, Integer> getOccurrences();
+
+    Map<String, Integer> getExclusions();
+
+    String getToolName();
 }

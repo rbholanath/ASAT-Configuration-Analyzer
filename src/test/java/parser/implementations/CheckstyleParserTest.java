@@ -2,6 +2,7 @@ package test.java.parser.implementations;
 
 import junit.framework.Assert;
 import main.java.configanalysis.ConfigAnalysis;
+import main.java.configanalysis.implementations.MapConfigAnalysis;
 import main.java.parser.Parser;
 import main.java.parser.implementations.CheckstyleParser;
 import org.junit.Before;
@@ -29,15 +30,15 @@ public class CheckstyleParserTest
     @Test
     public void testParse() throws Exception
     {
-        ConfigAnalysis result = parser.parse(document);
+        ConfigAnalysis result = parser.parse(document, new MapConfigAnalysis(parser.getToolName()));
 
-        Assert.assertEquals(1, result.getModuleOccurrences("PackageHtml"));
-        Assert.assertEquals(1, result.getModuleOccurrences("Translation"));
-        Assert.assertEquals(1, result.getModuleOccurrences("TreeWalker"));
-        Assert.assertEquals(1, result.getModuleOccurrences("AvoidStarImport"));
-        Assert.assertEquals(1, result.getModuleOccurrences("ConstantName"));
-        Assert.assertEquals(1, result.getModuleOccurrences("EmptyBlock"));
-        Assert.assertEquals(2, result.getModuleOccurrences("LeftCurly"));
-        Assert.assertEquals(2, result.getModuleOccurrences("OperatorWrap"));
+        Assert.assertEquals(1, result.getSingleOccurrence("PackageHtml"));
+        Assert.assertEquals(1, result.getSingleOccurrence("Translation"));
+        Assert.assertEquals(1, result.getSingleOccurrence("TreeWalker"));
+        Assert.assertEquals(1, result.getSingleOccurrence("AvoidStarImport"));
+        Assert.assertEquals(1, result.getSingleOccurrence("ConstantName"));
+        Assert.assertEquals(1, result.getSingleOccurrence("EmptyBlock"));
+        Assert.assertEquals(2, result.getSingleOccurrence("LeftCurly"));
+        Assert.assertEquals(2, result.getSingleOccurrence("OperatorWrap"));
     }
 }

@@ -1,7 +1,6 @@
 package main.java.parser.implementations;
 
 import main.java.configanalysis.ConfigAnalysis;
-import main.java.configanalysis.implementations.CheckstyleConfigAnalysis;
 import main.java.parser.Parser;
 import main.java.util.DOMUtil;
 import org.w3c.dom.Document;
@@ -14,9 +13,9 @@ public class CheckstyleParser implements Parser
 {
     private final String toolName = "checkstyle";
 
-    public ConfigAnalysis parse(final Document document)
+    public ConfigAnalysis parse(final Document document, ConfigAnalysis oldConfigAnalysis)
     {
-        ConfigAnalysis configAnalysis = new CheckstyleConfigAnalysis();
+        ConfigAnalysis configAnalysis = oldConfigAnalysis;
 
         Element parentModule = document.getDocumentElement();
 
@@ -35,16 +34,16 @@ public class CheckstyleParser implements Parser
 
         List<Node> childrenModules = DOMUtil.childrenByTagName(element, "module");
 
-        for (Node childrenModule : childrenModules)
+        for (Node childModule : childrenModules)
         {
             List<Node> grandChildrenModules = DOMUtil.childrenByTagName(element, "module");
 
             if (grandChildrenModules.size() > 0)
             {
-                newConfigAnalysis = parseModule((Element) childrenModule, newConfigAnalysis);
+                newConfigAnalysis = parseModule((Element) childModule, newConfigAnalysis);
             }
 
-            newConfigAnalysis.addOccurrence(((Element) childrenModule).getAttribute("name"));
+            newConfigAnalysis.addOccurrence(((Element) childModule).getAttribute("name"));
         }
 
         return newConfigAnalysis;

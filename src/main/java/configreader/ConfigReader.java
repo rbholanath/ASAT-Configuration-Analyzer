@@ -1,6 +1,7 @@
 package main.java.configreader;
 
 import main.java.configanalysis.ConfigAnalysis;
+import main.java.configanalysis.implementations.MapConfigAnalysis;
 import main.java.parser.Parser;
 import org.xml.sax.SAXException;
 
@@ -32,13 +33,15 @@ public class ConfigReader
             {
                 System.out.println("-- Reading tool: " + parsers.get(i).getToolName());
 
+                ConfigAnalysis toolConfigAnalysis = new MapConfigAnalysis(parsers.get(i).getToolName());
+
                 DirectoryStream<Path> stream = Files.newDirectoryStream(Paths.get(directories.get(i)), "*.{xml}");
 
                 for (Path entry: stream)
                 {
                     System.out.println("- Reading file: " + entry.toString());
 
-                    configAnalyses.add(parsers.get(i).parse(builder.parse(entry.toString())));
+                    configAnalyses.add(parsers.get(i).parse(builder.parse(entry.toString()), toolConfigAnalysis));
                 }
             }
 
