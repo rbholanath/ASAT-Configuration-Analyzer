@@ -1,0 +1,14 @@
+<Parent name="Parent">
+	<Target>Target 1</Target>
+	<Target>Target 2</Target>
+	<Child>
+		<Target>Target 3</Target>
+		<GrandChild>
+			<Target>Target 4</Target>
+		</GrandChild>
+	</Child>
+	<Parent name="Child">
+		<Target>Target 5</Target>
+	</Parent>
+	<Target>Target 6</Target>
+</Parent>
