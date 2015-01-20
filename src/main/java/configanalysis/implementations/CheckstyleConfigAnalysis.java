@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class CheckstyleConfigAnalysis implements ConfigAnalysis
 {
-    Map<String, Integer> occurrences = new HashMap<>();
+    private final Map<String, Integer> occurrences = new HashMap<>();
 
     public void addOccurrence(final String moduleName)
     {

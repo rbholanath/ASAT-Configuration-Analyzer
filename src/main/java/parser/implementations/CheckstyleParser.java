@@ -12,7 +12,7 @@ import java.util.List;
 
 public class CheckstyleParser implements Parser
 {
-    final String toolName = "checkstyle";
+    private final String toolName = "checkstyle";
 
     public ConfigAnalysis parse(final Document document)
     {
@@ -35,16 +35,16 @@ public class CheckstyleParser implements Parser
 
         List<Node> childrenModules = DOMUtil.childrenByTagName(element, "module");
 
-        for (int i = 0; i < childrenModules.size(); i++)
+        for (Node childrenModule : childrenModules)
         {
             List<Node> grandChildrenModules = DOMUtil.childrenByTagName(element, "module");
 
             if (grandChildrenModules.size() > 0)
             {
-                newConfigAnalysis = parseModule((Element) childrenModules.get(i), newConfigAnalysis);
+                newConfigAnalysis = parseModule((Element) childrenModule, newConfigAnalysis);
             }
 
-            newConfigAnalysis.addOccurrence(((Element) childrenModules.get(i)).getAttribute("name"));
+            newConfigAnalysis.addOccurrence(((Element) childrenModule).getAttribute("name"));
         }
 
         return newConfigAnalysis;
