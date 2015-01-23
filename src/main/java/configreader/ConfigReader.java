@@ -21,40 +21,47 @@ public class ConfigReader
 {
     public static List<ConfigAnalysis> read(final List<Parser> parsers, final List<File> directories)
     {
-        if (parsers.size() != directories.size())
-        {
-            return new ArrayList<>();
-        }
+        List<ConfigAnalysis> configAnalyses = new ArrayList<>();
 
-        try
+        if (parsers.size() == directories.size())
         {
-            List<ConfigAnalysis> configAnalyses = new ArrayList<>();
-
             for (int i = 0; i < parsers.size(); i++)
             {
-                AnalyzerLogger.getLogger().log(Level.INFO, "Reading tool: " + parsers.get(i).getToolName());
+                configAnalyses.add(readForTool(parsers.get(i), directories.get(i)));
+            }
+        }
 
-                DirectoryStream<Path> stream = Files.newDirectoryStream(Paths.get(directories.get(i).getAbsolutePath()), "*.{txt}");
+        return configAnalyses;
+    }
 
-                for (Path entry: stream)
-                {
-                    AnalyzerLogger.getLogger().log(Level.FINE, "Reading file: " + entry.toString());
+    private static ConfigAnalysis readForTool(Parser parser, File directory)
+    {
+        try
+        {
+            AnalyzerLogger.getLogger().log(Level.INFO, "Reading tool: " + parser.getToolName());
 
-                    configAnalyses.add(readURLList(entry.toString(), parsers.get(i)));
-                }
+            DirectoryStream<Path> stream = Files.newDirectoryStream(Paths.get(directory.getAbsolutePath()), "*.{txt}");
+
+            ConfigAnalysis configAnalysis = new MapConfigAnalysis(parser.getToolName());
+
+            for (Path entry: stream)
+            {
+                AnalyzerLogger.getLogger().log(Level.FINE, "Reading file: " + entry.toString());
+
+                configAnalysis = readURLList(entry.toString(), parser, configAnalysis);
             }
 
-            return configAnalyses;
+            return configAnalysis;
         }
-        catch (IOException | DirectoryIteratorException e)
+        catch (IOException e)
         {
             AnalyzerLogger.getLogger().log(Level.SEVERE, e.getMessage());
         }
 
-        return new ArrayList<>();
+        return null;
     }
 
-    private static ConfigAnalysis readURLList(String filename, Parser parser)
+    private static ConfigAnalysis readURLList(String filename, Parser parser, ConfigAnalysis oldConfigAnalysis)
     {
         int filesRead = 0;
         int errors = 0;
@@ -70,7 +77,7 @@ public class ConfigReader
             // Don't download external referenced entities.
             builder.setEntityResolver((publicId, systemId) -> new InputSource(new StringReader("")));
 
-            ConfigAnalysis configAnalysis = new MapConfigAnalysis(parser.getToolName());
+            ConfigAnalysis configAnalysis = oldConfigAnalysis;
 
             File file = new File(filename);
             FileReader fileReader = new FileReader(file);
