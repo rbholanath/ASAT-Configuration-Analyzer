@@ -7,15 +7,16 @@ import main.java.parser.implementations.CheckstyleParser;
 import main.java.parser.implementations.FindBugsParser;
 import main.java.parser.implementations.PMDParser;
 import main.java.resultwriter.ResultWriter;
+import main.java.util.AnalyzerLogger;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Level;
 
 public class Main
 {
     public static void main(String[] args)
     {
-        System.out.println("--- Working Directory = " + System.getProperty("user.dir"));
         List<Parser> parsers = new ArrayList<>();
         List<String> directories = new ArrayList<>();
 
@@ -31,16 +32,16 @@ public class Main
         parsers.add(new FindBugsParser());
         directories.add(System.getProperty("user.dir") + "/src/main/resources/findbugs/");
 
-        System.out.println("--- Reading config files");
+        AnalyzerLogger.getLogger().log(Level.INFO, "Reading config files");
 
         List<ConfigAnalysis> result = ConfigReader.read(parsers, directories);
 
-        System.out.println("--- Reads successful");
+        AnalyzerLogger.getLogger().log(Level.INFO, "Reads successful");
 
-        System.out.println("--- Writing results to file");
+        AnalyzerLogger.getLogger().log(Level.INFO, "Writing results to file");
 
         ResultWriter.writeResults(result, System.getProperty("user.dir") + "/out/");
 
-        System.out.println("--- Written results from all tools to file");
+        AnalyzerLogger.getLogger().log(Level.INFO, "Written results from all tools to file");
     }
 }

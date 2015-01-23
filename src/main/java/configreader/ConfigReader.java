@@ -3,6 +3,8 @@ package main.java.configreader;
 import main.java.configanalysis.ConfigAnalysis;
 import main.java.configanalysis.implementations.MapConfigAnalysis;
 import main.java.parser.Parser;
+import main.java.util.AnalyzerLogger;
+import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -13,6 +15,7 @@ import java.net.URL;
 import java.nio.file.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Level;
 
 public class ConfigReader
 {
@@ -29,13 +32,13 @@ public class ConfigReader
 
             for (int i = 0; i < parsers.size(); i++)
             {
-                System.out.println("-- Reading tool: " + parsers.get(i).getToolName());
+                AnalyzerLogger.getLogger().log(Level.INFO, "Reading tool: " + parsers.get(i).getToolName());
 
                 DirectoryStream<Path> stream = Files.newDirectoryStream(Paths.get(directories.get(i)), "*.{txt}");
 
                 for (Path entry: stream)
                 {
-                    System.out.println("- Reading file: " + entry.toString());
+                    AnalyzerLogger.getLogger().log(Level.FINE, "Reading file: " + entry.toString());
 
                     configAnalyses.add(readURLList(entry.toString(), parsers.get(i)));
                 }
@@ -45,7 +48,7 @@ public class ConfigReader
         }
         catch (IOException | DirectoryIteratorException e)
         {
-            e.printStackTrace();
+            AnalyzerLogger.getLogger().log(Level.SEVERE, e.getMessage());
         }
 
         return new ArrayList<>();
@@ -60,6 +63,12 @@ public class ConfigReader
         {
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = factory.newDocumentBuilder();
+
+            //  We don't want to output error messages to System.err when a XML file is erroneous.
+            builder.setErrorHandler(null);
+
+            // We don't want to download external referenced entities.
+            builder.setEntityResolver((publicId, systemId) -> new InputSource(new StringReader("")));
 
             ConfigAnalysis configAnalysis = new MapConfigAnalysis(parser.getToolName());
 
@@ -77,10 +86,13 @@ public class ConfigReader
 
                     configAnalysis = parser.parse(builder.parse(stream), configAnalysis);
 
+                    AnalyzerLogger.getLogger().log(Level.FINER, "Successfully read file: " + line);
+
                     filesRead++;
                 }
                 catch (SAXException | IOException e)
                 {
+                    AnalyzerLogger.getLogger().log(Level.FINER, "Error reading file: " + line + ", error: " + e.getMessage());
                     errors++;
                 }
             }
@@ -88,14 +100,14 @@ public class ConfigReader
             bufferedReader.close();
             fileReader.close();
 
+            AnalyzerLogger.getLogger().log(Level.FINE, "Files read: " + filesRead + ", URL failures: " + errors);
+
             return configAnalysis;
         }
         catch (IOException | ParserConfigurationException e)
         {
-            e.printStackTrace();
+            AnalyzerLogger.getLogger().log(Level.SEVERE, e.getMessage());
         }
-
-        System.out.println("Files read: " + filesRead + ", URL failures: " + errors);
 
         return null;
     }

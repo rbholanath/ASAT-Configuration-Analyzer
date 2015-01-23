@@ -951,7 +951,6 @@ https://raw.githubusercontent.com/pmd/pmd/b654d3c9cc48092e3a7c90ba02c6d70707c3e7
 https://raw.githubusercontent.com/pmd/pmd/b654d3c9cc48092e3a7c90ba02c6d70707c3e7ce/pmd-core/src/test/resources/net/sourceforge/pmd/rulesets/reference-ruleset.xml
 https://raw.githubusercontent.com/pmd/pmd/b654d3c9cc48092e3a7c90ba02c6d70707c3e7ce/pmd-java/src/main/resources/rulesets/java/comments.xml
 https://raw.githubusercontent.com/pmd/pmd/b654d3c9cc48092e3a7c90ba02c6d70707c3e7ce/src/site/xdoc/customizing/howtomakearuleset.xml
-https://raw.githubusercontent.com/pmd/pmd/60fe895abf0581a54b1b598ca7be471bb77e165f/pmd-java/src/test/java/net/sourceforge/pmd/RuleSetFactoryTest.java
 https://raw.githubusercontent.com/scovetta/yasca/9c97f8f07b097eba534584932476f3d42c8a5ab4/Yasca/Plugins/PMD/pmd-5.0.0%20copy/rulesets/ecmascript/unnecessary.xml
 https://raw.githubusercontent.com/scovetta/yasca/9c97f8f07b097eba534584932476f3d42c8a5ab4/Yasca/Plugins/PMD/pmd-5.0.0%20copy/rulesets/internal/pmdspecific.xml
 https://raw.githubusercontent.com/scovetta/yasca/9c97f8f07b097eba534584932476f3d42c8a5ab4/Yasca/Plugins/PMD/pmd-5.0.0%20copy/rulesets/java/sunsecure.xml
