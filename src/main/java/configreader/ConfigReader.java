@@ -19,7 +19,7 @@ import java.util.logging.Level;
 
 public class ConfigReader
 {
-    public static List<ConfigAnalysis> read(final List<Parser> parsers, final List<String> directories)
+    public static List<ConfigAnalysis> read(final List<Parser> parsers, final List<File> directories)
     {
         if (parsers.size() != directories.size())
         {
@@ -34,7 +34,7 @@ public class ConfigReader
             {
                 AnalyzerLogger.getLogger().log(Level.INFO, "Reading tool: " + parsers.get(i).getToolName());
 
-                DirectoryStream<Path> stream = Files.newDirectoryStream(Paths.get(directories.get(i)), "*.{txt}");
+                DirectoryStream<Path> stream = Files.newDirectoryStream(Paths.get(directories.get(i).getAbsolutePath()), "*.{txt}");
 
                 for (Path entry: stream)
                 {
@@ -64,10 +64,10 @@ public class ConfigReader
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = factory.newDocumentBuilder();
 
-            //  We don't want to output error messages to System.err when a XML file is erroneous.
+            // Don't output error messages to System.err when a XML file is erroneous.
             builder.setErrorHandler(null);
 
-            // We don't want to download external referenced entities.
+            // Don't download external referenced entities.
             builder.setEntityResolver((publicId, systemId) -> new InputSource(new StringReader("")));
 
             ConfigAnalysis configAnalysis = new MapConfigAnalysis(parser.getToolName());

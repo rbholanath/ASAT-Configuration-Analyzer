@@ -14,8 +14,6 @@ import java.util.List;
 
 public class DOMUtilTest
 {
-    private Document document;
-
     private Element parent;
 
     @Before
@@ -23,7 +21,7 @@ public class DOMUtilTest
     {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
-        document = builder.parse(System.getProperty("user.dir") + "/src/test/resources/domutil_test.xml");
+        Document document = builder.parse(System.getProperty("user.dir") + "/src/test/resources/domutil_test.xml");
 
         parent = document.getDocumentElement();
     }
