@@ -4,13 +4,13 @@ import java.util.Map;
 
 public interface ConfigAnalysis
 {
-    void addOccurrence(String name);
+    void addOccurrence(final String name);
 
-    int getSingleOccurrence(String name);
+    int getSingleOccurrence(final String name);
 
-    void addExclusion(String name);
+    void addExclusion(final String name);
 
-    int getSingleExclusion(String name);
+    int getSingleExclusion(final String name);
 
     Map<String, Integer> getOccurrences();
 

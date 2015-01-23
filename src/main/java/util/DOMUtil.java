@@ -10,7 +10,7 @@ import java.util.List;
 
 public class DOMUtil
 {
-    public static List<Node> childrenByTagName(Element element, String tagName)
+    public static List<Node> childrenByTagName(final Element element, final String tagName)
     {
         NodeList unFiltered = element.getElementsByTagName(tagName);
         List<Node> filtered = new ArrayList<>();
@@ -34,7 +34,7 @@ public class DOMUtil
         return filtered;
     }
 
-    private static boolean checkAttributes(NamedNodeMap list1, NamedNodeMap list2)
+    private static boolean checkAttributes(final NamedNodeMap list1, final NamedNodeMap list2)
     {
         if (list1.getLength() != list2.getLength())
         {

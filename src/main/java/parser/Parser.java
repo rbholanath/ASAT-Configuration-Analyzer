@@ -5,7 +5,7 @@ import org.w3c.dom.Document;
 
 public interface Parser
 {
-    ConfigAnalysis parse(final Document document, ConfigAnalysis oldConfigAnalysis);
+    ConfigAnalysis parse(final Document document, final ConfigAnalysis oldConfigAnalysis);
 
     String getToolName();
 }

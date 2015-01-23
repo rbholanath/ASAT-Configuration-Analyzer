@@ -13,7 +13,7 @@ public class FindBugsParser implements Parser
 {
     private final String toolName = "findbugs";
 
-    public ConfigAnalysis parse(final Document document, ConfigAnalysis oldConfigAnalysis)
+    public ConfigAnalysis parse(final Document document, final ConfigAnalysis oldConfigAnalysis)
     {
         ConfigAnalysis configAnalysis = oldConfigAnalysis;
 
@@ -32,9 +32,9 @@ public class FindBugsParser implements Parser
         return configAnalysis;
     }
 
-    private ConfigAnalysis parseMatch(final Element element, final ConfigAnalysis configAnalysis)
+    private ConfigAnalysis parseMatch(final Element element, final ConfigAnalysis oldConfigAnalysis)
     {
-        ConfigAnalysis newConfigAnalysis = configAnalysis;
+        ConfigAnalysis configAnalysis = oldConfigAnalysis;
 
         List<Node> bugs = DOMUtil.childrenByTagName(element, "Bug");
         List<Node> excludes = DOMUtil.childrenByTagName(element, "Not");
@@ -43,7 +43,7 @@ public class FindBugsParser implements Parser
 
         for (Node exclude : excludes)
         {
-            newConfigAnalysis = parseNot((Element) exclude, newConfigAnalysis);
+            configAnalysis = parseNot((Element) exclude, configAnalysis);
         }
 
         for (Node bug : bugs)
@@ -56,31 +56,31 @@ public class FindBugsParser implements Parser
 
             for (String bugCode : bugCodes)
             {
-                newConfigAnalysis.addOccurrence(bugCode);
+                configAnalysis.addOccurrence(bugCode);
             }
 
             for (String patternCode : patternCodes)
             {
-                newConfigAnalysis.addOccurrence(patternCode);
+                configAnalysis.addOccurrence(patternCode);
             }
         }
 
         for (Node conjunction: conjunctions)
         {
-            newConfigAnalysis = parseMatch((Element) conjunction, newConfigAnalysis);
+            configAnalysis = parseMatch((Element) conjunction, configAnalysis);
         }
 
         for (Node disjunction: disjunctions)
         {
-            newConfigAnalysis = parseMatch((Element) disjunction, newConfigAnalysis);
+            configAnalysis = parseMatch((Element) disjunction, configAnalysis);
         }
 
-        return newConfigAnalysis;
+        return configAnalysis;
     }
 
-    private ConfigAnalysis parseNot(final Element element, final ConfigAnalysis configAnalysis)
+    private ConfigAnalysis parseNot(final Element element, final ConfigAnalysis oldConfigAnalysis)
     {
-        ConfigAnalysis newConfigAnalysis = configAnalysis;
+        ConfigAnalysis configAnalysis = oldConfigAnalysis;
 
         List<Node> bugs = DOMUtil.childrenByTagName(element, "Bug");
 
@@ -94,16 +94,16 @@ public class FindBugsParser implements Parser
 
             for (String bugCode : bugCodes)
             {
-                newConfigAnalysis.addExclusion(bugCode);
+                configAnalysis.addExclusion(bugCode);
             }
 
             for (String patternCode : patternCodes)
             {
-                newConfigAnalysis.addExclusion(patternCode);
+                configAnalysis.addExclusion(patternCode);
             }
         }
 
-        return newConfigAnalysis;
+        return configAnalysis;
     }
 
     public String getToolName()

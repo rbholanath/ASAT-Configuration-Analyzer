@@ -13,7 +13,7 @@ public class PMDParser implements Parser
 {
     private final String toolName = "pmd";
 
-    public ConfigAnalysis parse(final Document document, ConfigAnalysis oldConfigAnalysis)
+    public ConfigAnalysis parse(final Document document, final ConfigAnalysis oldConfigAnalysis)
     {
         ConfigAnalysis configAnalysis = oldConfigAnalysis;
 
@@ -27,9 +27,9 @@ public class PMDParser implements Parser
         return configAnalysis;
     }
 
-    private ConfigAnalysis parseRuleset(final Element element, final ConfigAnalysis configAnalysis)
+    private ConfigAnalysis parseRuleset(final Element element, final ConfigAnalysis oldConfigAnalysis)
     {
-        ConfigAnalysis newConfigAnalysis = configAnalysis;
+        ConfigAnalysis configAnalysis = oldConfigAnalysis;
 
         List<Node> rules = DOMUtil.childrenByTagName(element, "rule");
 
@@ -43,14 +43,14 @@ public class PMDParser implements Parser
 
                 for (Node exclusion : exclusions)
                 {
-                    newConfigAnalysis.addExclusion(ruleName + "/" + ((Element) exclusion).getAttribute("name"));
+                    configAnalysis.addExclusion(ruleName + "/" + ((Element) exclusion).getAttribute("name"));
                 }
 
-                newConfigAnalysis.addOccurrence(ruleName);
+                configAnalysis.addOccurrence(ruleName);
             }
         }
 
-        return newConfigAnalysis;
+        return configAnalysis;
     }
 
     public String getToolName()

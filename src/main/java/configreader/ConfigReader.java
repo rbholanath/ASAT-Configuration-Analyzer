@@ -34,7 +34,7 @@ public class ConfigReader
         return configAnalyses;
     }
 
-    private static ConfigAnalysis readForTool(Parser parser, File directory)
+    private static ConfigAnalysis readForTool(final Parser parser, final File directory)
     {
         try
         {
@@ -61,7 +61,7 @@ public class ConfigReader
         return null;
     }
 
-    private static ConfigAnalysis readURLList(String filename, Parser parser, ConfigAnalysis oldConfigAnalysis)
+    private static ConfigAnalysis readURLList(final String filename, final Parser parser, final ConfigAnalysis oldConfigAnalysis)
     {
         int filesRead = 0;
         int errors = 0;

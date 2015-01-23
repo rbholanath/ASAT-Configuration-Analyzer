@@ -13,7 +13,7 @@ public class CheckstyleParser implements Parser
 {
     private final String toolName = "checkstyle";
 
-    public ConfigAnalysis parse(final Document document, ConfigAnalysis oldConfigAnalysis)
+    public ConfigAnalysis parse(final Document document, final ConfigAnalysis oldConfigAnalysis)
     {
         ConfigAnalysis configAnalysis = oldConfigAnalysis;
 
@@ -28,9 +28,9 @@ public class CheckstyleParser implements Parser
         return configAnalysis;
     }
 
-    private ConfigAnalysis parseModule(final Element element, final ConfigAnalysis configAnalysis)
+    private ConfigAnalysis parseModule(final Element element, final ConfigAnalysis oldConfigAnalysis)
     {
-        ConfigAnalysis newConfigAnalysis = configAnalysis;
+        ConfigAnalysis configAnalysis = oldConfigAnalysis;
 
         List<Node> childrenModules = DOMUtil.childrenByTagName(element, "module");
 
@@ -40,13 +40,13 @@ public class CheckstyleParser implements Parser
 
             if (grandChildrenModules.size() > 0)
             {
-                newConfigAnalysis = parseModule((Element) childModule, newConfigAnalysis);
+                configAnalysis = parseModule((Element) childModule, configAnalysis);
             }
 
-            newConfigAnalysis.addOccurrence(((Element) childModule).getAttribute("name"));
+            configAnalysis.addOccurrence(((Element) childModule).getAttribute("name"));
         }
 
-        return newConfigAnalysis;
+        return configAnalysis;
     }
 
     public String getToolName()
