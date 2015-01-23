@@ -31,11 +31,11 @@ public class ConfigReader
             {
                 System.out.println("-- Reading tool: " + parsers.get(i).getToolName());
 
-                DirectoryStream<Path> stream = Files.newDirectoryStream(Paths.get(directories.get(i)), "*.{csv}");
+                DirectoryStream<Path> stream = Files.newDirectoryStream(Paths.get(directories.get(i)), "*.{txt}");
 
                 for (Path entry: stream)
                 {
-                    System.out.println("- Reading .csv file: " + entry.toString());
+                    System.out.println("- Reading file: " + entry.toString());
 
                     configAnalyses.add(readURLList(entry.toString(), parsers.get(i)));
                 }
@@ -51,7 +51,7 @@ public class ConfigReader
         return new ArrayList<>();
     }
 
-    public static ConfigAnalysis readURLList(String filename, Parser parser)
+    private static ConfigAnalysis readURLList(String filename, Parser parser)
     {
         int filesRead = 0;
         int errors = 0;
@@ -79,15 +79,16 @@ public class ConfigReader
 
                     filesRead++;
                 }
-                catch (SAXException e)
-                {
-                    errors++;
-                }
-                catch (IOException e)
+                catch (SAXException | IOException e)
                 {
                     errors++;
                 }
             }
+
+            bufferedReader.close();
+            fileReader.close();
+
+            return configAnalysis;
         }
         catch (IOException | ParserConfigurationException e)
         {

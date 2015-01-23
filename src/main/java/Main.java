@@ -6,6 +6,7 @@ import main.java.parser.Parser;
 import main.java.parser.implementations.CheckstyleParser;
 import main.java.parser.implementations.FindBugsParser;
 import main.java.parser.implementations.PMDParser;
+import main.java.resultwriter.ResultWriter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,5 +36,11 @@ public class Main
         List<ConfigAnalysis> result = ConfigReader.read(parsers, directories);
 
         System.out.println("--- Reads successful");
+
+        System.out.println("--- Writing results to file");
+
+        ResultWriter.writeResults(result, System.getProperty("user.dir") + "/out/");
+
+        System.out.println("--- Written results from all tools to file");
     }
 }

@@ -35,16 +35,19 @@ public class PMDParser implements Parser
 
         for (Node rule : rules)
         {
-            String ruleName = ((Element) rule).getAttribute("ref");
-
-            List<Node> exclusions = DOMUtil.childrenByTagName((Element) rule, "exclude");
-
-            for (Node exclusion : exclusions)
+            if (((Element) rule).hasAttribute("ref"))
             {
-                newConfigAnalysis.addExclusion(ruleName + "/" + ((Element) exclusion).getAttribute("name"));
-            }
+                String ruleName =((Element) rule).getAttribute("ref");
 
-            newConfigAnalysis.addOccurrence(ruleName);
+                List<Node> exclusions = DOMUtil.childrenByTagName((Element) rule, "exclude");
+
+                for (Node exclusion : exclusions)
+                {
+                    newConfigAnalysis.addExclusion(ruleName + "/" + ((Element) exclusion).getAttribute("name"));
+                }
+
+                newConfigAnalysis.addOccurrence(ruleName);
+            }
         }
 
         return newConfigAnalysis;
