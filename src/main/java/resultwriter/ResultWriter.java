@@ -20,7 +20,7 @@ public class ResultWriter
 
                 JSONObject jsonResult = new JSONObject();
                 jsonResult.put("tool", result.getToolName());
-                jsonResult.put("occurences", result.getOccurrences());
+                jsonResult.put("occurrences", result.getOccurrences());
                 jsonResult.put("exclusions", result.getExclusions());
 
                 FileWriter file = new FileWriter(directory + result.getToolName() + ".json");
