@@ -1,0 +1,8 @@
+http://opensearch.krugle.org/document/download_file/elasticsearch7500094eb98f4368bee52d7653d0483b/scmi_localhost_8767/master/dev-tools/pmd/custom.xml
+http://opensearch.krugle.org/document/download_file/terasology1ef2a89f667544468f83227bf69f9483/scmi_localhost_8767/develop/config/pmd/pmd.xml
+http://opensearch.krugle.org/document/download_file/owncloudecf927ecda9e4d979a0554a2eaf7cce9/scmi_localhost_8767/master/build/phpmd.xml
+http://opensearch.krugle.org/document/download_file/elasticsearch7500094eb98f4368bee52d7653d0483b/scmi_localhost_8767/master/dev-tools/pmd/custom.xml
+http://opensearch.krugle.org/document/download_file/jmol391dff2794fa4b89b2a89831f60f0d8d/scmi_localhost_8765/trunk/Jmol/pmd.config.xml
+http://opensearch.krugle.org/document/download_file/apache_cloudstack5b0a93c6d13345c48c33ea1e572d8c6f/scmi_localhost_8767/master/tools/checkstyle/src/main/resources/cloud-pmd.xml
+http://opensearch.krugle.org/document/download_file/apache_camelcef147a6fe624164967292d4fc842e06/scmi_localhost_8767/master/buildingtools/src/main/resources/camel-eclipse-pmd
+http://opensearch.krugle.org/document/download_file/apache_camelcef147a6fe624164967292d4fc842e06/scmi_localhost_8767/master/buildingtools/camel-pmd-ruleset.xml
