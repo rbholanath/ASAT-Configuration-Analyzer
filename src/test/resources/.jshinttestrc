@@ -1,0 +1,20 @@
+{
+  // "indent": 1,
+  "evil": true,
+  "regexdash": true,
+
+  // Suppress warnings about mixed tabs and spaces
+  "smarttabs": true,
+
+
+  // Suppress warnings about "weird constructions"
+  // i.e. allow code like:
+  //  (new (function OneTimeUsePrototype () { } ))
+  "supernew": true,
+  
+  // Allow backwards, node-dependency-style commas
+  "laxcomma": true
+
+  "bitwise": true,
+  "camelcase": true,
+}
