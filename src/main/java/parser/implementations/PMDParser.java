@@ -2,26 +2,41 @@ package main.java.parser.implementations;
 
 import main.java.configanalysis.ConfigAnalysis;
 import main.java.parser.Parser;
+import main.java.util.AnalyzerLogger;
+import main.java.util.DOMBuilder;
 import main.java.util.DOMUtil;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
+import org.xml.sax.SAXException;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.List;
+import java.util.logging.Level;
 
 public class PMDParser implements Parser
 {
     private final String toolName = "pmd";
 
-    public ConfigAnalysis parse(final Document document, final ConfigAnalysis oldConfigAnalysis)
+    public ConfigAnalysis parse(final InputStream stream, final ConfigAnalysis oldConfigAnalysis)
     {
         ConfigAnalysis configAnalysis = oldConfigAnalysis;
 
-        Element ruleSet = document.getDocumentElement();
-
-        if (ruleSet.getNodeType() == Node.ELEMENT_NODE && ruleSet.getNodeName().equals("ruleset"))
+        try
         {
-            configAnalysis = parseRuleset(ruleSet, configAnalysis);
+            Document document = DOMBuilder.getBuilder().parse(stream);
+
+            Element ruleSet = document.getDocumentElement();
+
+            if (ruleSet.getNodeType() == Node.ELEMENT_NODE && ruleSet.getNodeName().equals("ruleset"))
+            {
+                configAnalysis = parseRuleset(ruleSet, configAnalysis);
+            }
+        }
+        catch (IOException | SAXException e)
+        {
+            AnalyzerLogger.getLogger().log(Level.FINER, "Error reading file: " + e.getMessage());
         }
 
         return configAnalysis;

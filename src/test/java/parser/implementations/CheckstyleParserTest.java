@@ -7,22 +7,19 @@ import main.java.parser.Parser;
 import main.java.parser.implementations.CheckstyleParser;
 import org.junit.Before;
 import org.junit.Test;
-import org.w3c.dom.Document;
 
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
+import java.io.FileInputStream;
+import java.io.InputStream;
 
 public class CheckstyleParserTest
 {
-    private Document document;
+    private InputStream stream;
     private Parser parser;
 
     @Before
     public void setUp() throws Exception
     {
-        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-        DocumentBuilder builder = factory.newDocumentBuilder();
-        document = builder.parse(System.getProperty("user.dir") + "/src/test/resources/checkstyle_parser_test.xml");
+        stream = new FileInputStream(System.getProperty("user.dir") + "/src/test/resources/checkstyle_parser_test.xml");
 
         parser = new CheckstyleParser();
     }
@@ -30,7 +27,7 @@ public class CheckstyleParserTest
     @Test
     public void testParse() throws Exception
     {
-        ConfigAnalysis result = parser.parse(document, new MapConfigAnalysis(parser.getToolName()));
+        ConfigAnalysis result = parser.parse(stream, new MapConfigAnalysis(parser.getToolName()));
 
         Assert.assertEquals(1, result.getSingleOccurrence("PackageHtml"));
         Assert.assertEquals(1, result.getSingleOccurrence("Translation"));

@@ -1,11 +1,12 @@
 package main.java.parser;
 
 import main.java.configanalysis.ConfigAnalysis;
-import org.w3c.dom.Document;
+
+import java.io.InputStream;
 
 public interface Parser
 {
-    ConfigAnalysis parse(final Document document, final ConfigAnalysis oldConfigAnalysis);
+    ConfigAnalysis parse(final InputStream stream, final ConfigAnalysis oldConfigAnalysis);
 
     String getToolName();
 }

@@ -4,15 +4,13 @@ import main.java.configanalysis.ConfigAnalysis;
 import main.java.configanalysis.implementations.MapConfigAnalysis;
 import main.java.parser.Parser;
 import main.java.util.AnalyzerLogger;
-import org.xml.sax.InputSource;
-import org.xml.sax.SAXException;
 
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
 import java.io.*;
 import java.net.URL;
-import java.nio.file.*;
+import java.nio.file.DirectoryStream;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
@@ -64,19 +62,9 @@ public class ConfigReader
     private static ConfigAnalysis readURLList(final String filename, final Parser parser, final ConfigAnalysis oldConfigAnalysis)
     {
         int filesRead = 0;
-        int errors = 0;
 
         try
         {
-            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-            DocumentBuilder builder = factory.newDocumentBuilder();
-
-            // Don't output error messages to System.err when a XML file is erroneous.
-            builder.setErrorHandler(null);
-
-            // Don't download external referenced entities.
-            builder.setEntityResolver((publicId, systemId) -> new InputSource(new StringReader("")));
-
             ConfigAnalysis configAnalysis = oldConfigAnalysis;
 
             File file = new File(filename);
@@ -84,34 +72,33 @@ public class ConfigReader
             BufferedReader bufferedReader = new BufferedReader(fileReader);
 
             String line;
-            while((line = bufferedReader.readLine()) != null)
+            while ((line = bufferedReader.readLine()) != null)
             {
                 try
                 {
                     URL url = new URL(line);
                     InputStream stream = url.openStream();
 
-                    configAnalysis = parser.parse(builder.parse(stream), configAnalysis);
+                    AnalyzerLogger.getLogger().log(Level.FINER, "Reading file: " + line);
 
-                    AnalyzerLogger.getLogger().log(Level.FINER, "Successfully read file: " + line);
+                    configAnalysis = parser.parse(stream, configAnalysis);
 
                     filesRead++;
                 }
-                catch (SAXException | IOException e)
+                catch (IOException e)
                 {
-                    AnalyzerLogger.getLogger().log(Level.FINER, "Error reading file: " + line + ", error: " + e.getMessage());
-                    errors++;
+                    AnalyzerLogger.getLogger().log(Level.FINER, "Error reading file: " + e.getMessage());
                 }
             }
 
             bufferedReader.close();
             fileReader.close();
 
-            AnalyzerLogger.getLogger().log(Level.FINE, "Files read: " + filesRead + ", URL failures: " + errors);
+            AnalyzerLogger.getLogger().log(Level.FINE, "Files read: " + filesRead);
 
             return configAnalysis;
         }
-        catch (IOException | ParserConfigurationException e)
+        catch (IOException e)
         {
             AnalyzerLogger.getLogger().log(Level.SEVERE, e.getMessage());
         }

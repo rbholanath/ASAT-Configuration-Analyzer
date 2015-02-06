@@ -2,31 +2,46 @@ package main.java.parser.implementations;
 
 import main.java.configanalysis.ConfigAnalysis;
 import main.java.parser.Parser;
+import main.java.util.AnalyzerLogger;
+import main.java.util.DOMBuilder;
 import main.java.util.DOMUtil;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
+import org.xml.sax.SAXException;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.List;
+import java.util.logging.Level;
 
 public class FindBugsParser implements Parser
 {
     private final String toolName = "findbugs";
 
-    public ConfigAnalysis parse(final Document document, final ConfigAnalysis oldConfigAnalysis)
+    public ConfigAnalysis parse(final InputStream stream, final ConfigAnalysis oldConfigAnalysis)
     {
         ConfigAnalysis configAnalysis = oldConfigAnalysis;
 
-        Element filter = document.getDocumentElement();
-
-        if (filter.getNodeType() == Node.ELEMENT_NODE && filter.getNodeName().equals("FindBugsFilter"))
+        try
         {
-            List<Node> matches = DOMUtil.childrenByTagName(filter, "Match");
+            Document document = DOMBuilder.getBuilder().parse(stream);
 
-            for (Node match : matches)
+            Element filter = document.getDocumentElement();
+
+            if (filter.getNodeType() == Node.ELEMENT_NODE && filter.getNodeName().equals("FindBugsFilter"))
             {
-                configAnalysis = parseMatch((Element) match, configAnalysis);
+                List<Node> matches = DOMUtil.childrenByTagName(filter, "Match");
+
+                for (Node match : matches)
+                {
+                    configAnalysis = parseMatch((Element) match, configAnalysis);
+                }
             }
+        }
+        catch (IOException | SAXException e)
+        {
+            AnalyzerLogger.getLogger().log(Level.FINER, "Error reading file: " + e.getMessage());
         }
 
         return configAnalysis;
@@ -56,12 +71,12 @@ public class FindBugsParser implements Parser
 
             for (String bugCode : bugCodes)
             {
-                configAnalysis.addOccurrence(bugCode);
+                configAnalysis.addOccurrence(bugCode.trim());
             }
 
             for (String patternCode : patternCodes)
             {
-                configAnalysis.addOccurrence(patternCode);
+                configAnalysis.addOccurrence(patternCode.trim());
             }
         }
 
@@ -94,12 +109,12 @@ public class FindBugsParser implements Parser
 
             for (String bugCode : bugCodes)
             {
-                configAnalysis.addExclusion(bugCode);
+                configAnalysis.addExclusion(bugCode.trim());
             }
 
             for (String patternCode : patternCodes)
             {
-                configAnalysis.addExclusion(patternCode);
+                configAnalysis.addExclusion(patternCode.trim());
             }
         }
 
