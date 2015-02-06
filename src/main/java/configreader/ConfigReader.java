@@ -5,7 +5,11 @@ import main.java.configanalysis.implementations.MapConfigAnalysis;
 import main.java.parser.Parser;
 import main.java.util.AnalyzerLogger;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.InputStream;
 import java.net.URL;
 import java.nio.file.DirectoryStream;
 import java.nio.file.Files;

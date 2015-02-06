@@ -5,6 +5,7 @@ import main.java.configreader.ConfigReader;
 import main.java.parser.Parser;
 import main.java.parser.implementations.CheckstyleParser;
 import main.java.parser.implementations.FindBugsParser;
+import main.java.parser.implementations.JSCSParser;
 import main.java.parser.implementations.JSHintParser;
 import main.java.parser.implementations.PMDParser;
 import main.java.resultwriter.ResultWriter;
@@ -37,6 +38,10 @@ public class Main
         // JSHint
         parsers.add(new JSHintParser());
         directories.add(new File(System.getProperty("user.dir") + "/src/main/resources/jshint/"));
+
+        // JSCS
+        parsers.add(new JSCSParser());
+        directories.add(new File(System.getProperty("user.dir") + "/src/main/resources/jscs/"));
 
         AnalyzerLogger.getLogger().log(Level.INFO, "Reading config files");
 
