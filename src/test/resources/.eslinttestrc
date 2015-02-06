@@ -1,0 +1,19 @@
+{
+    "env": {
+        "browser": true,
+        "amd": true
+    },
+    "globals": {
+        "DocumentFragment": true
+    },
+    "rules": {
+        "valid-jsdoc": 0,
+        "curly": [1, "multi"],
+        "brace-style": [1, "stroustrup"],
+        "no-constant-condition": 1,
+        "func-style": [2, "declaration"],
+        "no-unused-vars": [1, {"vars": "local", "args": "none"}],
+        // "quotes": [2, "single"],
+        "one-var": 0,
+    }
+}

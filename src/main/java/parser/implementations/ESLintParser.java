@@ -10,9 +10,9 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.logging.Level;
 
-public class JSHintParser implements Parser
+public class ESLintParser implements Parser
 {
-    private final String toolName = "jshint";
+    private final String toolName = "eslint";
 
     public ConfigAnalysis parse(final InputStream stream, final ConfigAnalysis oldConfigAnalysis)
     {
@@ -24,6 +24,29 @@ public class JSHintParser implements Parser
 
             String line;
             while ((line = bufferedReader.readLine()) != null)
+            {
+                if (line.trim().startsWith("\"rules\":"))
+                {
+                    configAnalysis = parseRules(bufferedReader, configAnalysis);
+                }
+            }
+        }
+        catch (IOException e)
+        {
+            AnalyzerLogger.getLogger().log(Level.FINER, "Error reading file: " + e.getMessage());
+        }
+
+        return configAnalysis;
+    }
+
+    private ConfigAnalysis parseRules(BufferedReader bufferedReader, ConfigAnalysis oldConfigAnalysis)
+    {
+        ConfigAnalysis configAnalysis = oldConfigAnalysis;
+
+        try
+        {
+            String line;
+            while ((line = bufferedReader.readLine()) != null && !(line.equals("}")))
             {
                 line = line.trim();
                 // Line length > 4 (two ", one colon, and at least one character for the name and value.

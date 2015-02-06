@@ -4,6 +4,7 @@ import main.java.configanalysis.ConfigAnalysis;
 import main.java.configreader.ConfigReader;
 import main.java.parser.Parser;
 import main.java.parser.implementations.CheckstyleParser;
+import main.java.parser.implementations.ESLintParser;
 import main.java.parser.implementations.FindBugsParser;
 import main.java.parser.implementations.JSCSParser;
 import main.java.parser.implementations.JSHintParser;
@@ -42,6 +43,10 @@ public class Main
         // JSCS
         parsers.add(new JSCSParser());
         directories.add(new File(System.getProperty("user.dir") + "/src/main/resources/jscs/"));
+
+        // ESLint
+        parsers.add(new ESLintParser());
+        directories.add(new File(System.getProperty("user.dir") + "/src/main/resources/eslint/"));
 
         AnalyzerLogger.getLogger().log(Level.INFO, "Reading config files");
 

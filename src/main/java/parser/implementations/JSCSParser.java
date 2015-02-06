@@ -31,7 +31,7 @@ public class JSCSParser implements Parser
                 {
                     String[] parts = line.split(":");
 
-                    if (parts.length == 2)
+                    if (parts.length > 1)
                     {
                         configAnalysis.addOccurrence(parts[0].split("\"")[1]);
                     }
