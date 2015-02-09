@@ -1,0 +1,1 @@
+http://opensearch.krugle.org/document/download_file/bootstrap2eab46bc0b974fae8b3db5dbb58aa65d/scmi_localhost_8767/master/js/.jscsrc
