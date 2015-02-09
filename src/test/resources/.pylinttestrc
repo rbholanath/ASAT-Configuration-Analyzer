@@ -1,0 +1,36 @@
+[MASTER]
+
+# Specify a configuration file.
+#rcfile=
+
+# Pickle collected data for later comparisons.
+persistent=yes
+
+[SIMILARITIES]
+
+# Minimum lines number of a similarity.
+min-similarity-lines=4
+
+# Ignore comments when computing similarities.
+ignore-comments=yes
+
+# Ignore docstrings when computing similarities.
+ignore-docstrings=yes
+
+[FORMAT]
+
+# Maximum number of characters on a single line.
+max-line-length=80
+
+# Maximum number of lines in a module
+# max-module-lines=1000
+
+[BASIC]
+
+# Regular expression which should only match correct variable names
+variable-rgx=[a-z_][a-z0-9_]{2,30}$
+
+[DESIGN]
+
+# Maximum number of locals for function / method body
+max-locals=15

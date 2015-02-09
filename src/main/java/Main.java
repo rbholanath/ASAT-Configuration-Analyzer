@@ -9,6 +9,7 @@ import main.java.parser.implementations.FindBugsParser;
 import main.java.parser.implementations.JSCSParser;
 import main.java.parser.implementations.JSHintParser;
 import main.java.parser.implementations.PMDParser;
+import main.java.parser.implementations.PylintParser;
 import main.java.resultwriter.ResultWriter;
 import main.java.util.AnalyzerLogger;
 
@@ -47,6 +48,10 @@ public class Main
         // ESLint
         parsers.add(new ESLintParser());
         directories.add(new File(System.getProperty("user.dir") + "/src/main/resources/eslint/"));
+
+        // Pylint
+        parsers.add(new PylintParser());
+        directories.add(new File(System.getProperty("user.dir") + "/src/main/resources/pylint/"));
 
         AnalyzerLogger.getLogger().log(Level.INFO, "Reading config files");
 
