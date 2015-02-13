@@ -19,7 +19,7 @@ public class FindBugsParserTest
     @Before
     public void setUp() throws Exception
     {
-        stream = new FileInputStream(System.getProperty("user.dir") + "/src/test/resources/findbugs_parser_test.xml");
+        stream = new FileInputStream(System.getProperty("user.dir") + "/src/test/resources/findbugs_xml_parser_test.xml");
 
         parser = new FindBugsParser();
     }

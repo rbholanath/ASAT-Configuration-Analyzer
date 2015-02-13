@@ -1,0 +1,17 @@
+#FindBugs User Preferences
+#Thu Feb 13 10:00:00 GMT 2015
+detectorAppendingToAnObjectOutputStream=AppendingToAnObjectOutputStream|true
+detectorBCPMethodReturnCheck=BCPMethodReturnCheck|true
+detectorBadAppletConstructor=BadAppletConstructor|true
+detectorConfusedInheritance=ConfusedInheritance|false
+detectorRepeatedConditionals=RepeatedConditionals|true
+detectorResolveAllReferences=ResolveAllReferences|true
+detectorUnreadFields=UnreadFields|true
+detectorUseObjectEquals=UseObjectEquals|true
+detectorVolatileUsage=VolatileUsage|false
+detector_threshold=3
+effort=max
+filter_settings=Low|BAD_PRACTICE,CORRECTNESS,EXPERIMENTAL,I18N,MALICIOUS_CODE,MT_CORRECTNESS,PERFORMANCE,SECURITY,STYLE|false
+filter_settings_neg=NOISE|
+includefilter0=.settings/findbugs.xml
+run_at_full_build=false
