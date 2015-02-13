@@ -1,0 +1,1 @@
+http://krugle.org/document/download_file/jmol391dff2794fa4b89b2a89831f60f0d8d/scmi_localhost_8765/trunk/Jmol/.fbprefs
