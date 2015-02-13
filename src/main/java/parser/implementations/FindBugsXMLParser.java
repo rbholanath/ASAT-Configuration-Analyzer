@@ -15,7 +15,7 @@ import java.io.InputStream;
 import java.util.List;
 import java.util.logging.Level;
 
-public class FindBugsParser implements Parser
+public class FindBugsXMLParser implements Parser
 {
     private final String toolName = "findbugs";
 

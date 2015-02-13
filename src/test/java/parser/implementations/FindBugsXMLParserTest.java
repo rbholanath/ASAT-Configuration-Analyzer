@@ -4,14 +4,14 @@ import junit.framework.Assert;
 import main.java.configanalysis.ConfigAnalysis;
 import main.java.configanalysis.implementations.MapConfigAnalysis;
 import main.java.parser.Parser;
-import main.java.parser.implementations.FindBugsParser;
+import main.java.parser.implementations.FindBugsXMLParser;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.io.FileInputStream;
 import java.io.InputStream;
 
-public class FindBugsParserTest
+public class FindBugsXMLParserTest
 {
     private InputStream stream;
     private Parser parser;
@@ -21,7 +21,7 @@ public class FindBugsParserTest
     {
         stream = new FileInputStream(System.getProperty("user.dir") + "/src/test/resources/findbugs_xml_parser_test.xml");
 
-        parser = new FindBugsParser();
+        parser = new FindBugsXMLParser();
     }
 
     @Test

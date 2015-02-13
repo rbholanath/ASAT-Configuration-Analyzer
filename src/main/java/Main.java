@@ -5,7 +5,8 @@ import main.java.configreader.ConfigReader;
 import main.java.parser.Parser;
 import main.java.parser.implementations.CheckstyleParser;
 import main.java.parser.implementations.ESLintParser;
-import main.java.parser.implementations.FindBugsParser;
+import main.java.parser.implementations.FindBugsPrefsParser;
+import main.java.parser.implementations.FindBugsXMLParser;
 import main.java.parser.implementations.JSCSParser;
 import main.java.parser.implementations.JSHintParser;
 import main.java.parser.implementations.PMDParser;
@@ -33,9 +34,13 @@ public class Main
         parsers.add(new PMDParser());
         directories.add(new File(System.getProperty("user.dir") + "/src/main/resources/pmd/"));
 
-        // FindBugs
-        parsers.add(new FindBugsParser());
-        directories.add(new File(System.getProperty("user.dir") + "/src/main/resources/findbugs/"));
+        // FindBugs XML Filters
+        parsers.add(new FindBugsXMLParser());
+        directories.add(new File(System.getProperty("user.dir") + "/src/main/resources/findbugsxml/"));
+
+        // FindBugs Eclipse preference files
+        parsers.add(new FindBugsPrefsParser());
+        directories.add(new File(System.getProperty("user.dir") + "/src/main/resources/findbugsprefs/"));
 
         // JSHint
         parsers.add(new JSHintParser());
