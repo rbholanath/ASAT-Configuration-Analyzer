@@ -1,0 +1,7 @@
+http://krugle.org/document/download_file/openstack___cinder9ca790f52c0b4662a762ce9c21185a12/scmi_localhost_8767/mstser/pylintrc
+http://krugle.org/document/download_file/openstack_ceilometerab8cabc968fb43b48a0c2fca5c554d51/scmi_localhost_8767/master/pylintrc
+http://krugle.org/document/download_file/openstack_nova07054194050a4c04a1d52ad08396c470/scmi_localhost_8767/master/pylintrc
+http://krugle.org/document/download_file/node_jsd97dafc1b78743979c3533030eb6330f/scmi_localhost_8767/mstser/deps/npm/node_modules/node-gyp/gyp/pylintrc
+http://krugle.org/document/download_file/openstack_heatd2eb60d047424df393e55094234f017a/scmi_localhost_8767/master/pylintrc
+http://krugle.org/document/download_file/botocca790a8a4954f1a8a3e077e3ac1f080/scmi_localhost_8767/master/pylintrc
+http://krugle.org/document/download_file/openstack_horizon7e966099869d44a6ab2c9743fdf6ea8b/scmi_localhost_8767/master/.pylintrc
