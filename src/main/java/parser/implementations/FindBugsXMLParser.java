@@ -17,7 +17,7 @@ import java.util.logging.Level;
 
 public class FindBugsXMLParser implements Parser
 {
-    private final String toolName = "findbugs";
+    private final String toolName = "findbugsfilter";
 
     public ConfigAnalysis parse(final InputStream stream, final ConfigAnalysis oldConfigAnalysis)
     {
