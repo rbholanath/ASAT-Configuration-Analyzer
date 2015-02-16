@@ -57,7 +57,7 @@ public class JSHintParser implements Parser
     }
 
 
-    public BufferedReader skipToClosingBrace(final BufferedReader oldBufferedReader)
+    private BufferedReader skipToClosingBrace(final BufferedReader oldBufferedReader)
     {
         BufferedReader bufferedReader = oldBufferedReader;
 
