@@ -29,14 +29,14 @@ public class PMDParserTest
     {
         ConfigAnalysis result = parser.parse(stream, new MapConfigAnalysis(parser.getToolName()));
 
-        Assert.assertEquals(1, result.getSingleOccurrence("rulesets/java/strings.xml"));
-        Assert.assertEquals(1, result.getSingleOccurrence("rulesets/java/imports.xml/DuplicateImports"));
-        Assert.assertEquals(1, result.getSingleOccurrence("rulesets/java/braces.xml"));
-        Assert.assertEquals(1, result.getSingleOccurrence("rulesets/java/optimizations.xml/AvoidInstantiatingObjectsInLoops"));
-        Assert.assertEquals(1, result.getSingleOccurrence("rulesets/java/optimizations.xml/UseArrayListInsteadOfVector"));
-        Assert.assertEquals(1, result.getSingleOccurrence("rulesets/java/basic.xml/EmptyCatchBlock"));
-        Assert.assertEquals(1, result.getSingleOccurrence("rulesets/java/codesize.xml/CyclomaticComplexity"));
-        Assert.assertEquals(1, result.getSingleExclusion("rulesets/java/braces.xml/WhileLoopsMustUseBraces"));
-        Assert.assertEquals(1, result.getSingleExclusion("rulesets/java/braces.xml/IfElseStmtsMustUseBraces"));
+        Assert.assertEquals(1, result.getSingleOccurrence("strings.xml"));
+        Assert.assertEquals(1, result.getSingleOccurrence("imports.xml/DuplicateImports"));
+        Assert.assertEquals(1, result.getSingleOccurrence("braces.xml"));
+        Assert.assertEquals(1, result.getSingleOccurrence("optimizations.xml/AvoidInstantiatingObjectsInLoops"));
+        Assert.assertEquals(1, result.getSingleOccurrence("optimizations.xml/UseArrayListInsteadOfVector"));
+        Assert.assertEquals(1, result.getSingleOccurrence("basic.xml/EmptyCatchBlock"));
+        Assert.assertEquals(1, result.getSingleOccurrence("codesize.xml/CyclomaticComplexity"));
+        Assert.assertEquals(1, result.getSingleExclusion("braces.xml/WhileLoopsMustUseBraces"));
+        Assert.assertEquals(1, result.getSingleExclusion("braces.xml/IfElseStmtsMustUseBraces"));
     }
 }

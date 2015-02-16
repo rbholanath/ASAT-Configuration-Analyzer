@@ -52,7 +52,7 @@ public class PMDParser implements Parser
         {
             if (((Element) rule).hasAttribute("ref"))
             {
-                String ruleName =((Element) rule).getAttribute("ref");
+                String ruleName = cleanUpRuleName(((Element) rule).getAttribute("ref"));
 
                 List<Node> exclusions = DOMUtil.childrenByTagName((Element) rule, "exclude");
 
@@ -66,6 +66,26 @@ public class PMDParser implements Parser
         }
 
         return configAnalysis;
+    }
+
+    private String cleanUpRuleName(final String oldRuleName)
+    {
+        String ruleName = oldRuleName;
+
+        int slash = ruleName.indexOf('/');
+
+        if (slash != -1)
+        {
+            String beginning = ruleName.substring(0, slash);
+            String extension = beginning.substring(beginning.lastIndexOf(".") + 1, beginning.length());
+
+            if (!extension.equals("xml"))
+            {
+                ruleName = cleanUpRuleName(ruleName.substring(slash + 1));
+            }
+        }
+
+        return ruleName;
     }
 
     public String getToolName()
