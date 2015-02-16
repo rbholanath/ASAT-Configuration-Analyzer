@@ -20,7 +20,9 @@
         <module name="AvoidStarImport"/>
         <module name="ConstantName"/>
         <module name="EmptyBlock"/>
-
+        
+        <module name="com.puppycrawl.tools.checkstyle.checks.MethodLengthCheck"/>
+        
         <module name="LeftCurly">
             <property name="tokens" value="CLASS_DEF,INTERFACE_DEF,METHOD_DEF,CTOR_DEF"/>
             <property name="option" value="nl"/>

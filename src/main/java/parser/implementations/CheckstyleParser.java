@@ -58,10 +58,24 @@ public class CheckstyleParser implements Parser
                 configAnalysis = parseModule((Element) childModule, configAnalysis);
             }
 
-            configAnalysis.addOccurrence(((Element) childModule).getAttribute("name"));
+            configAnalysis.addOccurrence(cleanUpRuleName(((Element) childModule).getAttribute("name")));
         }
 
         return configAnalysis;
+    }
+
+    private String cleanUpRuleName(final String oldRuleName)
+    {
+        String ruleName = oldRuleName;
+
+        int period = ruleName.lastIndexOf('.');
+
+        if (period != -1)
+        {
+            ruleName = ruleName.substring(period + 1);
+        }
+
+        return ruleName;
     }
 
     public String getToolName()

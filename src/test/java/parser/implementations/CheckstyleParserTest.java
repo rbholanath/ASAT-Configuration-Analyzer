@@ -35,6 +35,7 @@ public class CheckstyleParserTest
         Assert.assertEquals(1, result.getSingleOccurrence("AvoidStarImport"));
         Assert.assertEquals(1, result.getSingleOccurrence("ConstantName"));
         Assert.assertEquals(1, result.getSingleOccurrence("EmptyBlock"));
+        Assert.assertEquals(1, result.getSingleOccurrence("MethodLengthCheck"));
         Assert.assertEquals(2, result.getSingleOccurrence("LeftCurly"));
         Assert.assertEquals(2, result.getSingleOccurrence("OperatorWrap"));
     }
