@@ -37,5 +37,8 @@ public class JSHintParserTest
         Assert.assertEquals(1, result.getSingleOccurrence("bitwise"));
         Assert.assertEquals(1, result.getSingleOccurrence("camelcase"));
         Assert.assertEquals(0, result.getSingleOccurrence("indent"));
+        Assert.assertEquals(0, result.getSingleOccurrence("globals"));
+        Assert.assertEquals(0, result.getSingleOccurrence("require"));
+        Assert.assertEquals(0, result.getSingleOccurrence("module"));
     }
 }

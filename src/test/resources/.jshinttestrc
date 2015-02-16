@@ -15,6 +15,11 @@
   // Allow backwards, node-dependency-style commas
   "laxcomma": true
 
+  "globals": {
+    "require": false,
+    "module": false,
+  }
+  
   "bitwise": true,
   "camelcase": true,
 }

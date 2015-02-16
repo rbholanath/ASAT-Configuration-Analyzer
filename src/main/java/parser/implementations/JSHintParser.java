@@ -33,7 +33,17 @@ public class JSHintParser implements Parser
 
                     if (parts.length > 1)
                     {
-                        configAnalysis.addOccurrence(parts[0].split("\"")[1]);
+                        String configName = parts[0].split("\"")[1];
+
+                        // Skip the globals section
+                        if (configName.equals("globals") && line.indexOf('}') == -1)
+                        {
+                            bufferedReader = skipToClosingBrace(bufferedReader);
+                        }
+                        else
+                        {
+                            configAnalysis.addOccurrence(parts[0].split("\"")[1]);
+                        }
                     }
                 }
             }
@@ -44,6 +54,30 @@ public class JSHintParser implements Parser
         }
 
         return configAnalysis;
+    }
+
+
+    public BufferedReader skipToClosingBrace(final BufferedReader oldBufferedReader)
+    {
+        BufferedReader bufferedReader = oldBufferedReader;
+
+        try
+        {
+            String line;
+            while ((line = bufferedReader.readLine()) != null)
+            {
+                if (line.indexOf('}') != -1)
+                {
+                    break;
+                }
+            }
+        }
+        catch (IOException e)
+        {
+            AnalyzerLogger.getLogger().log(Level.FINER, "Error reading file: " + e.getMessage());
+        }
+
+        return bufferedReader;
     }
 
     public String getToolName()
