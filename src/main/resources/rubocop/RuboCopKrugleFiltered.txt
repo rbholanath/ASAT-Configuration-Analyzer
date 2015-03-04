@@ -1,0 +1,3 @@
+http://krugle.org/document/download_file/fog6bb73c597275422981dabd6eadc221e7/scmi_localhost_8767/master/.rubocop.yml
+http://krugle.org/document/download_file/metasploit_frameworkdbe514c65bc0403e9485b620cb9d27e1/scmi_localhost_8767/master/.rubocop.yml
+http://krugle.org/document/download_file/rspec_coree500326b308249a58b5ae64791fb280d/scmi_localhost_8767/master/.rubocop.yml

@@ -1,0 +1,3 @@
+https://raw.githubusercontent.com/cbothner/guillotine/e3a3b71dae43893ee8eb6fa65484c3314e509901/.rubocop.yaml
+https://raw.githubusercontent.com/anatol/quarry/98ab983b292dd468751d337e7a1b172875649d9c/config.pkg/rubocop.yaml
+https://raw.githubusercontent.com/saratkongara/merchants_guide_to_galaxy/3904ff09e6419afd3a8571e8cdcdd17967b7e7b1/rubocop.yaml
