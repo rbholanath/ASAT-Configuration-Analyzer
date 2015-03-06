@@ -161,11 +161,9 @@ https://raw.githubusercontent.com/HyogoSpending/kobe.github.io/0a36bfc3f78cb1f52
 https://raw.githubusercontent.com/bbrieber/sim_scripts/674228ce423b3d1ac73344227581e3f53367a91e/KnowrobExporter/pylintrc
 https://raw.githubusercontent.com/mjakobczak/Pogoda-interfejs/48515a4ebd78b4e2b295bd26950e323edf21ceac/Pogoda/pylintrc
 https://raw.githubusercontent.com/Putas/flask/025cb4834a50311e3cedf490ce33fda550338b2f/pylintrc
-https://raw.githubusercontent.com/brianzelip/militarization/8fc88432ea19224e0ee651eb95809e342a4f887b/css/basscss/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/obeattie/pylons/de45756889f2d66e41a546ec62a2bbebfacf37d5/scripts/pylintrc
 https://raw.githubusercontent.com/bbangert/routes/1a4986f55c9eef874d61a7126437be3ca140acfc/scripts/pylintrc
 https://raw.githubusercontent.com/mjg2203/edx-platform-seas/aadd9fe8beb902bc06dd97a04bb7876715876d90/pylintrc
-https://raw.githubusercontent.com/MattCne/gblog/5a45d5252689bd1bd64adda3d96096b905d84026/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/porque/andorfin/e6844322dde3e690932d998ff0774a05694c07b5/src/kernel-components/ctrlchan/include/scripts/pylintrc
 https://raw.githubusercontent.com/alflanagan/pyxbee/ec809e525f97cd524af256c550fdc64b0a87ff84/pylintrc
 https://raw.githubusercontent.com/flazzarini/dotfiles/595ececb55fada8428f733d9be1972994877e977/pylintrc
@@ -173,13 +171,11 @@ https://raw.githubusercontent.com/deverant/dotfiles/c66fb96c8dcd04b22aa924dfa1c4
 https://raw.githubusercontent.com/yarko/scrape/26aca7942fce0c9f3680e5151f1e1f6b5520dac1/pylintrc
 https://raw.githubusercontent.com/nicky-ji/edx-nicky/559a2894736024e6016c1e115b56d7000fd702fe/pylintrc
 https://raw.githubusercontent.com/michalliu/chromium-depot_tools/43e9158650446b1153cb7ac119f6e6d95bf5c0c3/pylintrc
-https://raw.githubusercontent.com/benhopper1/trans/915cf1a9b35ab839f65513111bd9c37e7149cecc/websocket/node_modules/docco-husky/build/Pygments/scripts/pylintrc
 https://raw.githubusercontent.com/GNOME/mousetrap/c89a9199f8a257d4f1916c081bc0178cb06260b5/pylintrc
 https://raw.githubusercontent.com/digitalfox/pysql/8e2d91fbad9a13ffb6d9cc79787d58a4578c76c1/pylintrc
 https://raw.githubusercontent.com/rosenbergdm/configfiles/bce531b3295ac08d7fa0e53e5ad72b18e6083f6f/HOME/.pylint.d/pylintrc
 https://raw.githubusercontent.com/jgrowl/depot_tools/95bd5c4951755bf3940cf9cabbe029e4a577750e/depot_tools/pylintrc
 https://raw.githubusercontent.com/Neozaru/depot_tools/ace6b3916d3fb0d53e2e1ad57910e73e966160e0/pylintrc
-https://raw.githubusercontent.com/poilautistou/ExpressEmptyWebsite/c0c89a6f854703afa555c8009e322fb0273f0cad/node_modules/expressworks/node_modules/workshopper/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/Nesta-CZ/flask-skeleton-db/6914278307eaa5f3b70df1b8b6cd8c5fe7d0e10a/pylintrc
 https://raw.githubusercontent.com/qtrinh/GoogleCloud/7ee6027ba1c2ae2baaeb3a501c70752d5c6f6433/tools/gsutil/gsutil/boto/pylintrc
 https://raw.githubusercontent.com/sk-/git-lint/236d932a542cce5b66badb581198c45b6cbf4979/gitlint/configs/pylintrc
@@ -204,7 +200,6 @@ https://raw.githubusercontent.com/ericmjonas/sphinxdev/ed7763037339f73cea28957d6
 https://raw.githubusercontent.com/kusamau/cedaMarkup/01e2784b3ce87b3f2e8b7f7cc5a8ff10c4ccb2c5/resources/pylintrc
 https://raw.githubusercontent.com/rvagg/node-pygmentize-bundled/2c41e11e26323a1c3915ae16fb689bf23e7d8eaf/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/henrysher/opslib/157be1342cf24297ef6b79cbe320207e610c9c81/pylintrc
-https://raw.githubusercontent.com/jaymiejones86/jaymiejones.com/bb8143dab6ea18de5917108643ba1d9612fe725c/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/msabramo/docutils_from_svn/712f40d9b91db4080bcf5db8bd27a5a77b8e9513/sandbox/py-rest-doc/utils/pylintrc
 https://raw.githubusercontent.com/dsajkl/123/e80959f2c19839c29bd5880beb4b79acdae1affe/pylintrc
 https://raw.githubusercontent.com/freedomofpress/securedrop/51a5f06365b1bd23da380ef31b1df9d7a8502aee/securedrop/pylintrc
@@ -229,7 +224,6 @@ https://raw.githubusercontent.com/apache/incubator-slider/035ebbd01f6aec33f83609
 https://raw.githubusercontent.com/brechtm/docutils/1967f52c20a61902373879b814165a45498816cf/sandbox/py-rest-doc/utils/pylintrc
 https://raw.githubusercontent.com/garbados/sphinx-docs/dd5d432d23e237571b03dbcc54b18b60ff7e5761/utils/pylintrc
 https://raw.githubusercontent.com/CyberMameCAN/astedesign.github.com/f7365ba9d7c23c835514eefc9b0e9e86f2b02690/vender/bundle/ruby/1.9.1/gems/pygments.rb-0.5.0/vendor/pygments-main/scripts/pylintrc
-https://raw.githubusercontent.com/nerdgrass/nerdgrass-blog/e2aa9b83aa33f2e57b6c8f3fad046f198c8be990/node_modules/grunt-pages/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/kirbyfan64/pygments-unofficial/08050e7344dbd38c9e464612d0816e42c3ef772a/scripts/pylintrc
 https://raw.githubusercontent.com/edx/edx-val/eb25f854eb064a2c2a5752b840eb0a6ed99f9436/pylintrc
 https://raw.githubusercontent.com/smikes/depot_tools/885361a676ddcd6d4acb2958967b3e7940819074/pylintrc
@@ -251,7 +245,6 @@ https://raw.githubusercontent.com/mike-eddie/WessexCCP/fee7c43dcefc53f333801e8ef
 https://raw.githubusercontent.com/GNOME-MouseTrap/mousetrap/17813fde1b6202febe0457a344bce45eb810da0a/pylintrc
 https://raw.githubusercontent.com/SrNetoChan/RelationReplicator/6013db24bc46490443988d829ffc8829b08405a7/pylintrc
 https://raw.githubusercontent.com/sudheerchintala/LearnEraPlatForm/c7d418331084d95698927e4e3fc57fc9a3eb7641/pylintrc
-https://raw.githubusercontent.com/dce2956/personal-website/e12e8071c5c28f871c9caf53b367f0c175398ba3/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/bukzor/scratch/f8f35c88a4b41efbdcb525bc3b8e95f93e5782f1/python/import_issues/pylintrc
 https://raw.githubusercontent.com/pathawks/pygments/856eab287ed3d059afce5c05232dd4a5cde1b5ee/scripts/pylintrc
 https://raw.githubusercontent.com/Liuyu314/liuyu314.github.com/8e4a6685515757915c31d63909ec686ed07b3930/Pygments-1.6/scripts/pylintrc
@@ -265,7 +258,6 @@ https://raw.githubusercontent.com/yesudeep/mils-secure/31945e0d5c78d33a71f32b4f0
 https://raw.githubusercontent.com/SjB/Dart/02ad7f937540d3f1c7eeca70f26dc47c0a0b930c/third_party/gsutil/boto/pylintrc
 https://raw.githubusercontent.com/ParamsRaman/categorize/2b3e0499763adb7a5549a78407b402fed91cc5fa/mechanical_turk/boto_library/pylintrc
 https://raw.githubusercontent.com/stackforge/anvil/b3f9aaf0d6af01eede009c466679cb3b9b332fdd/pylintrc
-https://raw.githubusercontent.com/leo524/7mos-fourm/1fdb7e0aa53a5385a0fedb5b10842df36e19c774/node_modules/nodebb-plugin-markdown/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/Robert-McGinley/pygments/b49d2ccdde3072c3f44f423d9d76790109030bbb/scripts/pylintrc
 https://raw.githubusercontent.com/rationalAgent/edx-platform-custom/449110b3a92af07f577ad663973b7d96efcc5fbf/pylintrc
 https://raw.githubusercontent.com/Yoko2012/webrtc/98178dbde7b5761f6d8ceeb2c524cca8dab28fdb/depot_tools/pylintrc
@@ -318,7 +310,6 @@ https://raw.githubusercontent.com/malishevg/edugraph/70e67dfe2df9c0cc487f3930870
 https://raw.githubusercontent.com/UXE/local-edx/0bce5569e28044238173fc6d42202403884e1c7b/pylintrc
 https://raw.githubusercontent.com/qwat/qWat/f36feb0afa5e889b24a152652c9fbaca2f640918/qwat_dictionary/pylintrc
 https://raw.githubusercontent.com/Domca17/flask-skeleton/53af9ead04ab383db69206238c1e703e242f40c2/pylintrc
-https://raw.githubusercontent.com/fyddaben/DabenHouse/095425f58b0d1ee1906f62a23e751acde128cfdc/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/PepperPD/edx-pepper-platform/fce4074e92ba7e73b74a43d227ccabc4ca860f06/pylintrc
 https://raw.githubusercontent.com/edx/edx-analytics-pipeline/ce1a384c3c829ccf1d73b5e6964ee75233fda0dc/pylintrc
 https://raw.githubusercontent.com/GeoscienceAustralia/agdc/8105a3075a1a803ca43adee5714f3bf9d44b04e9/pylintrc
@@ -331,8 +322,6 @@ https://raw.githubusercontent.com/LearnEra/LearnEraPlaftform/115255561460f1595f1
 https://raw.githubusercontent.com/MasterOdin/TruthTrees/e1e871f3c00d818e80093bbdc4cd3a6893cfde91/pylintrc
 https://raw.githubusercontent.com/5x5x5x5/try_git/297ed2b7b0a2b549beeed1f7a5a02454d97c888d/build/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/openbox00/okl4_3.0/d41112bd645765e39e1d5a919ce8f1d8f047f9b4/tools/pyelf/pylintrc
-https://raw.githubusercontent.com/whyer11/GFF/3a356cd4d99ea44d2b63ab588bbae78d2a27f3ff/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
-https://raw.githubusercontent.com/oddurs/wikistack/d10641a010a9764fd6943a356f66e77accfd3562/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/mallochine/dotfiles/4bf7aed4485b4354f5f10cd75045caeadcd44b95/pylintrc
 https://raw.githubusercontent.com/femmerling/fauzanemmerling.eu/3c183bb14987bc42414b2e235c62fdf405aabb86/submodules/jinja2/scripts/pylintrc
 https://raw.githubusercontent.com/asah/wineries/f250c63198d1dda12b0ceff07452e57ef3544b1c/pylintrc
@@ -340,7 +329,6 @@ https://raw.githubusercontent.com/ermh/Dart/6f958b9a71df9cc6da963b1c2828606a603e
 https://raw.githubusercontent.com/lbt/python-pygments/105faef8d5cf0b2c23bbd2fae620913dcd4158b3/python-pygments/scripts/pylintrc
 https://raw.githubusercontent.com/sequenceiq/slider/869df8c53633af45d5b7ec22289e7184d0fa7b96/slider-agent/src/main/python/jinja2/scripts/pylintrc
 https://raw.githubusercontent.com/UCSB-CS-RACELab/CloudRunner/07340bbd2a83f1bf5c72156cf4eb5eb1d3d6de5e/lib/boto/pylintrc
-https://raw.githubusercontent.com/wad3g/wad3g.github.io/e94bcb4c94d4d7fecd0c3af24d34f43bebd4e3cc/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/Gaia3D/GeepsSpatialStatistic/19aaec267f3323204279f47312eaadce1c339ec6/pylintrc
 https://raw.githubusercontent.com/opensciencegrid/osg-build/678acd5d687f541915520f79691cb33b9471ce7a/pylintrc
 https://raw.githubusercontent.com/dbrgn/pygments-mirror/e8cf0df78e976329c897291f03ef3107939fb10a/scripts/pylintrc
@@ -349,7 +337,6 @@ https://raw.githubusercontent.com/windyzboy/gitlab/fc166d99d8c9bed290bb320dc4731
 https://raw.githubusercontent.com/robwblack/shapezor/43a075243dabcc939b4045308c96009f70491839/pylintrc
 https://raw.githubusercontent.com/hmcmooc/muddx-platform/320ca12ddc78e15fd48a35af010743682b6f95c1/pylintrc
 https://raw.githubusercontent.com/gittest20140903/sphinx-source/a06612dd9a345d48f160824163d02b8da7f4ff65/utils/pylintrc
-https://raw.githubusercontent.com/sready/DeclarativeWorkbook/6ea694a3eb1352c99d78d3bb60f7ebe49024f03f/node_modules/markdown-pdf/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/lbartoletti/CADDigitize/0b3e6b3d913f845e39efc4cee4661392b775db5e/CADDigitize/pylintrc
 https://raw.githubusercontent.com/eomwandho/treemapping/067d7b2bd78648f82cb5c08df9429e17bb7d8130/pylintrc
 https://raw.githubusercontent.com/gdanezis/petlib/eb65846448341ef9892dac61699f321375fbfaa0/pylintrc
@@ -385,7 +372,6 @@ https://raw.githubusercontent.com/Orel741/Flask-Skeleton-Projekt/6e39187f7c389fd
 https://raw.githubusercontent.com/bww/webasm/e7446f955754449c7b3e10b4acb4a9ad0250acde/resources/tags/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/nevir/plexability/cd3c64f38d4d1325baf9b72d388a7a8aa783b788/extern/depot_tools/pylintrc
 https://raw.githubusercontent.com/kartoza/stream_feature_extractor/e6b3ef62235639df299db551e67f145a5ab2a0a0/pylintrc
-https://raw.githubusercontent.com/etdev/blog/481ce3ff99e15d65bcb4150c2f49eafcbbe907c8/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/mizzy/Sphinx-1.1.3sphinxjp-latex/e34c7c4b47a416698a0a5468b7c254a562c5d925/utils/pylintrc
 https://raw.githubusercontent.com/zenweasel/ChromeCaster/b8f21d4f010ba79811b05609e0cbde451c0a16e9/pylintrc
 https://raw.githubusercontent.com/daniel-star/frobbix/e31ee828f6ffd1e051954b199023b12c5ce6bdcb/pylintrc
@@ -398,7 +384,6 @@ https://raw.githubusercontent.com/stockr-labs/python-validate/0bc40b5b06e5cdef6d
 https://raw.githubusercontent.com/naoko/github_auto_deploy/5469aca873eb0b67458501db39d0070446f475ba/tests/pylintrc
 https://raw.githubusercontent.com/cppformat/sphinx/aab44c9f1f42d93ab7cb38e1a31b3ea5b42dd274/utils/pylintrc
 https://raw.githubusercontent.com/auferack08/edx-platform/dcee518dc827f3fa2cc5217368db9251c2461f81/pylintrc
-https://raw.githubusercontent.com/akaminsky/ghost_blog/dd9e57ac68555de4a4317e37fb5f8d7d9dc27d49/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/julitamusial/MED_projekt/3f3b8b603f7fe16ba202e03dd54c93a110fc2d0f/Klasteryzacja/pylintrc
 https://raw.githubusercontent.com/jookies/jasmin/91421adf6b844e745bbdb48262fc0de7c5e5c693/misc/pylint/pylintrc
 https://raw.githubusercontent.com/swarupsahoo/dart/2f7ffc9a49f2305cffb06daa67300366e6a29cdf/dart/third_party/gsutil/20110627/boto/pylintrc
@@ -440,7 +425,6 @@ https://raw.githubusercontent.com/Sventimir/vim.cfg/b72f4013ac037a48a7d54a47c9fb
 https://raw.githubusercontent.com/cadyyan/dotfiles/1b7e571ce995609a410050c578c0530d75404406/pylintrc
 https://raw.githubusercontent.com/CoherentLabs/depot_tools/0b88762379ad84037a01ffca77c9a0523f020645/pylintrc
 https://raw.githubusercontent.com/shichao-an/115wangpan/a050ecb3af5140a9a16376a02655652364b3a67d/pylintrc
-https://raw.githubusercontent.com/ronbelson/ghost-proxy-hebrew/e456b236ec3affd29564a1a989112d3adb792d0a/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/agatahaw/Wtyczka/428a51e403e622bd847e38a044c697056761cd5b/pylintrc
 https://raw.githubusercontent.com/jlayt/SnapDock/6e8d3a6cefc3cac4818e33294a02166c7dc84d5f/pylintrc
 https://raw.githubusercontent.com/dscoleman/dscoleman.github.io/1e4fa5605f521aaf2310f1ec11c19c5ff6903690/_vendor/bundle/ruby/1.8/gems/pygments.rb-0.3.7/vendor/pygments-main/scripts/pylintrc
@@ -448,7 +432,6 @@ https://raw.githubusercontent.com/dscoleman/dscoleman.github.io/1e4fa5605f521aaf
 https://raw.githubusercontent.com/dscoleman/dscoleman.github.io/1e4fa5605f521aaf2310f1ec11c19c5ff6903690/_vendor/bundle/ruby/2.1.0/gems/pygments.rb-0.6.0/vendor/pygments-main/scripts/pylintrc
 https://raw.githubusercontent.com/apache/incubator-ambari/bf747346312170834c6beb89a60c8624b47aa288/ambari-common/src/main/python/jinja2/scripts/pylintrc
 https://raw.githubusercontent.com/stephen-soltesz/pipeline/30e2b068cb60bcc2d3afecf252c6609373e5b9f4/src/pylintrc
-https://raw.githubusercontent.com/nicholedwight/nichole-theme/953202a40bf4e7d7d7e146ccfdd5f44248454bc9/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/universeroc/chromium/a246d4efce3a14ca45c6ecdf667c73fe9d84088f/37.0.2062.68/build/third_party/jinja2/scripts/pylintrc
 https://raw.githubusercontent.com/universeroc/chromium/a246d4efce3a14ca45c6ecdf667c73fe9d84088f/37.0.2062.68/depot_tools/pylintrc
 https://raw.githubusercontent.com/markandrewj/pygments/78431fbcf97cb6f737f1a1d8b18f57b176de2a24/scripts/pylintrc
@@ -462,8 +445,6 @@ https://raw.githubusercontent.com/krestenkrab/dart/eb066c5e7f530fdea9a40c8467a1d
 https://raw.githubusercontent.com/na-o-ys/na-o-y.github.io/a2d6d8683446358b66724323e33aadbbaa4d1621/vendor/bundle/ruby/2.1.0/gems/pygments.rb-0.6.0/vendor/pygments-main/scripts/pylintrc
 https://raw.githubusercontent.com/wojzaremba/reg/8f2c0168698b9e41eb93fcbc17abf4beca351391/paper/pylintrc
 https://raw.githubusercontent.com/wojzaremba/reg/8f2c0168698b9e41eb93fcbc17abf4beca351391/pylintrc
-https://raw.githubusercontent.com/vietpn/ghost_nodejs/0c957c568a77835478ac30b094cca71d23a67e20/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
-https://raw.githubusercontent.com/benhopper1/cip/a6fa414d42196606e91075b6007bb38c778ec81f/websocket/node_modules/docco-husky/build/Pygments/scripts/pylintrc
 https://raw.githubusercontent.com/tsudot/scribbings/68d28886c20b60659ddace4d2fd4f3f1f078f95d/pylintrc
 https://raw.githubusercontent.com/brandonedens/jukebox/36265930e0f6efe6f29c88bc0d52fd5f92c5e308/jukebox/utils/pylintrc
 https://raw.githubusercontent.com/les-epicuriens-du-logiciel/pic-bois/4672c56f5f438c40ff22bdf7aa4daf2bc7fdc335/build/pylintrc
@@ -471,18 +452,15 @@ https://raw.githubusercontent.com/lutris/website/2cb6afbd0323244899802f9a5cc208a
 https://raw.githubusercontent.com/mzehrer/mzehrer.github.io/4807b458ad5d71eacaa751545c686b17e5ece3df/vendor/bundle/ruby/1.9.1/gems/pygments.rb-0.5.4/vendor/pygments-main/scripts/pylintrc
 https://raw.githubusercontent.com/irosenb/me/1951c874c812fcb3f1cb316d458842ee618a328b/vendor/ruby/2.1.0/gems/pygments.rb-0.5.4/vendor/pygments-main/scripts/pylintrc
 https://raw.githubusercontent.com/yongshengwang/builthue/c63af09d8284cc5a6f613bffd621ccdcac265ffc/desktop/core/ext-py/Pygments-1.3.1/scripts/pylintrc
-https://raw.githubusercontent.com/sticksnleaves/ghost-blog/470dc5cb0456ba3e8945f4efff68fa8587a6cf85/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/tmm1/pygments.rb/44d604bd5edd5662b0ea28fd1fdc465c4475a8ce/vendor/pygments-main/scripts/pylintrc
 https://raw.githubusercontent.com/lingtools/lingtools/cd5b44a5552fdc79ec99c61dfe526face8df522b/pylintrc
 https://raw.githubusercontent.com/EduPepperPD/pepper2013/12af30d28646232351c873474b5616ff18ed4e4b/pylintrc
 https://raw.githubusercontent.com/k342/k342.github.io/ac82a443a36619bf0b32f6b478f80493ad9f5877/_vendor/bundle/ruby/1.9.1/gems/pygments.rb-0.5.4/vendor/pygments-main/scripts/pylintrc
-https://raw.githubusercontent.com/buzzmjx/test/2e8615f5f48cb1d63fb0fbde57589d1ce4f950d6/blog/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/yesudeep/tiss-secure/07f9b7015ebbbba57d1bbe76f5270d649a8233d7/app/jinja2/scripts/pylintrc
 https://raw.githubusercontent.com/erikb85/sphinx/7d425bbe9158adb5f689e583541bebdbb18dede6/utils/pylintrc
 https://raw.githubusercontent.com/BlogForever/crawler/9ce0136380681232ed2b20a030c7dacf874b1963/pylintrc
 https://raw.githubusercontent.com/bradpsheehan/brads_blog/97a05175e8349b2bb7361414ff6801145a2505db/vendor/bundle/gems/pygments.rb-0.5.2/vendor/pygments-main/scripts/pylintrc
 https://raw.githubusercontent.com/caffeine/caffeine/6f6b306da5de685a5ea33a53a9a6a8f5a6cdf27c/pylintrc
-https://raw.githubusercontent.com/danzimm/Livedown/5fb98e2a1b1731d3061952bd6e887aca22b77d2a/server/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/TangXT/GreatCatMOOC/5122b1abccbe17e04fa8119ba881b3130b296234/pylintrc
 https://raw.githubusercontent.com/xiandiancloud/edxplaltfom-xusong/1ca2a48a6dade8cf25b32f8ee833114862a623b2/pylintrc
 https://raw.githubusercontent.com/edcast-inc/edx-platform-edcast/fe9e43fd77eb5d08bc1a01f49c8f8c369bc6e680/pylintrc
@@ -506,7 +484,6 @@ https://raw.githubusercontent.com/twrl/conurbation/af3df283f32050c7f6c67fcdfeb58
 https://raw.githubusercontent.com/mrcostanzo/cmdmock/0e09ed8a325d6d0d40d5d145acc35db5f3e77d15/pylintrc
 https://raw.githubusercontent.com/karkhaz/glibc-2.20-6/3e80cfaf9845836c76e01ed917dd3638b14ffd6a/scripts/pylintrc
 https://raw.githubusercontent.com/Remi-C/interactive_map_tracking/3d12e4713afcd4c4f41b2bccc4c7ea6fd637ebdb/pylintrc
-https://raw.githubusercontent.com/jonbstrong/blog/49fdfb3f88c8a5de44ec412717ab126a63e87621/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/candlepin/subscription-manager/03c7d6aff3e8a953c58fe6b00fa37ffd4ec85ae4/pylintrc
 https://raw.githubusercontent.com/contpub/sphinx/8e51eeea55bfdc9007cd728c8c21e7a66f1b84a2/utils/pylintrc
 https://raw.githubusercontent.com/CST316TeamJ/SportsApp/e53ce16235175d7cce4f96124e54a3b22029ba3f/pylintrc
@@ -516,7 +493,6 @@ https://raw.githubusercontent.com/trevorlinton/webkit.js/15306b5c540ccafc3be0082
 https://raw.githubusercontent.com/trevorlinton/webkit.js/15306b5c540ccafc3be008225eafebd1932d356d/tools/depot_tools_win/pylintrc
 https://raw.githubusercontent.com/nedbat/cupid/ce0839f5d79fab9564dfa76d0e075c07ae603e90/pylintrc
 https://raw.githubusercontent.com/jelugbo/hebs_master/e2fd6d8806221290f4c2eeecc77626e165ac9c8d/pylintrc
-https://raw.githubusercontent.com/adamrw/ghost-test3/2c1d8096208a0f038673d883e995d586ca3de2bf/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/gis3w/ARPAP_SpatialReport/45037b84c4f56e784279a5efd14bbd80ea852a05/pylintrc
 https://raw.githubusercontent.com/yesudeep/tisshrmlr/f564a914b4dfad33aac27cf871591e769fd751c6/app/jinja2/scripts/pylintrc
 https://raw.githubusercontent.com/thlorenz/readarepo-zip/06877b8d8ac432e2598a184bd80052cf587fb3ed/3rd/pygments/scripts/pylintrc
@@ -527,10 +503,6 @@ https://raw.githubusercontent.com/volterra79/custumeditorplugin/481dff2048bfc2f0
 https://raw.githubusercontent.com/kriwil/labster/6897a0da5ccd0618ea55fa4f38e313a783194ad9/pylintrc
 https://raw.githubusercontent.com/irskep/docutils/7f6bae1250d4bb94e8ef9b11e756f3275118df69/sandbox/py-rest-doc/utils/pylintrc
 https://raw.githubusercontent.com/Tarnyko/depot_tools/7db48579c904c03119608ffd0e02be3c4a05afef/pylintrc
-https://raw.githubusercontent.com/Ian5015/Sacred-Dawn/cec8ba7ff2a48cfe179eed441ef771a6bb367073/NodeBB/node_modules/nodebb-plugin-markdown/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
-https://raw.githubusercontent.com/bikrone/Bikrone-s-blog/3b33419171bfcfdc4e52d102c647f3616ad42176/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
-https://raw.githubusercontent.com/Hivetrix/blog-dev/675a5baf9a055d3e5f1606fd6a2877f66868115c/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
-https://raw.githubusercontent.com/bradbarnett/ca-blog-ghost/d73149717251f01b79f98dd77955fba7dabfcfee/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/autolab/Tango/0ceb03f074cb993aa8729dac77875be68ea335c6/lib/boto-2.27.0/pylintrc
 https://raw.githubusercontent.com/dare599z/CSCIproject/79de55f12d8f37a4bb8bdd6164cd888c83c23c9c/pcDuino/pylintrc
 https://raw.githubusercontent.com/Insane/cw3_programowanie/6c6b213053430a154063aced023a1fddfc3763e8/pylintrc
@@ -545,18 +517,15 @@ https://raw.githubusercontent.com/nextgis/quickmapservices/55677b9f9463d1cbb28a8
 https://raw.githubusercontent.com/DarrelHsu/cvsClient/4305261871f1aab27a6b64217ee8506a97883542/pylintrc
 https://raw.githubusercontent.com/XiaodunServerGroup/ddyedx/a8fa4db7d7e282e9169beccc89921b276f680ed1/pylintrc
 https://raw.githubusercontent.com/tcaruth/iir/2d5deca2813ed39138995c9ab99f2f20dd245e11/pylintrc
-https://raw.githubusercontent.com/agreen757/adriangetsawesome/86570a04ba2ff11890009e78038c82f5cb3de3f2/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/dcbaker/config_files/ff26f90cc12deb28831d446459b5e6108e0dbe72/misc/pylintrc
 https://raw.githubusercontent.com/lucychambers/lucychambers.github.io/049d6efb6b2293dc5ae57efb6e60212065dcf4fa/.bundle/ruby/2.0.0/gems/pygments.rb-0.6.0/vendor/pygments-main/scripts/pylintrc
 https://raw.githubusercontent.com/geodrinx/isorange/545e6c92e1f710610dc4e7112395c79c74dd2d3f/pylintrc
-https://raw.githubusercontent.com/chunfu/expressworks/cd17c8115815cbadc8cd2694bc0408e1c96b9ac3/node_modules/expressworks/node_modules/workshopper/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/Fity/dotfiles/6db00387e91f0ee1b3ef63f49252297c536ff47f/pylintrc
 https://raw.githubusercontent.com/lucychambers/lucychambers.github.io/a6e65c71d0de30afbe36e7f57298a6378eb2df1f/.bundle/ruby/2.0.0/gems/pygments.rb-0.6.2/vendor/pygments-main/scripts/pylintrc
 https://raw.githubusercontent.com/g-sherman/Qgis-Plugin-Builder/a54c98094052fb8db42dc8653e26c918e07e3fff/plugin_template/pylintrc
 https://raw.githubusercontent.com/g-sherman/Qgis-Plugin-Builder/a54c98094052fb8db42dc8653e26c918e07e3fff/pylintrc
 https://raw.githubusercontent.com/ssato/python-anyconfig/5e68771a7ab6bcf155ae216cb06014e668761c40/pkg/pylintrc
 https://raw.githubusercontent.com/opalmirror/glibc/33cd1f74b8cf7022d2c89f14b2db8c15ea1c3c3a/scripts/pylintrc
-https://raw.githubusercontent.com/martzjd/freebefore30/db2b7cc496f56487e53b0e94ad8e9b5e52301cb6/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/lmorchard/badger-lib/ec785b7e57139f4904e7c79f2701209fc5d7501e/packages/Pygments/scripts/pylintrc
 https://raw.githubusercontent.com/facuman/environment/cf3245ce137baf6b4eff7fb4ae5960a04b7cb263/python/pylint/examples/pylintrc
 https://raw.githubusercontent.com/sol/pygments/6b4fac3fc815293f1a63879b634d9a8f54a01ec5/scripts/pylintrc
@@ -565,12 +534,10 @@ https://raw.githubusercontent.com/aclisp/archived/d8da6abf6c5b5ab6734f6d246f261d
 https://raw.githubusercontent.com/daniele-orlando/rz/af35067823f813c4a3eeba05aee1b16731f12f5e/support/pylintrc
 https://raw.githubusercontent.com/kod3r/nupic-1/6552d9cb6a77b6df311f18173e9a678bf5af94f3/qa/shared_data/pylintrc
 https://raw.githubusercontent.com/ivanbusthomi/BuGIS/f8cf558fb6fba808a3df3884332d455ee5b0ff2b/pylintrc
-https://raw.githubusercontent.com/karthikselva/mdtopdf/a01a5350aa216e03cb33bf5a410fa69a5e51b772/node_modules/markdown-pdf/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/JohnnyJukes/flask_skeleton_databaze/b014c7a7378e4cbb1b263297022b6c7e559d4daa/pylintrc
 https://raw.githubusercontent.com/mrm007/sublime-text-config/424686a2028e97d2f5850e5c0244b79b1bb311e4/Packages/Glue/pylintrc
 https://raw.githubusercontent.com/enricofer/autoSaver/2bf4c02ded4712e423da0fb97522b1f672fb10c2/pylintrc
 https://raw.githubusercontent.com/alessandromarrella/alessandromarrella.github.io/a5786fa48fb6c79f4d5b709f5343497074fafc4d/vendor/bundle/gems/pygments.rb-0.5.4/vendor/pygments-main/scripts/pylintrc
-https://raw.githubusercontent.com/kikobr/projetoextintor/5e916402e2f0ad46ad4db2b48a0ee48419b95755/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/mattinsler/caboosejs.com/159aeb53449d9b4754e2aa7976afb4cef5c09cf9/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/clark800/rc-files/3c82b19b3d7f806379c3451c9c0bfb3119902f8d/pylintrc
 https://raw.githubusercontent.com/kevin-brown/mousetrap/17813fde1b6202febe0457a344bce45eb810da0a/pylintrc
@@ -596,7 +563,6 @@ https://raw.githubusercontent.com/geodrinx/selenext/a8611188cc8938d002fecd007f85
 https://raw.githubusercontent.com/ajkaanbal/dotfiles/61be46e7ff43eda016b47cea89d239ad57c7e4f7/pylintrc
 https://raw.githubusercontent.com/hyamamoto/dart/8b266c8e7d2cc0ceae39947466a5a58f44399b93/third_party/gsutil/20110627/boto/pylintrc
 https://raw.githubusercontent.com/ssato/python-jinja2-cli/8d1c501213de154a31219001ca8c0d1e0f66745f/aux/pylintrc
-https://raw.githubusercontent.com/deapubhi/myblog/c7dec6f3e7d2144ce4944a2d03b08e917a58000a/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/rebecca-eakins/rebecca-eakins.github.io/b12116b6bbcd72970cc3a6460e0634a083aab96f/vendor/ruby/2.1.0/gems/pygments.rb-0.6.2/vendor/pygments-main/scripts/pylintrc
 https://raw.githubusercontent.com/yesudeep/greatship/c065e05810f0291036a99f405812042a22ce6a8a/app/jinja2/scripts/pylintrc
 https://raw.githubusercontent.com/edigonzales/qgis_helmert2d/6df4f4caecafe791fb99448471891534fe5d33e4/pylintrc
@@ -606,7 +572,6 @@ https://raw.githubusercontent.com/MaraKovalcik/Python-LogUser/4832daced92850f7a5
 https://raw.githubusercontent.com/to4iki/snipp/745cde466aea64250edcfc73d4ec4145764e485f/vendor/bundler/ruby/1.9.1/gems/pygments.rb-0.2.3/vendor/pygments-main/scripts/pylintrc
 https://raw.githubusercontent.com/vuduchild/dotfiles/cd9d520b9588dd27cacd3824a058b7875dcaa4ea/userroot/pylintrc
 https://raw.githubusercontent.com/chrissimpkins/glue/8ea4e1d2f7bc5ccca340298c97dde935c7504fde/pylintrc
-https://raw.githubusercontent.com/wghust/newblog/96935ada10de60d9d752489dde98bce41e918fe1/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/jlayt/ArkFilter/8f2477366a0686171445d3ab27174f5e53d7d11e/pylintrc
 https://raw.githubusercontent.com/Majkeen/jekyll-portfolio/bd8f6e0840bef4f4bf7c567b327cb95664b36fa5/_vendor/bundle/ruby/1.9.1/gems/pygments.rb-0.3.7/vendor/pygments-main/scripts/pylintrc
 https://raw.githubusercontent.com/NorfairKing/PAULA-proof-of-concept/88a566c5673f53c7a81740ebdd41435101c47ff5/pylintrc
@@ -618,7 +583,6 @@ https://raw.githubusercontent.com/mbdriscoll/ctree/7d65bf7946b202d5f199bb0368dd8
 https://raw.githubusercontent.com/4grim/hackbright-django/ab6c62de9abbf559a4a5a4447935c7b18d8f3a3f/vendor/packages/sphinx/utils/pylintrc
 https://raw.githubusercontent.com/wojzaremba/rnn/65e62b319e8ced8eb60f9c141867f87e081cae77/pylintrc
 https://raw.githubusercontent.com/wei2912/bce-simulation/acfb898ed2439be6d21799f5303cf72d6aa65c82/pylintrc
-https://raw.githubusercontent.com/thiagoreis/Blog_Ghost/d3f8c1effd157986f1d688d08765ec1b667d55bc/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/quan-na/glibc/042e1521c794a945edc43b5bfa7e69ad70420524/scripts/pylintrc
 https://raw.githubusercontent.com/cvxgrp/qcml/5c66d277a52b9adb50d27b57827874d3c15d8ac2/pylintrc
 https://raw.githubusercontent.com/sean-m-brennan/pysysdevel/aa04d741382fdab64fc1fb76b3529038e572c062/pylintrc
@@ -630,26 +594,19 @@ https://raw.githubusercontent.com/rocketspops/roadshow-prototype/9dea203edb1c15e
 https://raw.githubusercontent.com/rocketspops/roadshow-prototype/9dea203edb1c15edd2fbe7fdd6d644612ce4ae73/bundle/ruby/2.1.0/gems/pygments.rb-0.6.2/vendor/pygments-main/scripts/pylintrc
 https://raw.githubusercontent.com/cloudera/hue/02fb1d6656de5d70297f9ec8e1f7d6c886372779/desktop/core/ext-py/Pygments-1.3.1/scripts/pylintrc
 https://raw.githubusercontent.com/mfagnani/evolveboston.com/8fc828d2b38f13ed128d928f43a16097ab45e5c0/tools/Ruby200/lib/ruby/gems/2.0.0/gems/pygments.rb-0.5.2/vendor/pygments-main/scripts/pylintrc
-https://raw.githubusercontent.com/texastoast/texastoast.github.io/c089c8e537a52c0bfb32eb5c2af2f23d0078b486/node_modules/grunt-pages/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/Whatang/venv_pylint/e331495f35e95c05e5817d572baffcaa243e47d7/pylintrc
-https://raw.githubusercontent.com/Rorchach/Huke-Blog/9c326f9087558492bbd1e722ba7998575a603e8e/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/cristobalrosa/dotfiles/78e10d6d30ecd0ae6b4143bc86929037111f3b45/pylintrc
-https://raw.githubusercontent.com/philefstat/temprepo/e0346da0b8ae5e8bd6ae45fccded6152f74a6054/blog/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
-https://raw.githubusercontent.com/petschekr/StreamingJS/eed842ee629c32e5785aaf3bbbf9412f6191cb74/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
-https://raw.githubusercontent.com/dineshjoshi/LearnNodeJS/6fb5b6c16e45a950f9bc9578681df4b05f13f0d8/node_modules/functional-javascript-workshop/node_modules/workshopper/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/everyx/gobyexample/eeaa858386236e52c6a7d78099a8e22ae582882d/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/bsterner/development/e6000651d58b8168971d9a5f34eecd02fa97184c/Java/Google/google-cloud-sdk/platform/gsutil/third_party/boto/pylintrc
 https://raw.githubusercontent.com/sakisbl/OpenSesameOnline/93018884c41e888f34ed2b046e88ff85254b51bb/webapp/os_online/experimenter/pylintrc
 https://raw.githubusercontent.com/sakisbl/OpenSesameOnline/93018884c41e888f34ed2b046e88ff85254b51bb/webapp/os_online/translator/pylintrc
 https://raw.githubusercontent.com/sakisbl/OpenSesameOnline/93018884c41e888f34ed2b046e88ff85254b51bb/webapp/os_online/view_exp/pylintrc
-https://raw.githubusercontent.com/hortinstein/ghost_hortinstein.github.io/f125c91c8596dcc57beb97b5ca08a84774cba0c4/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/infoxchange/docker-forklift/081f4690d1a96e4e2213e0d3a243c3c5da017612/pylintrc
 https://raw.githubusercontent.com/mireq/Shakal-NG/3318cb51a2f58a1445ba03586deb0bf2651f91ea/pylintrc
 https://raw.githubusercontent.com/chromium-illumos/depot_tools/f0526416bae6f42837abc647c7550b0c8e6c2e36/pylintrc
 https://raw.githubusercontent.com/ffabulous/dotfiles/f7de9fddc5592efe22a1943e769a707cb7e7fa70/pylintrc
 https://raw.githubusercontent.com/wwj718/edx-video/18a96222f2ae57398a08259f6183919e91b1ca92/pylintrc
 https://raw.githubusercontent.com/nextgis/gnm_qgis/0076c028c5bceb165b96dd6ac6f9ad37d685982c/src/pylintrc
-https://raw.githubusercontent.com/philid/deepjs.org/1b35c2bfe1bd78a72dd25c5fb87d500df342911a/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/joshelser/slider/b70d830aee6fc0171cb36fff0604b310dc565e3e/slider-agent/src/main/python/jinja2/scripts/pylintrc
 https://raw.githubusercontent.com/openhatch/oh-mainline/f7940b474e81a3b31d58b31e5f5397d3747e12af/vendor/packages/sphinx/utils/pylintrc
 https://raw.githubusercontent.com/openhatch/oh-mainline/f7940b474e81a3b31d58b31e5f5397d3747e12af/vendor/packages/Pygments/scripts/pylintrc
@@ -658,7 +615,6 @@ https://raw.githubusercontent.com/andyberkheimer/berkberg-wedding/25f680688fe529
 https://raw.githubusercontent.com/ivanhe/rnn/d08f5661ad2c164b7d0577d653b07728bf933f2a/pylintrc
 https://raw.githubusercontent.com/mozilla/kuma/3f50b8543bfc27723261a804fae5bd4eb76b1852/vendor/packages/pylint/examples/pylintrc
 https://raw.githubusercontent.com/metaiiica/sm-t530_KK_Opensource/925e57f1f612b31ea34c70f87bc523e7a7d53c05/Platform/vendor/samsung/common/packages/apps/SBrowser/depot_tools/pylintrc
-https://raw.githubusercontent.com/markphd/fuzzy-robot/155801c516ab491aff285850a584d333b8fad507/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/JKawa/Wtyczka_pogodowa/e1b916d1ad6185cc0be794e6ab56eb6d6d448aa7/Wtyczka_pogodowa/pylintrc
 https://raw.githubusercontent.com/arusahni/dotfiles/826af2cc1744c3c134a3d10c41ba306c9e925f6c/pylintrc
 https://raw.githubusercontent.com/s0undt3ch/dotfiles/a1fd9974c12a61d1a2df844fe50964a48b2fd945/tag-vim/pylintrc
@@ -677,7 +633,6 @@ https://raw.githubusercontent.com/ligthyear/quick-check/76d8b6731302702416b386c1
 https://raw.githubusercontent.com/femmerling/hxlatordev/8d62d74f8778d87662a21e7bdce88ef116690297/submodules/jinja2/scripts/pylintrc
 https://raw.githubusercontent.com/feste/generics/1cfa5d06e6c3dc357b50d38e572269d3206d7c75/dan-style/old_shared/tools/boto/pylintrc
 https://raw.githubusercontent.com/cigroup-ol/metaopt/914f114484964605ee26aaae5e8495d3b16c10f0/pylintrc
-https://raw.githubusercontent.com/montls/webnano/5d28de15b3deea160270fb55ef91860ebaa998ec/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/solderguy/cloud-mincemeat-titanic-analysis/17bc98d8e78c169ca6d3b8c44d2ce42661de68e0/src/pylintrc
 https://raw.githubusercontent.com/mer-packages/python-sphinx/3b0e936154a9915268748d5e362b09cfa137867b/sphinx/utils/pylintrc
 https://raw.githubusercontent.com/CalSol/Infra/50acdf472ef70bfc8c4488d55d9b9251bc786274/third_party/jinja2/scripts/pylintrc
@@ -708,7 +663,6 @@ https://raw.githubusercontent.com/creasyw/IMTAphy/add36803c12c1f1bf706f9e696478b
 https://raw.githubusercontent.com/creasyw/IMTAphy/add36803c12c1f1bf706f9e696478bda2b7f583c/documentation/doctools/tags/0.4/utils/pylintrc
 https://raw.githubusercontent.com/creasyw/IMTAphy/add36803c12c1f1bf706f9e696478bda2b7f583c/documentation/doctools/trunk/utils/pylintrc
 https://raw.githubusercontent.com/Studio-Link/webapp/3b10df841040f9427b1503b769b6f1ab9d0e0969/pylintrc
-https://raw.githubusercontent.com/SergeyPirogov/ghost/a9c0e9786e350089060b0e844f5e8def2164fe91/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/lanstin/glibc/53fbd16918791258ebc1684b1a1afd543b814780/scripts/pylintrc
 https://raw.githubusercontent.com/mvcisback/pyroomba/bae6299e38e72eb1e3e269e8521cb2463e4775b6/pylintrc
 https://raw.githubusercontent.com/MaraKovalcik/Flask/1ff8413f3551b051f8e6c76db6cf402fc7428188/pylintrc
@@ -726,7 +680,6 @@ https://raw.githubusercontent.com/echanna/EdxNotAFork/35cffa7d9e9dea7b89b00b6cf4
 https://raw.githubusercontent.com/hlamer/configs/d1f6c6bf5e32b7335c0768d0a3ac480fa9751ac9/pylintrc
 https://raw.githubusercontent.com/trentm/molybdenum/76b001c67227f21921865729329a46f34a7916ae/deps/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/qsnake/pygments/4e53cf629dfdf096ce94ad7cef17f4a0a48b4b81/scripts/pylintrc
-https://raw.githubusercontent.com/darkbreed/apitool/8c78d99980bac4c544795a1ac06f46cd5530ee2e/node_modules/markdown-pdf/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/filipstefansson/filipstefansson.github.io/7941e406556c576b1a871e0ef1726fc6705aa7ca/_vendor/bundle/ruby/1.9.1/gems/pygments.rb-0.5.0/vendor/pygments-main/scripts/pylintrc
 https://raw.githubusercontent.com/harrysimon/why/bf09443aa90fed22f802d6bf4e2f7e881ff2e580/experiments/_shared/tools/boto/pylintrc
 https://raw.githubusercontent.com/krystianwielichowski/Projektowanie-i-programowanie-system-w-gis/d8c4f8a8e772130da7946d26a30bce367b824f5e/zadanie3/Pogodynka/pylintrc
@@ -754,7 +707,6 @@ https://raw.githubusercontent.com/edx/edx-analytics-dashboard/a26ab26ed2ce61cd9e
 https://raw.githubusercontent.com/Kubesa/Kubesa_DB/ee252049b15cceee2905c1aae02249f11fe8158e/pylintrc
 https://raw.githubusercontent.com/SpaceAppsCH/HXLator/ab9082b61f7f0ea4466512544ab42a21b376c87d/submodules/jinja2/scripts/pylintrc
 https://raw.githubusercontent.com/edwintay/dotfiles/7b8a70323c8d05ab0ba2aadad9edc10f2d04906d/pylintrc
-https://raw.githubusercontent.com/alexei-led/dotfiles/8acfe15424371471795141cf02dbf25271c09376/.atom/packages/copy-as-rtf/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/rbheromax/src_glibc/8086c2c99b9cda2cc7374c481d6ccd7f658aaba9/scripts/pylintrc
 https://raw.githubusercontent.com/erickt/pygments/05d4b6ce7e51501d2ac22919386017c08c9f5547/scripts/pylintrc
 https://raw.githubusercontent.com/vortura/dotfiles/753edf03c2d11ccf0023ab66c0d8c32b62fd2c2e/pylintrc
@@ -769,7 +721,6 @@ https://raw.githubusercontent.com/davidedimo/portfolio/2cbf67d6dabe51806537d00f9
 https://raw.githubusercontent.com/morenopc/edx-platform/16e07fdc71d85f33eca38bc39aaa7084bf528d6e/pylintrc
 https://raw.githubusercontent.com/rduivenvoorde/featuregridcreator/5b13c40a2cf6f55356b3a5a7235d57053a98848c/FeatureGridCreator/pylintrc
 https://raw.githubusercontent.com/tcalmant/ipopo/c00abc0f5f5d50d597b9bd510944dbf3825e8578/pylintrc
-https://raw.githubusercontent.com/nikolasjansen/nija/3a452b439dcf0fb7dd3dc34cebf9d4b60eba4d5c/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/geodrinx/locationsaver/3b628d2c68fc0940f0e962932049322f1ead48a2/pylintrc
 https://raw.githubusercontent.com/XiaodunServerGroup/medicalmooc/7e0b0fe73fd09d181ab5038548a4775a83232b90/pylintrc
 https://raw.githubusercontent.com/coreos/depot_tools/4f4e76fce524016999d1b5e73ca21b4202d288bb/pylintrc
@@ -779,10 +730,7 @@ https://raw.githubusercontent.com/cybertk/depot_tools/8ee6092bb79d18a82605d84dff
 https://raw.githubusercontent.com/altsen/diandiyun-platform/be8e9c046aea4cc164df28bd06753cb6e5c6cd10/pylintrc
 https://raw.githubusercontent.com/Chilledheart/depot_tools/a7f26ee0afbe077b1438a38e78992595a694355a/pylintrc
 https://raw.githubusercontent.com/kuiwei/kuiwei/7c12c0b0d3a6efd4995b01dfd0c9f43e5fc2b437/pylintrc
-https://raw.githubusercontent.com/garthomp/ruby_blog/daaef942de185929beba09e168bb24c3bd44914a/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
-https://raw.githubusercontent.com/thinkwhale/MyTakeOnQuotes/3f17cfbe8ff687a0d9dae31cadbf9fe3d603bc9e/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/edx/django-oscar-extensions/e900a3d2f62a5e38f20415f703498ca988ae567f/pylintrc
-https://raw.githubusercontent.com/martshaw/profkenshaw/539a9c673f825100a4f7c89461e5c7de75730b8e/ghost-source/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/dolejniczaak/PGiS_Lab04/34dd29164206b8a1aabc17b6714a52f74c8530a3/Pogoda/pylintrc
 https://raw.githubusercontent.com/mjakobczak/cw3_wtyczka_QGIS/5bd03ccdf0d6eb843ddc1fdb36dd8d975d58c677/pylintrc
 https://raw.githubusercontent.com/OpenTreeOfLife/peyotl/ad91b5554811136b6036aee465402ffc59d5f196/dev/pylintrc
@@ -790,9 +738,7 @@ https://raw.githubusercontent.com/julitamusial/PGIS_cw3/39501d679804f5dd2a87209b
 https://raw.githubusercontent.com/cloudburo/blog-tmpl1/60f4110198f6f68c10d6f2f5945e5321bffb2dd4/bundle/ruby/2.1.0/gems/pygments.rb-0.6.0/vendor/pygments-main/scripts/pylintrc
 https://raw.githubusercontent.com/cuiyanan89/project/2a8736a5aae4b0d5516a8971ab1b1b0fa2ff1717/birkenfeld-pygments-main-7c962dcb484c/scripts/pylintrc
 https://raw.githubusercontent.com/jswope00/FDX/5d37ea83f771b706e0e3040cd8a6712b849d948f/pylintrc
-https://raw.githubusercontent.com/nhtera/github.io/db3c31f3fd551416a9cb742487b1675987b097e3/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/zmughal/pygments-mirror/142d84215a14f4dcbc96e60dc5f0f675b4950699/scripts/pylintrc
-https://raw.githubusercontent.com/hyperremix/learnyounode-solutions/641fa595ec0f3340fa8b9c548f8e7e7b576f3941/node_modules/learnyounode/node_modules/workshopper/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/fedora-bigdata/ambari/fa2de3f617940db76b01432ccc0ad3c1d3c0730e/ambari-common/src/main/python/jinja2/scripts/pylintrc
 https://raw.githubusercontent.com/mysz/highlight/b40af0e03d8d595eb3592887835f93d180aad258/pylintrc
 https://raw.githubusercontent.com/topxiaoke/myedx/2b4d250f6ba5c6073cf35d34f0ca4d95abecb175/pylintrc
@@ -804,13 +750,10 @@ https://raw.githubusercontent.com/jmrodri/sm-photo-tool/ad818594cfb6f8b467f80e88
 https://raw.githubusercontent.com/smorstabilini/ilmioquartiere/1879550a7cc1cfb4dd63bed34a1c07cb7bc19dc5/deps/build/Pygments/scripts/pylintrc
 https://raw.githubusercontent.com/edx/opaque-keys/4622dcab2fea9b46c8e13b23d95dd108b12c5863/pylintrc
 https://raw.githubusercontent.com/Cal-CS-61A-Staff/ucb-codereview/bf470cb285322dfe3f4d3626c3229e662da86c9e/appengine/pylintrc
-https://raw.githubusercontent.com/kevincol54/nodeschool/77ac1c33cb314d3e4038059d9a4170410d6b34f2/expressworks/node_modules/workshopper/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
-https://raw.githubusercontent.com/kevincol54/nodeschool/77ac1c33cb314d3e4038059d9a4170410d6b34f2/levelmeup/node_modules/workshopper/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/hro424/okl4-sh/77356fef40f1a2cfdad5fe94f4c8be7f12123108/tools/pyelf/pylintrc
 https://raw.githubusercontent.com/TarantulaTechnology/other/677c902146f0db49a36dcd5f639f141fc67f16cf/boto/pylintrc
 https://raw.githubusercontent.com/honishi/onigiri-alert-server/c6de39e4fac48a226d1de0dc360dafc72c8009c5/pylintrc
 https://raw.githubusercontent.com/simonkeatley/spskRepo/cb4bca664df8372e6a470aa5c3679d5a20485776/vendor/bundle/ruby/2.0.0/gems/pygments.rb-0.5.4/vendor/pygments-main/scripts/pylintrc
-https://raw.githubusercontent.com/cartove/Nota/76492e8a9832579240e615a8a53f7b7c3df85e61/node_modules/markdown-pdf/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/jelugbo/hebs_repo/52fd25600ef1f60b318f70e7310342f5e619c859/pylintrc
 https://raw.githubusercontent.com/kuiwei/edx-platform/11113d1083297ddc6c7cbce38c2ed4b0652d6567/pylintrc
 https://raw.githubusercontent.com/val-pinkman/dotfiles/f890ffe18df3a6af94788af89615c3e42fbd7ae0/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/pygments.rb-0.6.2/vendor/pygments-main/scripts/pylintrc
@@ -822,7 +765,6 @@ https://raw.githubusercontent.com/dcramer/jinja1-djangosupport/755287f155c18ccab
 https://raw.githubusercontent.com/mozilla/kuma-lib/478f8be249f2bc0138ed77b13b24cc968d15a9b9/packages/pylint/examples/pylintrc
 https://raw.githubusercontent.com/Astyan-42/owndice/f0b10688ae0658d178f6098a226002ea680727d7/pylintrc
 https://raw.githubusercontent.com/dakcarto/PopulateCredentials/4f4ad1a5855a9df5d19a5ddec48da084931eb2db/pylintrc
-https://raw.githubusercontent.com/SellWellDesigns/orion/ec63b91acfd720e7d3a93bea70964c2493cd0cbd/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/Grumbel/pecryptfs/7cc064d2ef7e4766b9c04602c2fbc91175603ccc/pylintrc
 https://raw.githubusercontent.com/ksochiera/Progr_GIS_WtyczkaQGIS_Cw5/1a9052ddb4dcb01d8993bdefe5d837bd168173b1/PogodaOWM/pylintrc
 https://raw.githubusercontent.com/nex3/pygments/df106dc8c0ff67fdc6369265f6cb4e6832698792/scripts/pylintrc
@@ -834,7 +776,6 @@ https://raw.githubusercontent.com/alucas/glibc/c8daec5c7cd19378112391d2394e6d634
 https://raw.githubusercontent.com/hkawasaki/kawasaki-aio8-2/1d3213820fd9e63cb4c09555da89aa41da055e6d/pylintrc
 https://raw.githubusercontent.com/ucb-sejits/ctree/e37bc3057ba7fda36903515c15bc33e4e0421282/pylintrc
 https://raw.githubusercontent.com/lcoandrade/DsgTools/bbcbeb258926394a6bd011e00e35188153b19bce/pylintrc
-https://raw.githubusercontent.com/darkghost-system/ghost/6be9200084b8a9232c2577f671a77c37c4a27c53/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/ssato/rpmkit/213f795f823afdd23281ab32a357d919319a1076/pkg/pylintrc
 https://raw.githubusercontent.com/andyzsf/edx/b99dca987ee6841bc6b6e407b7fa9f35e1fef636/pylintrc
 https://raw.githubusercontent.com/lpga/point_to_point/8333ce314b9d8a4e1d56d578757e7eb74731dbfc/point_to_point_ui/pylintrc
@@ -853,10 +794,6 @@ https://raw.githubusercontent.com/msweier/QGIS-Drainage-Channel-Builder/e14e6c7c
 https://raw.githubusercontent.com/lindellalderman/darkmatter-depends/a07a15cefbf4a560c6fc15f7939278bece0bdc67/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/lindellalderman/darkmatter-depends/a07a15cefbf4a560c6fc15f7939278bece0bdc67/sphinx/utils/pylintrc
 https://raw.githubusercontent.com/hwjworld/xiaodun-platform/4bd6868e78c1165b18184b0a34c60f010f3acf09/pylintrc
-https://raw.githubusercontent.com/pedrorijo91/nodejstutorial/db4c991864e65c4d72e98a1dc94e33606e3adde9/node_modules/bytewiser/node_modules/workshopper/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
-https://raw.githubusercontent.com/pedrorijo91/nodejstutorial/db4c991864e65c4d72e98a1dc94e33606e3adde9/node_modules/expressworks/node_modules/workshopper/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
-https://raw.githubusercontent.com/pedrorijo91/nodejstutorial/db4c991864e65c4d72e98a1dc94e33606e3adde9/node_modules/functional-javascript-workshop/node_modules/workshopper/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
-https://raw.githubusercontent.com/pedrorijo91/nodejstutorial/db4c991864e65c4d72e98a1dc94e33606e3adde9/node_modules/levelmeup/node_modules/workshopper/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/Chilledheart/glibc/a75b89b7763571640af5ed74d164bdf04121bdfc/scripts/pylintrc
 https://raw.githubusercontent.com/filippov70/qVertex/1c12c831b7bcd100434d90411421c1d6da63ef4a/QVertex/pylintrc
 https://raw.githubusercontent.com/xiaket/etc/2a965bfe3ac659ff59f93af09f7fc654ac4496e6/pylintrc
@@ -865,7 +802,6 @@ https://raw.githubusercontent.com/nezaj/tdd-with-python/7617766366202bc11f96690c
 https://raw.githubusercontent.com/jmbruel/jmbruel.github.io/2562eeaeba177a222d1191d1b11b3b8dde1a3d0e/vendor/bundle/gems/pygments.rb-0.5.4/vendor/pygments-main/scripts/pylintrc
 https://raw.githubusercontent.com/andrewlaskey/jekyll-blog/c6cdbae36da8e1d765b292b0bc3e4738e504ddad/vendor/bundle/gems/pygments.rb-0.5.4/vendor/pygments-main/scripts/pylintrc
 https://raw.githubusercontent.com/mer-tools/python-pygments/105faef8d5cf0b2c23bbd2fae620913dcd4158b3/python-pygments/scripts/pylintrc
-https://raw.githubusercontent.com/ctesene/homepage/b32d1b069adb3d9df6fa22e7e50f90debd1416fa/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/yesudeep/cmc/8d7a2ea7a5a7fdf87fb9d7b8696913148145cdfe/app/jinja2/scripts/pylintrc
 https://raw.githubusercontent.com/yesudeep/greatshipgroup/28530867683da44fd5f50e648972650a7ae5320a/app/lib/jinja2/scripts/pylintrc
 https://raw.githubusercontent.com/zenoss/ZenPacks.zenoss.AWS/3f9fd379cfac4e78129304bef065054dad42ae63/src/boto/pylintrc
@@ -877,7 +813,6 @@ https://raw.githubusercontent.com/riannucci/rietveldv2/7ac9c0082d6810a72ad998b8c
 https://raw.githubusercontent.com/SMARTEDU/MOOCS-OPENEDX/29c2861958dbc9c1a11b712e546ab5f1d3b3dfae/edx-platform-master/pylintrc
 https://raw.githubusercontent.com/xiandiancloud/xiandian_MOOC/45dc8355712a47a01a474cddfb7ea26e9c6ae7d1/edx-platform/pylintrc
 https://raw.githubusercontent.com/libyal/libyal/0e0390c3ea299b6ef43f22d8547757917393b121/utils/pylintrc
-https://raw.githubusercontent.com/wghust/anamary_blog/924d590189580569b5687bc2cc9b18d14fdb49f5/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/demarcog/Crs_Id/241f0fd27eea90c3ddda5d138236919aea3d834d/pylintrc
 https://raw.githubusercontent.com/certik/sphinx/7f06e12c82fe5a883c049499b5e994d379d8f78d/utils/pylintrc
 https://raw.githubusercontent.com/IceMupppet/pygments/cdf2428e59a79ed5c96bec27afd6375ebe1d4eeb/scripts/pylintrc
@@ -909,7 +844,6 @@ https://raw.githubusercontent.com/openwns/documentation/f21b8377b87f6f322c5cc182
 https://raw.githubusercontent.com/getopinionated/getopinionated/9d8767112ca43c50e2ff271d7735f7ef068bbe91/pylintrc
 https://raw.githubusercontent.com/edx/js-test-tool/1984065ca5446a30118887a092b6b57c2bd555f6/pylintrc
 https://raw.githubusercontent.com/daniel-star/medusa/7e982ad693a259c88886013efc53126e24759a79/pylintrc
-https://raw.githubusercontent.com/montls/b_rabbit/cf7b1207eaf4b5c31a32bb60370be93a4836f3db/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/dgilland/ladder/d636faa2092013561e02987388be82f016f73dcc/pylintrc
 https://raw.githubusercontent.com/scrogson/pygmex/fb5154d3647b0e31120fbe6a82f49b12f009423d/priv/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/g-sherman/plugin_build_tool/d350f759997a8390a3736b4eeee035bd4c7d2560/test_plugin/pylintrc
@@ -921,13 +855,11 @@ https://raw.githubusercontent.com/sphinx-doc/sphinx/7b8a984babfd9bfb11fbb7212cb0
 https://raw.githubusercontent.com/jrottenberg/nagstamon/c765fcfaf8c0bb0de54c51d126b85b4b5b31a8e8/tests/pylintrc
 https://raw.githubusercontent.com/CyberMameCAN/cybermamecan.github.com/e47035c73d7e9f53e9aab93724905e179135a358/vender/bundle/ruby/1.9.1/gems/pygments.rb-0.5.0/vendor/pygments-main/scripts/pylintrc
 https://raw.githubusercontent.com/CyberMameCAN/cybermamecan.github.com/e47035c73d7e9f53e9aab93724905e179135a358/vender/bundle/ruby/1.9.1/gems/pygments.rb-0.5.2/vendor/pygments-main/scripts/pylintrc
-https://raw.githubusercontent.com/doctorOb/thoughtsbydrob/bf7c618bf1ba6dd1df83f171e477fdb5fbcac813/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/paulproteus/hackbright-django/955f38a66208f4362f558d2878088fbca16071ea/vendor/packages/Pygments/scripts/pylintrc
 https://raw.githubusercontent.com/paulproteus/hackbright-django/955f38a66208f4362f558d2878088fbca16071ea/vendor/packages/sphinx/utils/pylintrc
 https://raw.githubusercontent.com/chrisfilda/edx_platform/0fee7d9c8f4332da462dc4bbdaf6f2ee2a17c00e/pylintrc
 https://raw.githubusercontent.com/fernandodm/sistemasoperativos/d9bb4e07a21b5fe28cf2a1646baf9b2376219ae0/OS/tests/build/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/infoxchange/supervisor-logging/9ff65ec0399030816cc3b1c26d4f54e268f950cf/pylintrc
-https://raw.githubusercontent.com/itsdan/danyakim.com/a32479d602e867e7143d59c8f46e59f9d21bd2a0/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/niconoe/qgis-dwca-import/636d6141e2d818a8b3f08c2a51c8f2fa06938117/pylintrc
 https://raw.githubusercontent.com/Phonebooth/depot_tools/acd3df37b2e7891948a1a3e20435f2945cc152d4/pylintrc
 https://raw.githubusercontent.com/tapanila/Portable-Jekyll-Azure/9f0b888f8bc3ddb8a04497e44c05266f6309dd9e/ruby/lib/ruby/gems/2.0.0/gems/pygments.rb-0.6.0/vendor/pygments-main/scripts/pylintrc
@@ -943,7 +875,6 @@ https://raw.githubusercontent.com/ivanbusthomi/EqDistant/83e61eabbccb5bb18f9fbc1
 https://raw.githubusercontent.com/plushcms/PlushCMS/073bf213c100b66eba8515d2a4f9b45f47566b3a/syntaxhighlight/scripts/pylintrc
 https://raw.githubusercontent.com/wingu/flask_filters/7313d19c81dc13369c6680dc2f331f466f45f781/pylintrc
 https://raw.githubusercontent.com/morpheby/levelup-by/9bed5c5c6a303335fbdf356098bd1796cad98dd2/pylintrc
-https://raw.githubusercontent.com/morpheyesh/ghostblog/c1d1df2706a4fb0a679e44a6fc9cdccdd28fd5e2/node_modules/grunt-docker/node_modules/docker/node_modules/pygmentize-bundled/vendor/pygments/scripts/pylintrc
 https://raw.githubusercontent.com/yangtze736/glibc/c7c5ecbdc4b50ffbb47c6607bf4481d8ee261e8c/glibc-2.20/scripts/pylintrc
 https://raw.githubusercontent.com/IsaacHuang/google-cloud-sdk/52afa5d1a75dff08f4f5380c5cccc015bf796ca5/platform/gsutil/third_party/boto/pylintrc
 https://raw.githubusercontent.com/TheApacheCats/yum/5c9c8db7b380457f71482a5ed28cd5fdb653a37b/test/yum-pylintrc

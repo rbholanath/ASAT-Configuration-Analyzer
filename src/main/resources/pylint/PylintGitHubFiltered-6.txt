@@ -94,7 +94,6 @@ https://raw.githubusercontent.com/cablelabs/webkit/2443bb93346757472de1247786c51
 https://raw.githubusercontent.com/python-dirbtuves/akl.lt/b45301b8523a8bf946a837a84fad0a252e4b23d8/pylintrc
 https://raw.githubusercontent.com/allanderek/pepapot/c0b73d9a675a0fa982cc5af1a539d3d031b611f8/pylintrc
 https://raw.githubusercontent.com/dgilland/carafe/f87ad9208094c604eaa57dfd8f848cee71b7daad/pylintrc
-https://raw.githubusercontent.com/potaka/first_app/623bce19722db4daa80d2d1eabb001377305a4eb/nodejs/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/timduru/platform-external-chromium_org-third_party-WebKit/eddc882606de21f164d7d87ff944e36e0b0203cf/Tools/Scripts/webkitpy/pylintrc
 https://raw.githubusercontent.com/VFLashM/config/c0e3b3c3bc238a07c901c428c8334596e2ddb00e/pylintrc
 https://raw.githubusercontent.com/danieldg/xen-unstable/54038173cc4ae2cc6285db703651d0a98f8e160e/tools/python/pylintrc
@@ -147,7 +146,6 @@ https://raw.githubusercontent.com/Tungstwenty/Sony-XperiaZ-sources/66fc4103b5e5a
 https://raw.githubusercontent.com/getfeus/xen-4.2.1.bak/d6635bae68daae3a42e532f7c7a15ef528a54eec/tools/python/pylintrc
 https://raw.githubusercontent.com/tklengyel/xen/27b7b77f9ed9b1a8c56e591df0ab39aa4309a7a4/tools/python/pylintrc
 https://raw.githubusercontent.com/mer-packages/qtwebkit5/d912a2ce7f7f8e7ea5fc3378af6f54057a1dae35/qtwebkit/Tools/Scripts/webkitpy/pylintrc
-https://raw.githubusercontent.com/hilglg/Backbone_learning/ec3022dd02eebc078b777d359f2039bcf509e0b9/nodejs/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/phiLangley/reMakehuman/e2dde423bc5ff879698a63b3319b78632a795391/makehuman/pylintrc
 https://raw.githubusercontent.com/Matricom/external_chromium_org_third_party_WebKit/14322503c1633c9522003b5ad05ed6b6326eff51/Tools/Scripts/webkitpy/pylintrc
 https://raw.githubusercontent.com/cyface/django-termsandconditions/f193d0f608ed7e641d2635f0021ec43b28d3fd90/devscripts/checkers/pylintrc
@@ -195,7 +193,6 @@ https://raw.githubusercontent.com/grhawk/ASE/5081daa5d27e1b2edd9ab4b55dbd7a3d134
 https://raw.githubusercontent.com/mmueller41/cps-xen/7c8f00ff0daef5967c8c9e040c21609577453a4f/xen-4.1.4/tools/python/pylintrc
 https://raw.githubusercontent.com/robhoes/xen/c17eb342efa91420756eab7913bd8dd11d0dbbc7/tools/python/pylintrc
 https://raw.githubusercontent.com/coruus/pottery/13f03ec4412796e797f744362928e15753f6bbda/pylintrc
-https://raw.githubusercontent.com/erwin058/erwin/06bcaa7e766b2999f14d15d0a0b0cbb9d10bcdca/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/sr76/exciting/54bc1468043401196efa92ca3b90beeb5097057c/tools/ase/doc/development/pylintrc
 https://raw.githubusercontent.com/Metrological/webkitgtk/b7969ed6e1518eb41e10a37e962e347b2d03101e/Tools/Scripts/webkitpy/pylintrc
 https://raw.githubusercontent.com/moksha11/xen-hv/01b709dcc18813de38966a994e4565751c606769/tools/python/pylintrc
@@ -266,7 +263,6 @@ https://raw.githubusercontent.com/jsoffer/eilat/16209f42b2cd1e736b24dbe784a4c33a
 https://raw.githubusercontent.com/carymrobbins/dev-env/2d1b4453f892ad68ea294ee91e2074080c83bb2d/pylintrc
 https://raw.githubusercontent.com/KyleMarMc/github_webhook_handler/b1e56712f46c318c737b7a211f6f9126e0604adb/pylintrc
 https://raw.githubusercontent.com/trevorlinton/webkit.js/15306b5c540ccafc3be008225eafebd1932d356d/deps/WebKit/Tools/Scripts/webkitpy/pylintrc
-https://raw.githubusercontent.com/Ruiqi-Alipay/AutomationEnvironment/dd824d684b41a85e6335d6fee78a127ae269842c/environment/nodejs/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/Konvexum/citycloud/3c46ca5bccd0954d8867ef41f376051ca8dab61f/pylintrc
 https://raw.githubusercontent.com/keishi/webkit/adfdb1fcd98a2ebf5e90f6302585da5fefcb5576/Tools/Scripts/webkitpy/pylintrc
 https://raw.githubusercontent.com/xujb/WebKit/7f54110756d266af1bfee4769e6bbf324a9326a4/Tools/Scripts/webkitpy/pylintrc
@@ -288,7 +284,6 @@ https://raw.githubusercontent.com/osantana/personal/1f68390549f08205716086b41a10
 https://raw.githubusercontent.com/crosswalk-project/blink-crosswalk/275da94cd4eb439bf796751fabe60d4acc2e50a6/Tools/Scripts/webkitpy/pylintrc
 https://raw.githubusercontent.com/nbphuoc/qtwebkit/1f148c0b6ed46a2353328247958ccc6b83115150/Tools/Scripts/webkitpy/pylintrc
 https://raw.githubusercontent.com/niklasberglund/freesprints/c35c673784e7faf324a7661d017570a322b45ecd/misc/pylintrc
-https://raw.githubusercontent.com/yroffin/jarvis/9661216dec85d994f7e7d14397751928cba5b15d/jarvis-core/jarvis-nodejs/node/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/bwibbwz/dimer/1c6d4919cbfa1c9397625566c80c60c8cc9b718a/pylintrc
 https://raw.githubusercontent.com/jcelliott/inquire/9a9db3eb36577de0108c192d59bb63c5f79f9ede/pylintrc
 https://raw.githubusercontent.com/jonludlam/xen-arm/f2dcc85d58001aaa27f99d2bd37a6c2d3b4b8296/tools/python/pylintrc
@@ -298,7 +293,6 @@ https://raw.githubusercontent.com/edx/edx-notes-api/3e5e4b7bd9c62af56e3a84e3d4e4
 https://raw.githubusercontent.com/bobisme/dot/95fa7467b1927a634e853066fb1550fc7f57e220/pylintrc
 https://raw.githubusercontent.com/justuswilhelm/filtero/017811a0200ef6550de410e5d37ca5b2402ff10b/pylintrc
 https://raw.githubusercontent.com/blackberry/WebKit-BB10/ef835e59b95c47914e1428b7f273b53c1b46184c/Tools/Scripts/webkitpy/pylintrc
-https://raw.githubusercontent.com/webitel/core/f4fda228620b5d5e8fb22e8677aa252368f698a9/src/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/gwcloudlab/mortar/c8852435dc54369c403aa7570c3d80cc87db4be5/xen-4.1.2/tools/python/pylintrc
 https://raw.githubusercontent.com/xlcnd/isbntools/023fcd3ccafe731d45295d296b6d5a129ec3e444/pylintrc
 https://raw.githubusercontent.com/mobify/mobify-code-style/b3a4e09afa8e28ea53f031dbc0263382fc10db40/python/pylintrc
@@ -307,7 +301,6 @@ https://raw.githubusercontent.com/jamslevy/gsoc/e995e1a8d34e0291ab988ba501ae4efc
 https://raw.githubusercontent.com/adobe/webkit/044126629b2e175119722f58a0098220e0aa0b33/Tools/Scripts/webkitpy/pylintrc
 https://raw.githubusercontent.com/KDAB/WebKit/81a81edac0903c8700650a766876e4713ee90231/Tools/Scripts/webkitpy/pylintrc
 https://raw.githubusercontent.com/zhuminjun/gitxen/debe3a4a43076b1a1ba321318af96cab37d18f89/tools/python/pylintrc
-https://raw.githubusercontent.com/sunshead/Llama_Power/41585fbdc814f21d1ea5c3899be07726d8540d71/llama/node/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/emsenn/stirling/014ed6fd4b7e4705cb1a637ad797599b369b2bdd/pylintrc
 https://raw.githubusercontent.com/bjzhang/xen/ba9ef879973f9bee4b72c8f1d3ef816bc58e5fdc/tools/python/pylintrc
 https://raw.githubusercontent.com/loveunk/XEN4.4-CC/7c12903d8b202dde7b1cd8af8965ba955ca74986/tools/python/pylintrc
@@ -350,7 +343,6 @@ https://raw.githubusercontent.com/nedbat/coveragepy/d8b280766219980bd383b84d4b1d
 https://raw.githubusercontent.com/dzan/xenOnArm/dc5bf371143034be7b5a772bf84f8e37bb92297d/tools/python/pylintrc
 https://raw.githubusercontent.com/KarimAllah/xen/9a28170f2da2fff0b26736909b74e93d52351b1f/tools/python/pylintrc
 https://raw.githubusercontent.com/wkhtmltopdf/qtwebkit/70abbd8a50706efd5c489b82989d4c4ad5c15c80/Tools/Scripts/webkitpy/pylintrc
-https://raw.githubusercontent.com/Cestt/RescueLander/a33bd2a6cec94651f854dc4d25d8f69901c5e4da/RecueLanderMp/server/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/crosswalk-project/crosswalk-android-extensions/040c6d070f26086883aec88ebd478d3d1c78a9e9/build/idl-generator/third_party/WebKit/Tools/Scripts/webkitpy/pylintrc
 https://raw.githubusercontent.com/mardy/qtwebkit1quick/29ba85e0997af2fe354ff000a1f90e7376fa02dd/Tools/Scripts/webkitpy/pylintrc
 https://raw.githubusercontent.com/podiobooks/podiobooks/9d16cdb42b356db766f72d0de2de33467f9245cf/devscripts/checkers/pylintrc
@@ -368,7 +360,6 @@ https://raw.githubusercontent.com/menrcom/xen/731e4fe5f2fc336304069d22583f120d63
 https://raw.githubusercontent.com/PennPanda/xen-arm/1e8b55346c7536a16271ac35209dbc584ce88ea3/xen/tools/python/pylintrc
 https://raw.githubusercontent.com/dmargala/qusp/63fbff01c1ef555f0aec7b24ebdc89fa4e1d9e3c/pylintrc
 https://raw.githubusercontent.com/primiano/blink-gitcs/0b5424070e3006102e0036deea1e2e263b871eaa/Tools/Scripts/webkitpy/pylintrc
-https://raw.githubusercontent.com/RomainStage/sara/f3e513ee98da0cab0138b4387c5baae83d893bce/protected/js/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/ganwell/ships/bae0d970fa4a38a055e1230ee1fe510b19bc644a/pylintrc
 https://raw.githubusercontent.com/EntilZha/dotfiles/dc3b49a4fd34a49251251dffd8be33566c3292a0/pylintrc
 https://raw.githubusercontent.com/modoboa/modoboa-radicale/f8d47a9bfc989c84c91c65634ece6fc5fe81a3fe/pylintrc
@@ -377,7 +368,6 @@ https://raw.githubusercontent.com/arter97/android_external_chromium_org_third_pa
 https://raw.githubusercontent.com/mfwarren/NagServer/a5da66a0895e738f551cc8af1b9d419eb323a5f7/pylintrc
 https://raw.githubusercontent.com/pignacio/chorddb-django/7e412b98e438fbfead1b3446c59e0141a0df8e1d/chorddb_django/pylintrc
 https://raw.githubusercontent.com/adviti/melange/6bbd1674c99fe285596e46e738856a82afe036af/scripts/pylint/pylintrc
-https://raw.githubusercontent.com/caplin/qa-browsers/d704a8ee54bdfd90a7d9908547bc31c5f3103534/nodejs/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/shenyibin/xen/56bbdea25d3b333103d5b274a61846b10d1fb261/tools/python/pylintrc
 https://raw.githubusercontent.com/dushyantbehl/xen.git.fork/f093fcf90f420b18429dcbc6c91f9393171634ce/tools/python/pylintrc
 https://raw.githubusercontent.com/rackerlabs/fastfood/4921c49cfd304243f7a85fe26ea4df783c4d6c94/pylintrc
@@ -387,7 +377,6 @@ https://raw.githubusercontent.com/FilipeMaia/owl/0a8e29d48a7ece7b34b9d4ef0023841
 https://raw.githubusercontent.com/cybeliak/Tiphereth/000781a6a3cdac59d410309ad5f77ca07cd61608/pylintrc
 https://raw.githubusercontent.com/sos22/minios-hacks/1974a7e3b8276c9586df83707ee3c6d20c7d0d0a/tools/python/pylintrc
 https://raw.githubusercontent.com/gwcloudlab/xen-interference/a25411893f465a04666ed27c45996d6a2d0d0509/tools/python/pylintrc
-https://raw.githubusercontent.com/sghosh79/sample_app/631f67ff89f7583e5cfe9b367d9050a5de4a2418/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/arrdalan/xen_dfv/047af90f5b41f239e709954830576ec0beed1ad2/tools/python/pylintrc
 https://raw.githubusercontent.com/abligh/xen4.2-minideb/0b6226e199779722f8dfe058583381ad19b024de/tools/python/pylintrc
 https://raw.githubusercontent.com/IllusionRom-deprecated/android_platform_external_chromium_org_third_party_WebKit/f6f523a064b733bcb9f51678d67eb07650b51213/Tools/Scripts/webkitpy/pylintrc

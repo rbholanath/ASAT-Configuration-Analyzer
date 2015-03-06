@@ -424,7 +424,6 @@ https://raw.githubusercontent.com/knoid/smart-agnc/4193394064dde43bcce1b4d8a79c3
 https://raw.githubusercontent.com/NewpTone/stacklab-cinder/1cb3a4f69cdb9706666b5d2a4679ef31adb4d0a1/pylintrc
 https://raw.githubusercontent.com/bigdocker/cloud-init/b54ab7a6de0818e7f3de6bab3d88c9682f790f49/pylintrc
 https://raw.githubusercontent.com/lorien/selection/05548c739430ab1eaaf59189161c097739e7c562/pylintrc
-https://raw.githubusercontent.com/dsprague1/yeti/df6812448a88dd47173311a9877e3c15b612d18f/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/houshengbo/nova_vmware_compute_driver/38946f7cf87ab0eae107149a77a9f329f0015938/pylintrc
 https://raw.githubusercontent.com/vpelletier/neoppod/fd54ea96a6962142d597b5e03b26afc58d8b2601/tools/pylintrc
 https://raw.githubusercontent.com/arilaen/travel-mit-site/6cbe6b7ccb4581b92d6033267dddaa7adb4717f1/travelsite/pylintrc
@@ -450,7 +449,6 @@ https://raw.githubusercontent.com/d910aa14/bin/5cdb188a671fbe8bfb45ae183c81d38b8
 https://raw.githubusercontent.com/tucbill/manila/d24b76b4d7d1c6ae49b0ee147ff7f30c2507bd26/pylintrc
 https://raw.githubusercontent.com/pre-commit/pre-commit-hooks/9d1ac3273b2dcf4c82a45ceceb69092cd0ef3784/pylintrc
 https://raw.githubusercontent.com/saleemjaveds/https-github.com-openstack-nova/6def23d4b0f77d74cd06b3db750fd57a98345223/pylintrc
-https://raw.githubusercontent.com/ahmedhanyfawzy/git-rep/17661284745b0c4d318f6959eb42c16c34551b3f/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/jeffreycoho/nova-folsom-201204271932/1ef797d90896569f95eea9fb6e5781fa7752a53b/nova/pylintrc
 https://raw.githubusercontent.com/quattor/aquilon/6c8b90b47b19a41d974a41050e6de9e9ad850ae0/tests/pylintrc
 https://raw.githubusercontent.com/Yelp/yelp_uri/16fe29da04496e43a2375b14af2fe7bca8babd72/pylintrc
@@ -462,9 +460,7 @@ https://raw.githubusercontent.com/markmc/heat/feb98c5c261fa69c0d251329ac25b65a5f
 https://raw.githubusercontent.com/jayofdoom/cloud-init-debian-pkg/2fdb6b1f3ad88d20040328671055a31282660a36/pylintrc
 https://raw.githubusercontent.com/phucvdb/glance/0ae3845c28bd3c1523c2491f6090593dd9ec118e/pylintrc
 https://raw.githubusercontent.com/hagleitn/Openstack-Devstack2/88d3effc70c6479bba276856285dcb3974d76261/pylintrc
-https://raw.githubusercontent.com/ashleighanderson/First-HTML-Challenge/200dae14cb5745fdccc6c44c31292f10410d60e7/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/GinnyN/towerofdimensions-django/75e935f6a4af66058ec0f1d85b4f89d2a51ddf78/openid-python/pylintrc
-https://raw.githubusercontent.com/sesummers/project/3499b08907e6bce1832d0af99856c6cc7d0769ff/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/stackforge/doc8/abf18145403ef089651c53f64a14dea0525ab927/pylintrc
 https://raw.githubusercontent.com/yandex-sysmon/obedient.powny/1367b11f3161999b3f8ac5e4a319d04c989c48cb/pylintrc
 https://raw.githubusercontent.com/pengpengxp/.emacs.d/22e1fe533f8db6f876252f49a0bc76dee06c7e6b/site-lisp/flycheck/test/resources/checkers/config-files/pylintrc
@@ -478,7 +474,6 @@ https://raw.githubusercontent.com/ntt-sic/nova/d8d5e4c4e30d0e605001ebab9f19005d2
 https://raw.githubusercontent.com/flatrockgeo/syntax_checker/12e5e1cde326aae89fa20342ba4ff76fba7f5011/config_files/pylintrc
 https://raw.githubusercontent.com/superstack/nova/6f3f188e4ca9136f293ecf4b9813a7615c7a5929/pylintrc
 https://raw.githubusercontent.com/dtroyer/cinder/c72cc4b2345e9e271205d1de00c9812d0a2684ec/pylintrc
-https://raw.githubusercontent.com/owdiller/my/ca414906a07952f6cdfa56475bf98ab16a177340/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/MaienM/dotfiles/bbbc2d787624b9a5a384477b21641b8ffbc3e511/pylintrc
 https://raw.githubusercontent.com/dmnd/streak-algos/4c86b8cc36a371b08a1b48a5cd651c3c55200fdb/pylintrc
 https://raw.githubusercontent.com/peery/cinder/69819f3bdcc22b4d3eacaad0fd28b910c4c49663/pylintrc
@@ -490,7 +485,6 @@ https://raw.githubusercontent.com/zz7a5pe4/x7_dep/9a216e6fa3abdba1f63f9d36a4947c
 https://raw.githubusercontent.com/ntt-sic/taskflow/66c422873f8072f4e1ccf86f98775c505a1c43a6/pylintrc
 https://raw.githubusercontent.com/sassoftware/rbuild/71411e6950ce67fe58a3e94ac16c190dda5f1cce/pylint/pylintrc
 https://raw.githubusercontent.com/NetApp/manila/7456e27f67d8e172bf2358b12ddc0596fa477717/pylintrc
-https://raw.githubusercontent.com/gwhy/demoapp/c83fe0b53b6f20bf9311c9177723354ffc1b5e51/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/clorieanne/account/b54f8e119ae88593bb316b6d02466ba44250297e/pylintrc
 https://raw.githubusercontent.com/JiYou/openstack-ubuntu-14-04/ec311d0afc6d7d9fed312871e7325fc3ba73974a/chap19/monitor/monitor/pylintrc
 https://raw.githubusercontent.com/JiYou/openstack-ubuntu-14-04/ec311d0afc6d7d9fed312871e7325fc3ba73974a/packages/source/cinder/pylintrc
@@ -505,7 +499,6 @@ https://raw.githubusercontent.com/bukzor/lisppy/f97a17ba056b67fc2d136e8112e86a7d
 https://raw.githubusercontent.com/asciimoo/dotfiles/eb635ffab68783f0d769239185d07ccd642d8a44/pylintrc
 https://raw.githubusercontent.com/SBoudrias/generator-py-microlib/d8a3134a02a5e5a8bbe7d911f3491c09c8ed064a/pylint/templates/pylintrc
 https://raw.githubusercontent.com/SBoudrias/generator-py-microlib/d8a3134a02a5e5a8bbe7d911f3491c09c8ed064a/pylintrc
-https://raw.githubusercontent.com/KillerCases/enterpriseape/aad0cf8ec840272032eec332b3e04276b8a9ec8e/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/depassp/dotfiles/ef8b73d45163f6391e44d0ab713015b81925e63e/pylintrc
 https://raw.githubusercontent.com/danthedeckie/streetsign/ac4ea550c95ec6ce5f65db39e3600d84bec31ae3/pylintrc
 https://raw.githubusercontent.com/coddingtonbear/chrome-edit-server/56b740d4347c075b50a7950fa67c6e19c0790ef8/pylintrc
@@ -527,7 +520,6 @@ https://raw.githubusercontent.com/tellesnobrega/keystone_hierarchical_projects/b
 https://raw.githubusercontent.com/asottile/aspy.yaml/b14f9b2432c0c1a7402ff878ee2815ab19704aa3/pylintrc
 https://raw.githubusercontent.com/ccraciun/dotfiles/ef62cc4e7a5ca3c34714438130bf7bb1dc221084/pylintrc
 https://raw.githubusercontent.com/mathcamp/steward/a7830553e6e933ecb503f5b9becdd35fdd9051da/pylint/pylintrc
-https://raw.githubusercontent.com/jmrcounseling/courseproject/492fe1742ac8892fab15d553f6ce330e6894d1a7/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/blamarvt/openstack-common/668b7dbf6a3a33f0ba00e4265dcdf3b0e13901dd/tools/pylintrc
 https://raw.githubusercontent.com/photo/openphoto-python/209a1da27c8d8c88dbcf4ea6c6f57031ea1bc44b/pylintrc
 https://raw.githubusercontent.com/cmusatyalab/vmnetx/80ca5cf41b2583ed509aa260e8bcb39c8b1893bc/pylintrc
@@ -535,7 +527,6 @@ https://raw.githubusercontent.com/Robpol86/libnl/110f6773efec605fd26f85e6747e85f
 https://raw.githubusercontent.com/stackforge/satori/6cabc1773ddcd1c1791e0df358a125caf8f8b8ac/pylintrc
 https://raw.githubusercontent.com/stackforge/poppy/094dc1dd5ca1845526e330d5fd9890dd1c89ae36/pylintrc
 https://raw.githubusercontent.com/viggates/nova/34449a5252e61b38d0a37188a7ea1834f968c441/pylintrc
-https://raw.githubusercontent.com/ashleighanderson/test-upload/5ee434fa33682fa53fb0e3153824644bcca01b6a/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/sassoftware/restlib/1f535cd28565f03deeaee157c40b1e88db3476ff/pylint/pylintrc
 https://raw.githubusercontent.com/dirko/pyugm/5df9c2dc539374d68335a616a0ba5f6897b6e106/pylintrc
 https://raw.githubusercontent.com/openstack/taskflow/e72a02d97043120195c237b567d83e39c3c3feda/pylintrc
@@ -549,8 +540,6 @@ https://raw.githubusercontent.com/devoid/nova/c32c01e08dccad921b4af6fc03d971d6e7
 https://raw.githubusercontent.com/TieWei/nova/da72dc0e85ab0a012a6e9e87ce925e942453b034/pylintrc
 https://raw.githubusercontent.com/davedoesdev/python-jwt/6d43be19859fea88d24306d3d77829949a1414a3/pylintrc
 https://raw.githubusercontent.com/Wooble/gaeflickrlib/d79d86e4b02947f96d40b625e77465cf156aeb57/pylintrc
-https://raw.githubusercontent.com/Anson2048/master/d4fe5926057e21400fcb051f3e8e236492f0fc6f/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
-https://raw.githubusercontent.com/alexandregiordanelli/meteor/35faf21164753346bed8cbad7bd6dbb1ddf2fdac/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/JohnGarbutt/taskflow-1/adc37bd3d057b8e913415218c795c579db06ab3b/pylintrc
 https://raw.githubusercontent.com/JiYou/icehouse/6974dae34e1486385602b9c605b74c7509b9a0a5/glance/source/glance/pylintrc
 https://raw.githubusercontent.com/JiYou/icehouse/6974dae34e1486385602b9c605b74c7509b9a0a5/nova/source/nova/pylintrc
@@ -562,7 +551,6 @@ https://raw.githubusercontent.com/axbannaz/vbox/ed9699565868fdea1afc8f5507cd7d3f
 https://raw.githubusercontent.com/119Vik/nova_learning/b5a05d146b40d21615573c85848d3191658fa45e/pylintrc
 https://raw.githubusercontent.com/xiongjia/vim-fanfou/800b3181d658269985f6f642ac707198dc7f472c/plugin/vim_fanfou/pylintrc
 https://raw.githubusercontent.com/sassoftware/spanner/4172b3af22b87d23512a91e0bdb02d69a8b0286b/pylintrc
-https://raw.githubusercontent.com/moris35/sample_app/2e3e4f5780145a99ea4e5d54ee4bd15187d7cbdc/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/kevinjohnston/emacs-config/7cad98df5d6b729a7fbb7164208dee8767d1c4a8/.emacs.d/flycheck/test/resources/config-files/pylintrc
 https://raw.githubusercontent.com/joshuakarjala/django-hunger/b057d0f6f2797489b0896470ce7427a5b2019e65/pylintrc
 https://raw.githubusercontent.com/sanga/dotfiles/7638d234494ae4c189bdb6f741e00b44993160e2/pylintrc
@@ -604,20 +592,16 @@ https://raw.githubusercontent.com/CiscoSystems/python-melangeclient/052b7fe901d2
 https://raw.githubusercontent.com/nburns/dotfiles/cc53febb62693eb0a5acf819ba4705d24cb01f16/pylintrc
 https://raw.githubusercontent.com/ntt-sic/heat/51687479e53c84f727f43d0df40dcd80b718383e/pylintrc
 https://raw.githubusercontent.com/paulmathews/nova/6d3cf9010a45edb16f28b2582eafe35666381d1f/pylintrc
-https://raw.githubusercontent.com/kalpesh2001/Compiler/3b6b5b36b9b524c5bf411c439eae06bfdac95260/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
-https://raw.githubusercontent.com/lost1717/first_app/f7afb292a6c718b107d1284ee2b908d4694f5168/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/adieu/python-openid/03773fb96dff352bbda12538726dc5c46fe0316c/pylintrc
 https://raw.githubusercontent.com/sridevikoushik31/openstack/3832a9abe13fcc09870e749c995ef91707bcedf3/pylintrc
 https://raw.githubusercontent.com/edx/diff-cover/d11f9d346f3e1fe71279f7ed2ce77b4b71557d82/diff_cover/tests/fixtures/pylintrc
 https://raw.githubusercontent.com/lddubeau/glerbl/935e25da8557e1b97d18bf2a18bc700af4a38bf7/features/pylintrc
 https://raw.githubusercontent.com/lddubeau/glerbl/935e25da8557e1b97d18bf2a18bc700af4a38bf7/pylintrc
 https://raw.githubusercontent.com/kentwills/bower-registry-packages/bd6fea1a629d8172231d7234ea951db5c2c2033d/pylintrc
-https://raw.githubusercontent.com/orlined/Nitrous/7cf8dcdd5147ab0a59fedb7a774089a6dea0d7fa/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/rajarammallya/melange/ddca7833094cdab57129a9d30705331f06e25840/pylintrc
 https://raw.githubusercontent.com/30loops/nova/39cc0697b015c90c2086256e7da14b4127b3790e/pylintrc
 https://raw.githubusercontent.com/mdaniel/virtualbox-org-svn-vbox-trunk/0af8fde2c7251c83526c4d71f48efbb67e028841/tools/pylintrc
 https://raw.githubusercontent.com/aostapenko/manila/cb7449c206f3207c047ee61fee437a05bc68e4fc/pylintrc
-https://raw.githubusercontent.com/tannersteward/cd-organizer-assessment/ae51d517c3259a2f3b73ccbc66f5e66648e33599/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/lusis/vim-configs/4fc42fd07cf0041eeee8821d5441a650ac817486/pylintrc
 https://raw.githubusercontent.com/dave-shawley/fluent-test/cf56b014d085a2478135fe89feb93edb20591781/pylintrc
 https://raw.githubusercontent.com/nijel/imap-utils/0a808b4ec12f67ad1bc1912cc68948af9c4ea961/pylintrc
@@ -627,7 +611,6 @@ https://raw.githubusercontent.com/heckj/benchmarker/350634d314277dd0f0362e482f1d
 https://raw.githubusercontent.com/maxmind/GeoIP2-python/484b98ebe68bb15a1779dd58de2c7717689d1f4d/pylintrc
 https://raw.githubusercontent.com/jeremygray/pyfilesec/af69e1e87bcdfb8d1f16963d15874ab8633e3cb4/pylintrc
 https://raw.githubusercontent.com/119Vik/cinder_learning/fd8c67944f6471c0ea1cc1f0c178511308335dbc/pylintrc
-https://raw.githubusercontent.com/mishimayuji/workspace/a4ca3b704195e2aa8c9239342e609a23403d13e2/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/redhat-openstack/cinder/72ceaa24ee86ed59d3f3f4755e11a8eb2f741ef2/pylintrc
 https://raw.githubusercontent.com/adamwen829/config/e73c0101471ed67ef36932eb9444738b95904ec7/pylint/pylintrc
 https://raw.githubusercontent.com/bgilbert/scanvark/0bf51e00527428b127c13bd29dfa1169fc20b0ee/pylintrc
@@ -647,7 +630,6 @@ https://raw.githubusercontent.com/luogangyi/bcec-nova/b9f52f0f74e86f9d7694b7145f
 https://raw.githubusercontent.com/stackforge/vmtp/09baadba2cc75a9f3b44c109b5fe49ca63d44b59/pylintrc
 https://raw.githubusercontent.com/maxenced/dotfiles/410e78afd855253aaaa8f2e201fad6a610f658ed/pylintrc
 https://raw.githubusercontent.com/rrader/nova-docker-plugin/8e748dfa049318e2689fefb619e4dfeb6bafd0dc/pylintrc
-https://raw.githubusercontent.com/marinatedpork/learn-rails/04914b156fcef988be0d970938331c4af079ea3a/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/cristy95/Recorder/cb9a93baabd507cb6436c100ebc9e94fa8cb0634/pylintrc
 https://raw.githubusercontent.com/brettcannon/caniusepython3/7ee65599b35becc783b32ddc59ff40d7dfb9cf13/pylintrc
 https://raw.githubusercontent.com/RedHatQE/rhui-testing-tools/4daf12357e158d12deec5b8144c0c789d253de29/pylintrc
@@ -672,22 +654,18 @@ https://raw.githubusercontent.com/pombredanne/MOG/18bfe4993d755f1f1d05d5b2969593
 https://raw.githubusercontent.com/petrutlucian94/nova_dev/0b597f1248d75de9e3cce1163088012b77e0dfbf/pylintrc
 https://raw.githubusercontent.com/abrarsheikh/lind-fuse-fs/76d62fef794d942f0c45c74c65f3a3316fc4e4a8/pylintrc
 https://raw.githubusercontent.com/Wikia/jira-reporter/920843d8ae5854c44e634f83176a624d74bfa444/pylintrc
-https://raw.githubusercontent.com/TumplineApps/learn-rails/e3b86aa4cb51a53b4989f4a853c6dbf8ad81ee99/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/xjin/glance/7a6aabccf05c7de8211e90733629032f1b0867ec/pylintrc
 https://raw.githubusercontent.com/vladikr/nova_drafts/176ae3f66d4fdf05cd6cfef565a3b65e4e905576/pylintrc
 https://raw.githubusercontent.com/transt/cloud-init-0.7.5/78cb15fdc3207a25015f1e531f8c969d575e54ac/pylintrc
 https://raw.githubusercontent.com/bcloudteam/glance/15ef9f2d0da82db86b690649bb33e466c5d69d0b/pylintrc
 https://raw.githubusercontent.com/spring-week-topos/cinder-week/61a127ebc4eb3efa412289cee24d362c58c456eb/pylintrc
-https://raw.githubusercontent.com/bluekites/learn-rails/92519dff5b28fcb0c25535ada91ab1206d72bd7f/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/santhoshkumartw/openstack-nova/7551d299d331fe5eddf1691c4cdd030710e945b3/glance/pylintrc
 https://raw.githubusercontent.com/santhoshkumartw/openstack-nova/7551d299d331fe5eddf1691c4cdd030710e945b3/pylintrc
 https://raw.githubusercontent.com/vdorr/bloced/b155ff16a704027d3b5b15106ebec94627b3636f/pylintrc
 https://raw.githubusercontent.com/yahoo/Image-Builder/7d8cf556ad76b68c8801050d97af7ef1dc177790/pylintrc
 https://raw.githubusercontent.com/henrysher/aws-cloudinit/f9bf0b00f01cb5e4cd8a8d0f8a95b1a0d699742a/pylintrc
-https://raw.githubusercontent.com/ryotanize/nodejs-test/848156ac404f77b3b937604d7f13b24820b957ef/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/Yelp/venv-update/740fb7ee6c0905d330e10c643c7215689b4812b1/pylintrc
 https://raw.githubusercontent.com/thenno/EmacsConfig/ee511ea25ce269fc51a9bd7c6031965617cdbbe0/config/pylintrc
-https://raw.githubusercontent.com/AL750/first-app/082c9077902eb4cfde499e23b0049dffc4ec6846/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/peery/nova/15ce42d4927c434d7db17529ac8747aa72325d80/pylintrc
 https://raw.githubusercontent.com/openstack/glance/44e607df7c5c8e3e4d4b7e4f68f33bda51435869/pylintrc
 https://raw.githubusercontent.com/cmusatyalab/opendiamond/a52d4d08ec39b49d6759bdbc5068fe37b611aa7b/pylintrc
@@ -695,7 +673,6 @@ https://raw.githubusercontent.com/billowsand/nova/ba3a7200dab01926926eeec42e70b5
 https://raw.githubusercontent.com/sassoftware/mirrorball/d95a1a8e8c8bb303f4348e40354c91fc775ad943/pylint/pylintrc
 https://raw.githubusercontent.com/yrobla/nova/88e5d8346614d8da4a75dcd3537f1c41f961bb46/pylintrc
 https://raw.githubusercontent.com/sajeeshcs/nested_quota_modfified/cb589c3487a79247598427bb4d5091a5db9fb5ee/nova/pylintrc
-https://raw.githubusercontent.com/as223my/1DV450_as223my/86cc96396e45aa6fd16124c99e6102ce8aacaa1e/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/Ichimonji10/impedimenta/08d1142aff77541f1288ab2d5ca9d7ab612a5f84/useful_things/configs/pylintrc
 https://raw.githubusercontent.com/kartoza/flask_user_map/dbbe7285dee5f480fbc01d593593c529310c1273/pylintrc
 https://raw.githubusercontent.com/Yelp/yelp_encodings/974682e076f8ff92877d9f1acaac0bcf2b49052d/pylintrc
@@ -706,11 +683,9 @@ https://raw.githubusercontent.com/xinnet-iaas-openstack/glance/bfbf8ec07fa25b03a
 https://raw.githubusercontent.com/yaleman/Andy/c9f4ec724cbfd6ef1f6b33cf6468a2fcb2b6f88b/handy/pylintrc
 https://raw.githubusercontent.com/bennybrau/pyspotify_jon/5270a27331a2a6dfe43ae96b1b5c1915cc7e8be0/pylintrc
 https://raw.githubusercontent.com/Keithbsmiley/dotfiles/ba944575e85ae9cdae2387fd38b42452dd4fed99/pylintrc
-https://raw.githubusercontent.com/kwarde/angular-tutorial/fe85a0ef3247fb0192031131cc941e5801ccd3d1/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/JennieRamos/bank_activity/5773494e6a93392728f512ec1363e0466f64de28/pylintrc
 https://raw.githubusercontent.com/zaneb/heat/61be8e1ea40ccb2696fba1bf1524d3678bb40f3c/pylintrc
 https://raw.githubusercontent.com/NoBodyCam/TftpPxeBootBareMetal/af04e0073a0e1c0fa4dc0011cb03f6933dee1617/pylintrc
-https://raw.githubusercontent.com/Pascutron/l2c/833a564d4aa4585424e07c583bb60cdd48cc1928/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/swethapts/devstack/135598045025740ac07f70f0e151ed7bee6c3f74/cinder/pylintrc
 https://raw.githubusercontent.com/swethapts/devstack/135598045025740ac07f70f0e151ed7bee6c3f74/glance/pylintrc
 https://raw.githubusercontent.com/swethapts/devstack/135598045025740ac07f70f0e151ed7bee6c3f74/heat/pylintrc
@@ -725,7 +700,6 @@ https://raw.githubusercontent.com/tengqm/senlin/88e19aa738da9e2a2132487dc59d717b
 https://raw.githubusercontent.com/photoshell/rawphoto/05f5a125fa96467e1196d4569681ed95b28449b9/pylintrc
 https://raw.githubusercontent.com/blomquisg/heat/fc413d93278706cc8e62f3033fdaf4815fc32784/pylintrc
 https://raw.githubusercontent.com/jfwood/keep/9e4628558c2be0e219056c17675fd7fdf9e7f8f8/pylintrc
-https://raw.githubusercontent.com/alwayslearnedstuff/microscope/8148d77e797b0b16b06d7ea9b1f922708af5e337/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/translate/pootle-client/4e8df78999eee20c0c2db9369c64c7d898833418/pylintrc
 https://raw.githubusercontent.com/asottile/pypi_practices/baf13a52146700a9c15a017ef3ae653044af2bc7/pylintrc
 https://raw.githubusercontent.com/Kuwagata/nostradamus/e95215cdd365cc38e72138607d31651f64577bba/pylintrc
@@ -762,7 +736,6 @@ https://raw.githubusercontent.com/JiYou/openstack-old/f0c0a2ee7eea5f1ce1d47c6bcf
 https://raw.githubusercontent.com/JiYou/openstack-old/f0c0a2ee7eea5f1ce1d47c6bcf337a711bc4384b/packages/source/nova/pylintrc
 https://raw.githubusercontent.com/afrolov1/nova/add7f5625ba49c0575328294a796428c443cd988/pylintrc
 https://raw.githubusercontent.com/teachpy/py19290/adff583e9c273ee4a361632f1619fbd7cbf0f006/pylintrc
-https://raw.githubusercontent.com/joemellin/HereTodayArtProject/08bd0508e61d9d2e6e0a580abf9fc1b3992d52e2/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/profitware/restful-image-rotator/7bb030454e34edbff2fbeed9b7a6b605b9884673/pylintrc
 https://raw.githubusercontent.com/anotherjesse/nova/bd0ca93866b48a7a65de8b97ab0ac0ac9c737f73/pylintrc
 https://raw.githubusercontent.com/artofwar/stack/fc0bef9bf5ad2f0325ea2e4bbc4f37cfa5d56738/glance/pylintrc
@@ -775,11 +748,9 @@ https://raw.githubusercontent.com/yanheven/cinder/d8fffbb2148553501033af103d15c8
 https://raw.githubusercontent.com/gaolichuang/py-task-framework/b22df99f90c878f32b62b3cf4e5a45485093ecf5/pylintrc
 https://raw.githubusercontent.com/xiongjia/dotfiles/3746fb74be7e1bd8c489453a380c27c8bea6796a/python/pylintrc
 https://raw.githubusercontent.com/balloob/netdisco/fe4b13fb7d5e62b446c5c543288e7a949acb1eab/pylintrc
-https://raw.githubusercontent.com/jnbishop/XTOL/78ea7bb1f6f5b89724f36e325e7cd33d852a33b6/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/ziziwu/openstack/1887c171491d94667a1b7cd73b8058dd774c3cc3/glance/pylintrc
 https://raw.githubusercontent.com/ziziwu/openstack/1887c171491d94667a1b7cd73b8058dd774c3cc3/cinder/pylintrc
 https://raw.githubusercontent.com/ziziwu/openstack/1887c171491d94667a1b7cd73b8058dd774c3cc3/nova/pylintrc
-https://raw.githubusercontent.com/JKerny/learn-rails/cab0c71486d5f1681c5a1f97e0abe0ee6c37a461/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/mseknibilel/OpenStack-Install-and-Understand-Guide/cc35f96a25be6473132efb4b5abb596b629c96d1/OpenStack_Essex/Glance/glance-2012.1/pylintrc
 https://raw.githubusercontent.com/mseknibilel/OpenStack-Install-and-Understand-Guide/cc35f96a25be6473132efb4b5abb596b629c96d1/OpenStack_Essex/Nova/nova-2012.1/pylintrc
 https://raw.githubusercontent.com/Triv90/Nova/cabc3f7a905ea982cf9d2832a3990ae8e061d963/pylintrc
@@ -792,7 +763,6 @@ https://raw.githubusercontent.com/habnabit/dotfiles/cc7f8b5b49f7f1ba91bc3c816764
 https://raw.githubusercontent.com/melor/poni/a0a416d5072ca1636cff965893d3c1bc2b04bc9e/pylintrc
 https://raw.githubusercontent.com/mathcamp/steward_tasks/0d919d143e1718dee90539de0657aa565a8ab900/pylint/pylintrc
 https://raw.githubusercontent.com/abelardojarab/emacsfull/149e98cf62ba479835caec904c15845d0e67320f/.emacs.d/flycheck/test/resources/config-files/pylintrc
-https://raw.githubusercontent.com/Cairoli91/learn-rails/1d79a4f598e340755a8957ba5e40de9ddc3f0e58/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/shidax/openstack-baremetal-compute/26d30ddd455939c5eeb309f69d0c7733eb6aa8ba/nova/pylintrc
 https://raw.githubusercontent.com/alexrudy/pyshell/693223af98cd4f12fcdb53051b2289206f75ef4d/pylintrc
 https://raw.githubusercontent.com/jamessanford/geourl/30432d654678ba45775af73bf62c7bcc6e34bf3b/pylintrc
@@ -804,9 +774,7 @@ https://raw.githubusercontent.com/UTSA-ICS/openstack-cvrm/3318b8c191817ac61eaf6b
 https://raw.githubusercontent.com/UTSA-ICS/openstack-cvrm/3318b8c191817ac61eaf6b8c0a8d1ee9ede1e3bf/oslo.vmware/pylintrc
 https://raw.githubusercontent.com/ohmu/omcache/17a2d653a8a307065a3eda7d82774421314b521d/pylintrc
 https://raw.githubusercontent.com/mathcamp/steward_announce/65cd4cd47a511b56f291a08c07cdd5c00fa7abd1/pylint/pylintrc
-https://raw.githubusercontent.com/RoyBkker/Learn-Rails/1b823460859eb23c7b3fad45c678eef28fe9d7d3/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/Yelp/yelp_cheetah/cbe40b21658a2b0a5432fe337ddda2cf4f8d8bc7/pylintrc
-https://raw.githubusercontent.com/ericwilsonschool/Project1A/b09761683931d9470fdbadafb0615bcfe1d07522/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/yandex-sysmon/powny/9033862423e3a2ef9941422ca55b17d4ed567905/pylintrc
 https://raw.githubusercontent.com/Symantec/rita/69756f688eee31513caa7569058318e1fcfcf565/pylintrc
 https://raw.githubusercontent.com/sneakypete81/pylint-patcher/187d9e738dd5300f161fad5610f10016e1d1f43e/pylintrc
@@ -817,9 +785,7 @@ https://raw.githubusercontent.com/ntt-pf-lab/backup_glance/ec4af4bea756574fc5d83
 https://raw.githubusercontent.com/phucvdb/Nova/5addb53d20bc51fa4334d5de3c68e50b4b81e093/pylintrc
 https://raw.githubusercontent.com/jessicalucci/TaskManagement/c91480531a5d83549f44b0af03b2ceb3047d4076/pylintrc
 https://raw.githubusercontent.com/yandex-sysmon/golemapi/70ef0b8107beaf5e2ce90f2c819da1876501e869/pylintrc
-https://raw.githubusercontent.com/yoshifn/chicago/b1245a651f6b93756ad8a23fb982b8e11dbebff3/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/rickerc/glance_audit/790d4a739669113a289ab9d5687b28ed1e790bea/pylintrc
-https://raw.githubusercontent.com/pjazz/demoapp/c38a5bbbc9d8c6f162c7957104f3c3ee0fb47aa6/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/megaumi/openstack-tbd-scheduler/50fec6f4d323c463f94ac70520a8c037642f93da/stack/cinder/pylintrc
 https://raw.githubusercontent.com/megaumi/openstack-tbd-scheduler/50fec6f4d323c463f94ac70520a8c037642f93da/stack/glance/pylintrc
 https://raw.githubusercontent.com/megaumi/openstack-tbd-scheduler/50fec6f4d323c463f94ac70520a8c037642f93da/stack/nova/pylintrc
@@ -827,11 +793,9 @@ https://raw.githubusercontent.com/Lind-Project/nacl_repy/a292e3debd2fadb9cd4486d
 https://raw.githubusercontent.com/hudora/hd_MailToolbox/e5c895c3b0c52dac90e38b7149388570d76fedad/pylintrc
 https://raw.githubusercontent.com/shootstar/novatest/16ed4510200308b8b710cac90aa032ec5eab7e9d/pylintrc
 https://raw.githubusercontent.com/mathcamp/steward_palantir/82402bfe6f61819d30cfd6921c291c4dc6d5124e/pylint/pylintrc
-https://raw.githubusercontent.com/bocahtuanakal/foodscray/7510d2b782f80d73645358f42cc0d39156399441/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/salv-orlando/MyRepo/4f69cda8c80ece1fc830c6b48148df06019847eb/pylintrc
 https://raw.githubusercontent.com/n0ano/gantt/9c33a51050a3fc1f6fc4b38f664aba755a6b30e9/pylintrc
 https://raw.githubusercontent.com/yandex-sysmon/dominator/f926b9c9bf1e9430606a6681e43f5436d400231d/pylintrc
-https://raw.githubusercontent.com/leedhe/idea_notebook_app/c8d0d07d31367d697ffc86d54804fd1317cb1955/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/schesis/ook/67459418af4fffc6817db332abbf9ad778f5d7c3/pylintrc
 https://raw.githubusercontent.com/rnirmal/cinder/1fa8442a525a49d4cf63a8f2b3fab00f2e6405ae/pylintrc
 https://raw.githubusercontent.com/ashokcse/openstack-bill/1a3d7575d4b341f64fa1764ed47e47a7504a9bcc/stack/nova/pylintrc
@@ -870,7 +834,6 @@ https://raw.githubusercontent.com/MatthewPaterson/DIM3/7bf8c42d17add5e56a4342b2f
 https://raw.githubusercontent.com/openstack-attic/python-melangeclient/052b7fe901d2ab5ce4f493e3f67aa5941efc4777/pylintrc
 https://raw.githubusercontent.com/pre-commit/pre-commit/58b5845eddbea4d439e61c8593328ba70fc34ca5/pylintrc
 https://raw.githubusercontent.com/detectivelyw/Lind_Project/e1701a4b32001c8be34f89b729c6928cb5053880/nacl_repy/repy/pylintrc
-https://raw.githubusercontent.com/arshadows89/Textbook-Questions-And-Answers/db47565310edba65ee9ee25ee3ca8c2655a8b696/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/openid/python-openid/b1d37696469921f1025395201864842427fc32fb/pylintrc
 https://raw.githubusercontent.com/rcbops/nova-buildpackage/d3de121d6ad35431fb63c20b2185f0f61ceb9e8e/pylintrc
 https://raw.githubusercontent.com/hafiad/Openstack-Condense/2f1ef0fa1c9853eca2fe9cfbef1a9a0177be7a76/pylintrc
@@ -881,7 +844,6 @@ https://raw.githubusercontent.com/rholy/rhrhjob/4a4eb82b7f900e1353bf0f36d2590fa5
 https://raw.githubusercontent.com/asottile/aspy.refactor_imports/2575615365a73dcf7d9dfdbf6154043efedbbff4/pylintrc
 https://raw.githubusercontent.com/yandex-sysmon/elog/15705217aa073567d085abb49f84676d0f49f118/pylintrc
 https://raw.githubusercontent.com/bdastur/utils/6d4a6b4cfc2f801e40904fd311b4eae65bd0dd90/pylintrc
-https://raw.githubusercontent.com/abbhandari/User/2ec616651ffdb177e8e9eb188d79b54bc6c07c42/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/airhuman/my_vim_conf/13b450959460433e1c9ccea5ee31d41423ed01cd/etc/pylintrc
 https://raw.githubusercontent.com/openstack/cinder/cef588d2d13a829e0699215cef2c572237321c4a/pylintrc
 https://raw.githubusercontent.com/tigran-bayburtsyan/virtualbox/6f290d770b1faf54455329f94cc1cc8526ea589b/tools/pylintrc
@@ -910,7 +872,6 @@ https://raw.githubusercontent.com/sassoftware/rpath-job/ed6ee9d60b3dcc87d3cc99e2
 https://raw.githubusercontent.com/shoonoise/Tabloid/0b54f07f842b3362cf18018dafb25d29528ea123/pylintrc
 https://raw.githubusercontent.com/bnmnetp/runestone/13828b42b0965072e08d17312c3bd8f2bcf92e64/pylintrc
 https://raw.githubusercontent.com/balloob/pychromecast/a4489d5a6cdd7857f62a4bf78827e4035aa2f9d3/pylintrc
-https://raw.githubusercontent.com/bhowland/matc-lab01/3c4b589a2d9fbe44ee79e0184d9e3968df870fe7/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/termie/nova-migration-demo/5f2bfe56cf12d8f45ae24a5c9dd0c99e6c4d0310/pylintrc
 https://raw.githubusercontent.com/kexun/kexun_openstack/cbdd517909e287242cdf71f2f9691e7c862eb9ad/nova/pylintrc
 https://raw.githubusercontent.com/peery/glance/3e80c22204db50c8443dd82a3da2c0a9212466ea/pylintrc
@@ -920,7 +881,6 @@ https://raw.githubusercontent.com/ozkriff/misery/6ef77de0c6598da2e4b6be7a167dd47
 https://raw.githubusercontent.com/openstack/gantt/1c94305dd3a973afe1285c96fd9d38434a5b2b5f/pylintrc
 https://raw.githubusercontent.com/ariestiyansyah/atlas/6b5f035c41e443e5dad4c692bbde5a3260448215/pylintrc
 https://raw.githubusercontent.com/mckinseyacademy/xblock-poll/ed6a2086f158a4b1a8b9219e5105d030fff5910a/pylintrc
-https://raw.githubusercontent.com/jalerre/FIRE2015/287e16c480e725c79f115ff135ef2be77a64be68/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/termie/pupa/e98c5c87ae7e981fe95b8a737ccb06147da58281/pylintrc
 https://raw.githubusercontent.com/chadlung/viperpy/f66f46dc9722ffec71c00a684fd21358c1effa97/pylintrc
 https://raw.githubusercontent.com/necaris/python3-openid/00fb482d5bfbb97a17773d4e38318c0668e076b9/pylintrc
@@ -930,8 +890,6 @@ https://raw.githubusercontent.com/JiYou/openstack/b71638ba2e70335f6fcd718ac7ebc1
 https://raw.githubusercontent.com/JiYou/openstack/b71638ba2e70335f6fcd718ac7ebc1b896765912/packages/source/nova/pylintrc
 https://raw.githubusercontent.com/JiYou/openstack/b71638ba2e70335f6fcd718ac7ebc1b896765912/chap19/monitor/monitor/pylintrc
 https://raw.githubusercontent.com/JiYou/openstack/b71638ba2e70335f6fcd718ac7ebc1b896765912/packages/source/cinder/pylintrc
-https://raw.githubusercontent.com/geerdoe/videoStreaming/6871545d7c1f24c507d6f67e61e14a3e72a04ab5/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
-https://raw.githubusercontent.com/freezerflame/learn-rails/a49d96836007f13a2d1b0432d586d5f741861cb6/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/bobholt/researchers_friend/568ca8e45893cf92e5cb5db9bc0cee569ca19bce/pylintrc
 https://raw.githubusercontent.com/rcbops/keystone-buildpackage/5c28c43a62c2797125019439962c0f6964ebab05/pylintrc
 https://raw.githubusercontent.com/ycl2045/nova-master/58809056f3a219c6ea3667003f906eeaf581fa95/pylintrc
@@ -941,10 +899,8 @@ https://raw.githubusercontent.com/lzhengqc/stack/7120a97a830ed87a6030f1dba65afbe
 https://raw.githubusercontent.com/lzhengqc/stack/7120a97a830ed87a6030f1dba65afbeb67357256/glance/pylintrc
 https://raw.githubusercontent.com/sseemayer/LudumDare26-Minimalism/f08685cb36d860da6eb1ec564c7b02ad68416bf4/pylintrc
 https://raw.githubusercontent.com/samueldotj/sublime-p4/e684a03ce80f151f2507db302ff7e1c441fd706c/pylintrc
-https://raw.githubusercontent.com/danicastone/junkyardstore/1929889c841e44f66b65d4e2d402e9898eb7f839/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/uhobawuhot/interceptor/1dfe4f8fd28826810acf544df551ac0275f14493/pylintrc
 https://raw.githubusercontent.com/virtualopensystems/nova/501eeb19fa1a6dd44f2542dfc640d105d4640619/pylintrc
-https://raw.githubusercontent.com/natkim/git_pracitce/f54dea7018742ac6c117c2b6faf66c666b97de52/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/Lucas-C/ecovoit/2cf804fb3e73f53c0224600f5a8524c876fa82e2/pylintrc
 https://raw.githubusercontent.com/I159/nova/588f7b1a6be3d824ece6d1b5c3447719e448c74f/pylintrc
 https://raw.githubusercontent.com/trash-anshu/testGisc/98db9f285fcb5cb8e47b169b7806a2629f2f9d5b/gisc/confs/pylintrc
@@ -955,7 +911,6 @@ https://raw.githubusercontent.com/n0id/dotfiles/d6507aa6e306e513c45711f0e645cac4
 https://raw.githubusercontent.com/mark-in/virtualbox/4d949a32fdd2c9c24b6e79185a5c7f4370800c58/tools/pylintrc
 https://raw.githubusercontent.com/ntt-sic/glance/56b225fb6f61308436603e2c9ce44ce580be1991/pylintrc
 https://raw.githubusercontent.com/jparal/whip/e1679e6be0cbf3127849ce9e7edec951cd44592d/pylintrc
-https://raw.githubusercontent.com/effa71/sample_app/9d1b1725f581ad3831d85d2af9cc50628a457290/.parts/lib/node_modules/npm/node_modules/node-gyp/gyp/pylintrc
 https://raw.githubusercontent.com/onnanapiando/BankRepo/af990c7872ad0240e04e47ac7a33367137704a54/pylintrc
 https://raw.githubusercontent.com/cloudkeep/barbican/c1c6c5ecce626d827b83c84888697f9f5086f336/pylintrc
 https://raw.githubusercontent.com/mathcamp/steward_googlefed/0fdad9fbc14fe0be991b7f8fcff9616eeae99b4e/pylint/pylintrc
