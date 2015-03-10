@@ -33,9 +33,13 @@ public class RuboCopParserTest
         Assert.assertEquals(1, result.getSingleOccurrence("BlockNesting"));
         Assert.assertEquals(1, result.getSingleOccurrence("CollectionMethods"));
         Assert.assertEquals(1, result.getSingleOccurrence("AccessModifierIndentation"));
-        Assert.assertEquals(1, result.getSingleOccurrence("AndOr"));
         Assert.assertEquals(1, result.getSingleOccurrence("PercentLiteralDelimiters"));
         Assert.assertEquals(1, result.getSingleOccurrence("AlignParameters"));
+
+        Assert.assertEquals(1, result.getSingleExclusion("AndOr"));
+        Assert.assertEquals(1, result.getSingleExclusion("Style/SymbolArray"));
+        Assert.assertEquals(1, result.getSingleExclusion("Style/ExtraSpacing"));
+
         Assert.assertEquals(0, result.getSingleOccurrence("EndAlignment"));
         Assert.assertEquals(0, result.getSingleOccurrence("inherit_from"));
         Assert.assertEquals(0, result.getSingleOccurrence("AllCops"));

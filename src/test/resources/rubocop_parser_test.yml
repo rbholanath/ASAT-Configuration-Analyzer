@@ -32,12 +32,21 @@ CollectionMethods:
 # level I think it sort of blends in with the def keywords and makes it harder
 # to scan the code and see where the sections are.
 AccessModifierIndentation:
-  Enabled: false
+  Enabled: true
 
 # Do not always use &&/|| instead of and/or.
 AndOr:
   Enabled: false
 
+Style/SymbolArray:
+  Description: 'Use %i or %I for arrays of symbols.'
+  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#percent-i'
+  Enabled: false
+
+Style/ExtraSpacing:
+  Description: 'Do not use unnecessary spacing.'
+  Enabled: false
+  
 # Use square brackets for literal Array objects
 PercentLiteralDelimiters:
   PreferredDelimiters:

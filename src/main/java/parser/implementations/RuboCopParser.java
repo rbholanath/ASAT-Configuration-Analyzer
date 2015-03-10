@@ -27,7 +27,22 @@ public class RuboCopParser implements Parser
             Yaml yaml = new Yaml();
             Map<String, Object> data = (Map<String, Object>) yaml.load(stream);
 
-            data.keySet().stream().filter(key -> !filterIdentifiers.contains(key)).forEach(configAnalysis::addOccurrence);
+            for (String key : data.keySet())
+            {
+                if (!filterIdentifiers.contains(key))
+                {
+                    Map<String, Object> childMap = (Map<String, Object>) data.get(key);
+
+                    if (childMap.containsKey("Enabled") && !((Boolean) childMap.get("Enabled")))
+                    {
+                        configAnalysis.addExclusion(key);
+                    }
+                    else
+                    {
+                        configAnalysis.addOccurrence(key);
+                    }
+                }
+            }
         }
         catch (Exception e)
         {
