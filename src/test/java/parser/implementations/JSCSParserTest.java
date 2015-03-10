@@ -36,6 +36,10 @@ public class JSCSParserTest
         Assert.assertEquals(1, result.getSingleOccurrence("requireSpaceAfterKeywords"));
         Assert.assertEquals(1, result.getSingleOccurrence("validateIndentation"));
         Assert.assertEquals(1, result.getSingleOccurrence("validateQuoteMarks"));
+
+        Assert.assertEquals(1, result.getSingleExclusion("disallowAnonymousFunctions"));
+        Assert.assertEquals(1, result.getSingleExclusion("requireMultipleVarDecl"));
+
         Assert.assertEquals(0, result.getSingleOccurrence("validateLineBreaks"));
     }
 }

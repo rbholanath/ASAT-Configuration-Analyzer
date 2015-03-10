@@ -33,7 +33,16 @@ public class JSCSParser implements Parser
 
                     if (parts.length > 1)
                     {
-                        configAnalysis.addOccurrence(parts[0].split("\"")[1]);
+                        boolean enabled = !((parts[1].split(",")[0]).contains("false"));
+
+                        if (enabled)
+                        {
+                            configAnalysis.addOccurrence(parts[0].split("\"")[1]);
+                        }
+                        else
+                        {
+                            configAnalysis.addExclusion(parts[0].split("\"")[1]);
+                        }
                     }
                 }
             }

@@ -29,13 +29,15 @@ public class ESLintParserTest
     {
         ConfigAnalysis result = parser.parse(stream, new MapConfigAnalysis(parser.getToolName()));
 
-        Assert.assertEquals(1, result.getSingleOccurrence("valid-jsdoc"));
         Assert.assertEquals(1, result.getSingleOccurrence("curly"));
         Assert.assertEquals(1, result.getSingleOccurrence("brace-style"));
         Assert.assertEquals(1, result.getSingleOccurrence("no-constant-condition"));
-        Assert.assertEquals(1, result.getSingleOccurrence("func-style"));
-        Assert.assertEquals(1, result.getSingleOccurrence("no-unused-vars"));
         Assert.assertEquals(1, result.getSingleOccurrence("one-var"));
+        Assert.assertEquals(1, result.getSingleOccurrence("no-unused-vars"));
+
+        Assert.assertEquals(1, result.getSingleExclusion("valid-jsdoc"));
+        Assert.assertEquals(1, result.getSingleExclusion("no-multiple-empty-lines"));
+
         Assert.assertEquals(0, result.getSingleOccurrence("browser"));
         Assert.assertEquals(0, result.getSingleOccurrence("amd"));
         Assert.assertEquals(0, result.getSingleOccurrence("DocumentFragment"));

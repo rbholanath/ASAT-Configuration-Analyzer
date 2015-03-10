@@ -1,6 +1,7 @@
 {
   "disallowEmptyBlocks": true,
   "disallowKeywords": ["with"],
+  "disallowAnonymousFunctions": false,
   "disallowLeftStickedOperators": ["?", "/", "*", "=", "==", "===", "!=", "!==", ">", ">=", "<", "<="],
   
   "requireSpaceAfterBinaryOperators": ["+", "-", "/", "*", "=", "==", "===", "!=", "!==", ">", "<", ">=", "<="],
@@ -8,6 +9,8 @@
   
   "validateIndentation": 2,
   //"validateLineBreaks": "LF",
+  
+  "requireMultipleVarDecl": false,
   
   // Single quotes
   "validateQuoteMarks": "'"
