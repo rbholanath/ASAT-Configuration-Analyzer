@@ -8,6 +8,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.List;
 import java.util.logging.Level;
 
 public class PylintParser implements Parser
@@ -63,21 +65,15 @@ public class PylintParser implements Parser
     {
         ConfigAnalysis configAnalysis = oldConfigAnalysis;
 
-        String[] codes = line.split(",");
+        List<String> codes = Arrays.asList(line.split(","));
 
         if (enable)
         {
-            for (int i = 0; i < codes.length; i++)
-            {
-                configAnalysis.addOccurrence(codes[i]);
-            }
+            codes.forEach(configAnalysis::addOccurrence);
         }
         else
         {
-            for (int i = 0; i < codes.length; i++)
-            {
-                configAnalysis.addExclusion(codes[i]);
-            }
+            codes.forEach(configAnalysis::addExclusion);
         }
 
         return configAnalysis;
