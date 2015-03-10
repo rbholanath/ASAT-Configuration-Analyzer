@@ -38,5 +38,12 @@ public class PylintParserTest
         Assert.assertEquals(1, result.getSingleOccurrence("max-locals"));
         Assert.assertEquals(0, result.getSingleOccurrence("max-module-lines"));
         Assert.assertEquals(0, result.getSingleOccurrence("rcfile"));
+
+        Assert.assertEquals(1, result.getSingleOccurrence("E1606"));
+        Assert.assertEquals(1, result.getSingleOccurrence("W1621"));
+        Assert.assertEquals(1, result.getSingleOccurrence("W1620"));
+        Assert.assertEquals(1, result.getSingleExclusion("E1608"));
+        Assert.assertEquals(1, result.getSingleExclusion("W1627"));
+        Assert.assertEquals(1, result.getSingleExclusion("E1601"));
     }
 }

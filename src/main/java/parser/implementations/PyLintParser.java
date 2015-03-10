@@ -31,9 +31,22 @@ public class PylintParser implements Parser
                 {
                     String[] parts = line.split("=");
 
+                    String id = parts[0].trim();
+
                     if (parts.length > 1)
                     {
-                        configAnalysis.addOccurrence(parts[0].trim());
+                        if ("enable".equals(id) || "enable-checker".equals(id))
+                        {
+                            configAnalysis = processEnableDisable(true, parts[1], configAnalysis);
+                        }
+                        else if ("disable".equals(id) || "disable-checker".equals(id))
+                        {
+                            configAnalysis = processEnableDisable(false, parts[1], configAnalysis);
+                        }
+                        else
+                        {
+                            configAnalysis.addOccurrence(id);
+                        }
                     }
                 }
             }
@@ -41,6 +54,30 @@ public class PylintParser implements Parser
         catch (IOException e)
         {
             AnalyzerLogger.getLogger().log(Level.FINER, "Error reading file: " + e.getMessage());
+        }
+
+        return configAnalysis;
+    }
+
+    private ConfigAnalysis processEnableDisable(boolean enable, String line, ConfigAnalysis oldConfigAnalysis)
+    {
+        ConfigAnalysis configAnalysis = oldConfigAnalysis;
+
+        String[] codes = line.split(",");
+
+        if (enable)
+        {
+            for (int i = 0; i < codes.length; i++)
+            {
+                configAnalysis.addOccurrence(codes[i]);
+            }
+        }
+        else
+        {
+            for (int i = 0; i < codes.length; i++)
+            {
+                configAnalysis.addExclusion(codes[i]);
+            }
         }
 
         return configAnalysis;
