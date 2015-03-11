@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.util.List;
 import java.util.logging.Level;
 
-public class ResultWriter
+public class JSONResultWriter
 {
     public static void writeResults(final List<ConfigAnalysis> results, final File directory)
     {
@@ -24,14 +24,12 @@ public class ResultWriter
                 jsonResult.put("occurrences", result.getOccurrences());
                 jsonResult.put("exclusions", result.getExclusions());
 
-                FileWriter file = new FileWriter(directory.getAbsolutePath() + "/" + result.getToolName() + ".json");
+                FileWriter file = new FileWriter(directory.getAbsolutePath() + "/json/" + result.getToolName() + ".json");
 
                 file.write(jsonResult.toString(4));
                 AnalyzerLogger.getLogger().log(Level.FINE, "Successfully written results from: " + result.getToolName() + " to file.");
 
-                file.flush();
                 file.close();
-
             }
             catch (IOException | JSONException e)
             {

@@ -12,7 +12,7 @@ import main.java.parser.implementations.JSHintParser;
 import main.java.parser.implementations.PMDParser;
 import main.java.parser.implementations.PylintParser;
 import main.java.parser.implementations.RuboCopParser;
-import main.java.resultwriter.ResultWriter;
+import main.java.resultwriter.CSVResultWriter;
 import main.java.util.AnalyzerLogger;
 
 import java.io.File;
@@ -71,7 +71,7 @@ public class Main
 
         AnalyzerLogger.getLogger().log(Level.INFO, "Writing results to file");
 
-        ResultWriter.writeResults(result, new File(System.getProperty("user.dir") + "/out/"));
+        CSVResultWriter.writeResults(result, new File(System.getProperty("user.dir") + "/out/"));
 
         AnalyzerLogger.getLogger().log(Level.INFO, "Written results from all tools to file");
     }
