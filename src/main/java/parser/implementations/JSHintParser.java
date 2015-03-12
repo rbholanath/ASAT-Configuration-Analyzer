@@ -42,9 +42,7 @@ public class JSHintParser implements Parser
                         }
                         else
                         {
-                            boolean enabled = !((parts[1].split(",")[0]).contains("false"));
-
-                            if (enabled)
+                            if (!((parts[1].split(",")[0]).contains("false")))
                             {
                                 configAnalysis.addOccurrence(parts[0].split("\"")[1]);
                             }

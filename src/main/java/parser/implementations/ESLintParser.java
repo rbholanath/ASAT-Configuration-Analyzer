@@ -56,9 +56,7 @@ public class ESLintParser implements Parser
 
                     if (parts.length > 1)
                     {
-                        boolean enabled = !((parts[1].split(",")[0]).contains("0"));
-
-                        if (enabled)
+                        if (!((parts[1].split(",")[0]).contains("0")))
                         {
                             configAnalysis.addOccurrence(parts[0].split("\"")[1]);
                         }
