@@ -439,7 +439,6 @@ https://raw.githubusercontent.com/CzarekTomczak/boovix/a318207f2268098af40b9beb7
 https://raw.githubusercontent.com/bbradbury/yum-utils/9d938602afe8bc18eb9493071efb4495983615b1/test/yum-utils-pylintrc
 https://raw.githubusercontent.com/wjhwsh/Practices2/0d9ed1e0d11599e9b24096239a5085abccfdcf0f/wxpython/taskcoach/trunk/taskcoach/.svn/text-base/.pylintrc.svn-base
 https://raw.githubusercontent.com/pnasrat/yum-utils/e90f92a8f46a4d0b0ba1adac8a8317e7de842bdd/test/yum-utils-pylintrc
-https://raw.githubusercontent.com/Komodo/KomodoEdit/47a9fe12f9197058b248a4f3e4cfe1ce18dbda9a/src/chrome/komodo/content/library/test/test_pylintrc.jsm
 https://raw.githubusercontent.com/dfainstein/seng_taskcoach/f970732ce05e5d6deef1de32404c46135ac945ef/taskcoach/.svn/text-base/.pylintrc.svn-base
 https://raw.githubusercontent.com/henrysher/yum-utils/308160e2ce97fac52b0fa40bd7c4a5afbaaaf8ea/test/yum-utils-pylintrc
 https://raw.githubusercontent.com/jboes/ase/7b3dbf87b3ebcbf6807805572202ec2e7bf3622a/doc/development/.svn/text-base/pylintrc.svn-base

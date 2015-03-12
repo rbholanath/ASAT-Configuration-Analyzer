@@ -670,8 +670,6 @@ https://raw.githubusercontent.com/yannrouillard/opencsw-pkg/89d7f41fce3cd2f09b6d
 https://raw.githubusercontent.com/linkinpark342/dotfiles/2939dcfe72ea8f9b6c05cdc3fd2cbe02d0e7b620/pylintrc
 https://raw.githubusercontent.com/tylert/chirp.hg/301c53ff9b6fef9cfedc9485f436787de5f51693/pylintrc
 https://raw.githubusercontent.com/d/vimfiles/c470c169e3e508d0ca66bab7ffa662d824d8649c/bundle/ultisnips/pylintrc
-https://raw.githubusercontent.com/starwalker/idot/a0a627ce6eb59e58c54fe1763bc9563793355344/.vim/view/%7E%3D%2B.pylintrc%3D
-https://raw.githubusercontent.com/starwalker/idot/a0a627ce6eb59e58c54fe1763bc9563793355344/.vim/view/%7E%3D%2Bpylintrc%3D
 https://raw.githubusercontent.com/rtirrell/.rpt_profile/3a43cb00017cd763cbaaf1213354ce71aca3f827/etc/pylintrc
 https://raw.githubusercontent.com/andreypopp/extracty/c56c1ec33820145725a94eae287c57d1730e3d2b/pylintrc
 https://raw.githubusercontent.com/tbunnyman/dotfiles/8cc709b1b4ce71af8f458f519ae7fb7b6e517aac/pylintrc
