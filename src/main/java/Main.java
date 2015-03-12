@@ -3,19 +3,27 @@ package main.java;
 import main.java.configanalysis.ConfigAnalysis;
 import main.java.configreader.ConfigReader;
 import main.java.parser.Parser;
-import main.java.parser.implementations.*;
+import main.java.parser.implementations.CheckstyleParser;
+import main.java.parser.implementations.ESLintParser;
+import main.java.parser.implementations.FindBugsPrefsParser;
+import main.java.parser.implementations.FindBugsXMLParser;
+import main.java.parser.implementations.JSCSParser;
+import main.java.parser.implementations.JSHintParser;
+import main.java.parser.implementations.JSLParser;
+import main.java.parser.implementations.PMDParser;
+import main.java.parser.implementations.PylintParser;
+import main.java.parser.implementations.RuboCopParser;
 import main.java.resultwriter.CSVResultWriter;
 import main.java.util.AnalyzerLogger;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
 
 public class Main
 {
-    public static void main(String[] args) throws FileNotFoundException
+    public static void main(String[] args)
     {
         List<Parser> parsers = new ArrayList<>();
         List<File> directories = new ArrayList<>();
