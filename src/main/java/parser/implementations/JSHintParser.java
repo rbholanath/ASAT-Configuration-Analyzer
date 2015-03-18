@@ -36,7 +36,7 @@ public class JSHintParser implements Parser
                         String configName = (parts[0].split("\"")[1]).trim();
 
                         // Skip the globals/predef section
-                        if ((configName.equals("globals") || configName.equals("predef")) && line.indexOf('}') == -1)
+                        if (configName.equals("globals") || configName.equals("predef"))
                         {
                             bufferedReader = skipToClosingBrace(bufferedReader);
                         }
