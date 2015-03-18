@@ -33,10 +33,10 @@ public class JSHintParser implements Parser
 
                     if (parts.length > 1)
                     {
-                        String configName = parts[0].split("\"")[1];
+                        String configName = (parts[0].split("\"")[1]).trim();
 
-                        // Skip the globals section
-                        if (configName.equals("globals") && line.indexOf('}') == -1)
+                        // Skip the globals/predef section
+                        if ((configName.equals("globals") || configName.equals("predef")) && line.indexOf('}') == -1)
                         {
                             bufferedReader = skipToClosingBrace(bufferedReader);
                         }
@@ -44,11 +44,11 @@ public class JSHintParser implements Parser
                         {
                             if (!((parts[1].split(",")[0]).contains("false")))
                             {
-                                configAnalysis.addOccurrence(parts[0].split("\"")[1]);
+                                configAnalysis.addOccurrence(configName);
                             }
                             else
                             {
-                                configAnalysis.addExclusion(parts[0].split("\"")[1]);
+                                configAnalysis.addExclusion(configName);
                             }
                         }
                     }

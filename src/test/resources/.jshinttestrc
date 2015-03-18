@@ -22,6 +22,11 @@
     "module": false,
   }
   
+  "predef": {
+    "console": false,
+    "logger": false,
+  }
+  
   "bitwise": true,
   "camelcase": true,
   "newcap": false,    // true: Require capitalization of all constructor functions e.g. `new F()`

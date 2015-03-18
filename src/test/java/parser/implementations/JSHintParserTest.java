@@ -44,5 +44,7 @@ public class JSHintParserTest
         Assert.assertEquals(0, result.getSingleOccurrence("globals"));
         Assert.assertEquals(0, result.getSingleOccurrence("require"));
         Assert.assertEquals(0, result.getSingleOccurrence("module"));
+        Assert.assertEquals(0, result.getSingleOccurrence("console"));
+        Assert.assertEquals(0, result.getSingleOccurrence("logger"));
     }
 }
