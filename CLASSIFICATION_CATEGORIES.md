@@ -28,7 +28,7 @@ Rules that check violations of common naming conventions.
 ## Coding Conventions
 Rules that check common code conventions.
 
-### Documentation Conventions
+## Documentation Conventions
 Rules that check the documentation for violations of common conventions.
 
 ## Refactorings
@@ -40,10 +40,10 @@ Rules that determine if a specific piece of code could be simplified to improve 
 ### Redundancies
 Rules that determine if a piece of code or artifact is redundant and can be safely deleted.
 
-### Metric
+## Metric
 A rule that measures a certain attribute of the code. The rule might only be to inform the developer of the value of the attribute, or it can give warnings/errors based on certain thresholds.
 
-### Object Oriented Design
+## Object Oriented Design
 Rules that check for violations of proper object oriented design principles.
 
 # Other
