@@ -26,7 +26,13 @@ Rules that check the structure, in terms of the file system or the coupling, for
 Rules that check violations of common naming conventions. 
 
 ## Coding Conventions
-Rules that check common code conventions.
+Rules that check common code conventions, divided into the following, more specific, categories.
+
+### Style Conventions
+Rules that check the code for violations of style conventions, that do not affect the compiled output of the code.
+
+### Best Practices
+Rules that check the code for violations regarding coding conventions that affect the compiled output of the code. 
 
 ## Documentation Conventions
 Rules that check the documentation for violations of common conventions.
