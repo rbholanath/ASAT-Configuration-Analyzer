@@ -1355,7 +1355,7 @@
 |W070: Extra comma. (it breaks older versions of IE|Style Conventions|No|
 |W071: This function has too many statements. ({a}|Metric|No|
 |W072: This function has too many parameters. ({a}|Metric|No|
-|W073: Blocks are nested too deeply. ({a})|Metrics|No|
+|W073: Blocks are nested too deeply. ({a})|Metric|No|
 |W074: This function's cyclomatic complexity is too high. ({a}|Metric|No|
 |W075: Duplicate key '{a}'|Likely Error|No|
 |W076: Unexpected parameter '{a}' in get {b} function|Likely Error|No|
@@ -1533,24 +1533,24 @@
 |clone.xml/CloneMethodMustImplementCloneable|Likely Error - Omission|No|
 |clone.xml/CloneThrowsCloneNotSupportedException|Likely Error - Omission|No|
 |clone.xml/ProperCloneImplementation|Likely Error - Omission|No|
-|codesize.xml|Metrics|No|
-|codesize.xml/CyclomaticComplexity|Metrics|No|
-|codesize.xml/ExcessiveClassLength|Metrics|No|
-|codesize.xml/ExcessiveMethodLength|Metrics|No|
-|codesize.xml/ExcessiveParameterList|Metrics|No|
-|codesize.xml/ExcessivePublicCount|Metrics|No|
-|codesize.xml/ModifiedCyclomaticComplexity|Metrics|No|
-|codesize.xml/NcssConstructorCount|Metrics|No|
-|codesize.xml/NcssMethodCount|Metrics|No|
-|codesize.xml/NcssTypeCount|Metrics|No|
-|codesize.xml/NPathComplexity|Metrics|No|
-|codesize.xml/StdCyclomaticComplexity|Metrics|No|
-|codesize.xml/TooManyFields|Metrics|No|
-|codesize.xml/TooManyMethods|Metrics|No|
+|codesize.xml|Metric|No|
+|codesize.xml/CyclomaticComplexity|Metric|No|
+|codesize.xml/ExcessiveClassLength|Metric|No|
+|codesize.xml/ExcessiveMethodLength|Metric|No|
+|codesize.xml/ExcessiveParameterList|Metric|No|
+|codesize.xml/ExcessivePublicCount|Metric|No|
+|codesize.xml/ModifiedCyclomaticComplexity|Metric|No|
+|codesize.xml/NcssConstructorCount|Metric|No|
+|codesize.xml/NcssMethodCount|Metric|No|
+|codesize.xml/NcssTypeCount|Metric|No|
+|codesize.xml/NPathComplexity|Metric|No|
+|codesize.xml/StdCyclomaticComplexity|Metric|No|
+|codesize.xml/TooManyFields|Metric|No|
+|codesize.xml/TooManyMethods|Metric|No|
 |comments.xml|Documentation Conventions|No|
 |comments.xml/CommentContent|Documentation Conventions|No|
 |comments.xml/CommentRequired|Documentation Conventions|No|
-|comments.xml/CommentSize|Metrics|No|
+|comments.xml/CommentSize|Metric|No|
 |controversial.xml|Multiple|No|
 |controversial.xml/AssignmentInOperand|Best Practices|No|
 |controversial.xml/AtLeastOneConstructor|Object Oriented Design|No|
@@ -1576,8 +1576,8 @@
 |controversial.xml/UseConcurrentHashMap|Concurrency|No|
 |controversial.xml/UseObjectForClearerAPI|Object Oriented Design|No|
 |coupling.xml|Multiple|No|
-|coupling.xml/CouplingBetweenObjects|Metrics|No|
-|coupling.xml/ExcessiveImports|Metrics|No|
+|coupling.xml/CouplingBetweenObjects|Metric|No|
+|coupling.xml/ExcessiveImports|Metric|No|
 |coupling.xml/LawOfDemeter|Object Oriented Design|No|
 |coupling.xml/LooseCoupling|Object Oriented Design|No|
 |coupling.xml/LoosePackageCoupling|Object Oriented Design|No|
@@ -1587,7 +1587,7 @@
 |design.xml/AccessorClassGeneration|Object Oriented Design|No|
 |design.xml/AssignmentToNonFinalStatic|Likely Error|No|
 |design.xml/AvoidConstantsInterface|Object Oriented Design|No|
-|design.xml/AvoidDeeplyNestedIfStmts|Metrics|No|
+|design.xml/AvoidDeeplyNestedIfStmts|Metric|No|
 |design.xml/AvoidInstanceofChecksInCatchClause|Error Handling|No|
 |design.xml/AvoidProtectedFieldInFinalClass|Object Oriented Design|No|
 |design.xml/AvoidProtectedMethodInFinalClassNotExtending|Object Oriented Design|No|
@@ -1604,7 +1604,7 @@
 |design.xml/EqualsNull|Likely Error|No|
 |design.xml/FieldDeclarationsShouldBeAtStartOfClass|Best Practices|No|
 |design.xml/FinalFieldCouldBeStatic|Best Practices|No|
-|design.xml/GodClass|Metrics|No|
+|design.xml/GodClass|Metric|No|
 |design.xml/IdempotentOperations|Refactorings - Redundancies|No|
 |design.xml/ImmutableField|Best Practices|No|
 |design.xml/InstantiationToGetClass|Object Oriented Design|No|
@@ -1624,9 +1624,9 @@
 |design.xml/SimplifyBooleanReturns|Refactorings - Simplifications|No|
 |design.xml/SimplifyConditional|Refactorings - Simplifications|No|
 |design.xml/SingularField|Best Practices|No|
-|design.xml/SwitchDensity|Metrics|No|
+|design.xml/SwitchDensity|Metric|No|
 |design.xml/SwitchStmtsShouldHaveDefault|Likely Error - Omission|No|
-|design.xml/TooFewBranchesForASwitchStatement|Metrics|No|
+|design.xml/TooFewBranchesForASwitchStatement|Metric|No|
 |design.xml/UncommentedEmptyConstructor|Refactorings - Redundancies|No|
 |design.xml/UncommentedEmptyMethod|Refactorings - Redundancies|No|
 |design.xml/UncommentedEmptyMethodBody|Refactorings - Redundancies|No|
@@ -2054,7 +2054,7 @@
 |RP0101: Statistics by type|Tool Specific|No|
 |RP0401: External dependencies|Tool Specific|No|
 |RP0402:	Modules dependencies graph|Tool Specific|No|
-|RP0701: Raw metrics|Tool Specific|No|
+|RP0701: Raw Metric|Tool Specific|No|
 |RP0801: Duplication|Tool Specific|No|
 |single-line-if-stmt|Style Conventions|No|
 |spelling-dict|Tool Specific|No|
