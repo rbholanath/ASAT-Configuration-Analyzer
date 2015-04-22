@@ -1,16 +1,16 @@
 # Functional Defects
 Rules that check for defects that affect the behavior of the program.
 
-# Logic
+## Logic
 Errors pertaining to program logic. Primarily concerned with comparisons, control flow, and algorithms.
 
-# Check
+## Check
 Errors pertaining to the validation of data, whether that is external (user input) or internal (result values). Most often the absence of a check for return values or user input when such a check might prevent errors.
 
-# Resource
+#3 Resource
 Errors concerning the initialization, casting, or release of data, whether that data is external (databases) or internal (variables).
 
-# Interface
+## Interface
 Errors concerning interactions with different parts of the system. This can be:
 - Interacting with external entities such as libraries, hardware, or the operating system.
 - Interacting with internal parts of the systems via, for instance, function calls with the wrong parameters or calling the wrong function.
