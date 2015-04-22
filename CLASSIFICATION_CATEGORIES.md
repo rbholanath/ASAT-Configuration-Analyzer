@@ -7,7 +7,7 @@ Errors pertaining to program logic. Primarily concerned with comparisons, contro
 ## Check
 Errors pertaining to the validation of data, whether that is external (user input) or internal (result values). Most often the absence of a check for return values or user input when such a check might prevent errors.
 
-#3 Resource
+## Resource
 Errors concerning the initialization, casting, or release of data, whether that data is external (databases) or internal (variables).
 
 ## Interface
