@@ -1,11 +1,21 @@
 # Functional Defects
 Rules that check for defects that affect the behavior of the program.
 
-## Likely Code Error
-Likely code errors that do not fall under any of the following, more specific, categories. 
+# Logic
+Errors pertaining to program logic. Primarily concerned with comparisons, control flow, and algorithms.
 
-### Omission
-Likely code errors due to an omission (for instance, of an import or validation check).
+# Check
+Errors pertaining to the validation of data, whether that is external (user input) or internal (result values). Most often the absence of a check for return values or user input when such a check might prevent errors.
+
+# Resource
+Errors concerning the initialization, casting, or release of data, whether that data is external (databases) or internal (variables).
+
+# Interface
+Errors concerning interactions with different parts of the system. This can be:
+- Interacting with external entities such as libraries, hardware, or the operating system.
+- Interacting with internal parts of the systems via, for instance, function calls with the wrong parameters or calling the wrong function.
+- How a class exposes itself via its public interface.
+- Errors made during inheritance, such as errors made when overriding methods.
 
 ## Concurrency
 Rules that check violations regarding concurrency issues.
