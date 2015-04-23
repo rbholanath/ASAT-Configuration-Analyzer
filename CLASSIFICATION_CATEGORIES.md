@@ -27,7 +27,7 @@ Rules that check that errors and exceptions are properly handled.
 Rules that check violations regarding the migration of one version of the programming language to another. 
 
 # Maintainability Defects
-Rules that check for defects that do not affect the behavior of the program, but rather hamper the future development of the system by increasing its technical debt.
+Rules that check for problems that only affect the future development efforts of changing or adding to the system, but have no impact on the correctness of the program.
 
 ## Code Structure
 Rules that check the structure, in terms of the file system or the coupling, for violations of common conventions.
@@ -35,13 +35,10 @@ Rules that check the structure, in terms of the file system or the coupling, for
 ## Naming Conventions
 Rules that check violations of common naming conventions. 
 
-## Coding Conventions
-Rules that check common code conventions, divided into the following, more specific, categories.
-
-### Style Conventions
+## Style Conventions
 Rules that check the code for violations of style conventions, that do not affect the compiled output of the code.
 
-### Best Practices
+## Best Practices
 Rules that check the code for violations regarding coding conventions that affect the compiled output of the code. 
 
 ## Documentation Conventions
@@ -66,7 +63,7 @@ Rules that check for violations of proper object oriented design principles.
 Rules that identify neither functional nor maintainability defects.
 
 ## Tool Specific
-Rules that are not meant to check the code for problems, but rather to configure the tool itself.
+Rules that configure how the tool works, rather than which defects it checks for (or does not check for). Examples of such rules might be: whether to colorize the output, how to write the results to file, or how much memory the tool can use.
 
 ## Regular Expressions
 Rules that rely on user defined regular expressions. Because the user can use them to check a multitude of things, it is not possible to categorize these rules in general.
