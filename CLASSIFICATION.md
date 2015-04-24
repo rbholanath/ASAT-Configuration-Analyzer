@@ -20,7 +20,7 @@
 |ClassFanOutComplexity|Metric|Yes|
 |ClassTypeParameterName|Naming Conventions|Yes|
 |ConstantName|Naming Conventions|Yes|
-|CovariantEquals|Object Oriented Design|No|
+|CovariantEquals|Interface|No|
 |CustomImportOrder|Best Practices|Yes|
 |CyclomaticComplexity|Metric|Yes|
 |DeclarationOrder|Best Practices|Yes|
@@ -35,11 +35,11 @@
 |EmptyLineSeparator|Style Conventions|Yes|
 |EmptyStatement|Refactorings - Redundancies|No|
 |EntityBean|Best Practices|No|
-|EqualsAvoidNull|Likely Error|Yes|
-|EqualsHashCode|Likely Error - Omission|No|
+|EqualsAvoidNull|Logic|Yes|
+|EqualsHashCode|Interface|No|
 |ExecutableStatementCount|Metric|Yes|
 |ExplicitInitialization|Refactorings - Redundancies|No|
-|FallThrough|Likely Error - Omission|Yes|
+|FallThrough|Logic|Yes|
 |FileContentsHolder|Tool Specific|No|
 |FileLength|Metric|Yes|
 |FileTabCharacter|Style Conventions|Yes|
@@ -50,10 +50,10 @@
 |GenericIllegalRegexp|Regular Expressions|No|
 |GenericWhitespace|Style Conventions|No|
 |Header|Documentation Conventions|Yes|
-|HiddenField|Likely Error|Yes|
+|HiddenField|Logic|Yes|
 |HideUtilityClassConstructor|Object Oriented Design|No|
 |IllegalCatch|Error Handling|Yes|
-|IllegalImport|Likely Error|Yes|
+|IllegalImport|Interface|Yes|
 |IllegalInstantiation|Best Practices|Yes|
 |IllegalThrows|Error Handling|Yes|
 |IllegalToken|Best Practices|Yes|
@@ -74,7 +74,7 @@
 |JavadocType|Documentation Conventions|Yes|
 |JavadocVariable|Documentation Conventions|Yes|
 |JavaNCSS|Metric|Yes|
-|JUnitTestCase|Testing|No|
+|JUnitTestCase|Interface|No|
 |LeftCurly|Style Conventions|Yes|
 |LineLength|Metric|Yes|
 |LocalFinalVariableName|Naming Conventions|Yes|
@@ -89,11 +89,11 @@
 |MethodName|Naming Conventions|Yes|
 |MethodParamPad|Style Conventions|Yes|
 |MethodTypeParameterName|Naming Conventions|Yes|
-|MissingCtor|Object Oriented Design|No|
+|MissingCtor|Interface|No|
 |MissingDeprecated|Migration|No|
 |MissingOverride|Object Oriented Design|Yes|
-|MissingSwitchDefault|Likely Error - Omission|No|
-|ModifiedControlVariable|Likely Error|No|
+|MissingSwitchDefault|Logic|No|
+|ModifiedControlVariable|Logic|No|
 |ModifierOrder|Best Practices|No|
 |MultipleStringLiterals|Refactorings - Redundancies|Yes|
 |MultipleVariableDeclarations|Best Practices|No|
@@ -147,10 +147,10 @@
 |SingleLineJavadoc|Documentation Conventions|No|
 |StaticVariableName|Naming Conventions|Yes|
 |StrictDuplicateCode|Refactorings - Redundancies|No|
-|StringLiteralEquality|Likely Error|No|
+|StringLiteralEquality|Logic|No|
 |SummaryJavadoc|Documentation Conventions|Yes|
-|SuperClone|Likely Error - Omission|No|
-|SuperFinalize|Likely Error - Omission|No|
+|SuperClone|Interface|No|
+|SuperFinalize|Interface|No|
 |SuppressionCommentFilter|Tool Specific|No|
 |SuppressionFilter|Tool Specific|No|
 |SuppressWarnings|Tool Specific|Yes|
@@ -163,11 +163,11 @@
 |ThrowsCount|Error Handling|Yes|
 |TodoComment|Documentation Conventions|Yes|
 |TrailingComment|Documentation Conventions|Yes|
-|Translation|Likely Error - Omission|Yes|
+|Translation|Logic|Yes|
 |TreeWalker|Tool Specific|No|
 |TypecastParenPad|Style Conventions|Yes|
 |TypeName|Naming Conventions|Yes|
-|UncommentedMain|Testing|Yes|
+|UncommentedMain|Best Practices|Yes|
 |UniqueProperties|Refactorings - Redundancies|Yes|
 |UnnecessaryParentheses|Refactorings - Redundancies|No|
 |UnusedImports|Refactorings - Redundancies|Yes|
@@ -194,19 +194,19 @@
 |comma-spacing|Style Conventions|Yes|
 |comma-style|Style Conventions|Yes|
 |complexity|Metric|Yes|
-|consistent-return|Likely Error - Omission|No|
+|consistent-return|Logic|No|
 |consistent-this|Naming Conventions|Yes|
 |curly|Style Conventions|Yes|
-|default-case|Likely Error - Omission|No|
+|default-case|Logic|No|
 |dot-notation|Best Practices|Yes|
 |eol-last|Style Conventions|No|
-|eqeqeq|Likely Error|Yes|
+|eqeqeq|Logic|Yes|
 |func-names|Best Practices|No|
 |func-style|Best Practices|Yes|
 |generator-star|Style Conventions|Yes|
 |generator-star-spacing|Style Conventions|No|
 |global-strict|Best Practices|Yes|
-|guard-for-in|Likely Error - Omission|No|
+|guard-for-in|Logic|No|
 |handle-callback-err|Error Handling|Yes|
 |indent|Style Conventions|Yes|
 |key-spacing|Style Conventions|Yes|
@@ -216,11 +216,11 @@
 |max-params|Metric|Yes|
 |max-statements|Metric|Yes|
 |new-cap|Naming Conventions|Yes|
-|new-parens|Style Conventions|No|
 |newline-after-var|Style Conventions|No|
+|new-parens|Style Conventions|No|
 |no-alert|Best Practices|No|
 |no-array-constructor|Best Practices|No|
-|no-bitwise|Likely Error|No|
+|no-bitwise|Logic|No|
 |no-caller|Best Practices|No|
 |no-catch-shadow|Best Practices|No|
 |no-comma-dangle|Style Conventions|No|
@@ -230,80 +230,80 @@
 |no-continue|Best Practices|No|
 |no-control-regex|Best Practices|No|
 |no-debugger|Best Practices|No|
-|no-delete-var|Likely Error|No|
+|no-delete-var|Resource|No|
 |no-div-regex|Best Practices|No|
-|no-dupe-args|Likely Error|No|
-|no-dupe-keys|Likely Error|No|
-|no-duplicate-case|Likely Error|No|
+|no-dupe-args|Interface|No|
+|no-dupe-keys|Interface|No|
+|no-duplicate-case|Logic|No|
 |no-else-return|Refactorings - Redundancies|No|
 |no-empty|Refactorings - Redundancies|No|
-|no-empty-class|Likely Error|No|
+|no-empty-class|Logic|No|
 |no-empty-label|Best Practices|No|
-|no-eq-null|Likely Error|No|
-|no-eval|Likely Error|No|
+|no-eq-null|Logic|No|
+|no-eval|Interface|No|
 |no-ex-assign|Error Handling|No|
-|no-extend-native|Likely Error|No|
+|no-extend-native|Interface|No|
 |no-extra-bind|Refactorings - Redundancies|No|
-|no-extra-boolean-cast|Likely Error|No|
+|no-extra-boolean-cast|Refactorings - Redundancies|No|
 |no-extra-parens|Refactorings - Redundancies|No|
 |no-extra-semi|Refactorings - Redundancies|No|
 |no-extra-strict|Refactorings - Redundancies|No|
-|no-fallthrough|Likely Error - Omission|No|
+|no-fallthrough|Logic|No|
 |no-floating-decimal|Style Conventions|No|
-|no-func-assign|Likely Error|No|
-|no-implied-eval|Likely Error|No|
+|no-func-assign|Logic|No|
+|no-implied-eval|Interface|No|
 |no-inline-comments|Documentation Conventions|No|
 |no-inner-declarations|Best Practices|No|
-|no-invalid-regexp|Likely Error|No|
+|no-invalid-regexp|Logic|No|
 |no-irregular-whitespace|Refactorings - Redundancies|No|
-|no-iterator|Likely Error|No|
-|no-label-var|Best Practices|No|
+|no-iterator|Logic|No|
 |no-labels|Best Practices|No|
+|no-label-var|Best Practices|No|
 |no-lone-blocks|Refactorings - Redundancies|No|
 |no-lonely-if|Refactorings - Simplifications|No|
-|no-loop-func|Likely Error|No|
+|no-loop-func|Logic|No|
 |no-mixed-requires|Style Conventions|Yes|
 |no-mixed-spaces-and-tabs|Style Conventions|Yes|
+|no-multiple-empty-lines|Refactorings - Redundancies|Yes|
 |no-multi-spaces|Refactorings - Redundancies|Yes|
 |no-multi-str|Best Practices|No|
-|no-multiple-empty-lines|Refactorings - Redundancies|Yes|
-|no-native-reassign|Likely Error|No|
-|no-negated-in-lhs|Likely Error|No|
+|no-native-reassign|Interface|No|
+|no-negated-in-lhs|Logic|No|
 |no-nested-ternary|Best Practices|No|
-|no-new|Likely Error - Omission|No|
+|no-new|Resource|No|
 |no-new-func|Best Practices|No|
 |no-new-object|Best Practices|No|
-|no-new-require|Likely Error|No|
+|no-new-require|Interface|No|
 |no-new-wrappers|Best Practices|No|
-|no-obj-calls|Likely Error|No|
-|no-octal|Likely Error|No|
+|no-obj-calls|Interface|No|
+|no-octal|Resource|No|
 |no-octal-escape|Best Practices|No|
 |no-param-reassign|Best Practices|No|
-|no-path-concat|Likely Error|No|
+|no-path-concat|Interface|No|
 |no-plusplus|Best Practices|No|
-|no-process-env|Likely Error|No|
+|no-process-env|Interface|No|
 |no-process-exit|Best Practices|No|
 |no-proto|Best Practices|No|
-|no-redeclare|Likely Error|No|
-|no-regex-spaces|Likely Error|No|
-|no-reserved-keys|Likely Error|No|
+|no-redeclare|Logic|No|
+|no-regex-spaces|Logic|No|
+|no-reserved-keys|Interface|No|
 |no-restricted-modules|Best Practices|Yes|
-|no-return-assign|Likely Error|No|
-|no-script-url|Likely Error|No|
+|no-return-assign|Logic|No|
+|no-script-url|Interface|No|
 |no-self-compare|Refactorings - Redundancies|No|
-|no-sequences|Likely Error|No|
+|no-sequences|Logic|No|
 |no-shadow|Best Practices|No|
 |no-shadow-restricted-names|Best Practices|No|
 |no-space-before-semi|Style Conventions|No|
 |no-spaced-func|Style Conventions|No|
-|no-sparse-arrays|Likely Error|No|
+|no-sparse-arrays|Resource|No|
 |no-sync|Concurrency|No|
 |no-ternary|Best Practices|No|
 |no-throw-literal|Error Handling|No|
 |no-trailing-spaces|Refactorings - Redundancies|No|
-|no-undef|Likely Error|No|
-|no-undef-init|Refactorings - Redundancies|No|
+|no-undef|Resource|No|
 |no-undefined|Best Practices|No|
+|no-undef-init|Refactorings - Redundancies|No|
 |no-underscore-dangle|Naming Conventions|No|
 |no-unreachable|Refactorings - Redundancies|No|
 |no-unused-expressions|Refactorings - Redundancies|No|
@@ -329,19 +329,19 @@
 |space-before-blocks|Style Conventions|Yes|
 |space-before-function-paren|Style Conventions|No|
 |space-before-function-parentheses|Style Conventions|Yes|
+|spaced-line-comment|Style Conventions|Yes|
 |space-in-brackets|Style Conventions|Yes|
-|space-in-parens|Style Conventions|Yes|
 |space-infix-ops|Style Conventions|Yes|
+|space-in-parens|Style Conventions|Yes|
 |space-return-throw-case|Style Conventions|No|
 |space-unary-ops|Style Conventions|Yes|
 |space-unary-word-ops|Style Conventions|No|
-|spaced-line-comment|Style Conventions|Yes|
 |strict|Best Practices|Yes|
-|use-isnan|Likely Error|No|
+|use-isnan|Logic|No|
 |valid-jsdoc|Documentation Conventions|Yes|
-|valid-typeof|Likely Error|No|
+|valid-typeof|Interface|No|
 |vars-on-top|Best Practices|No|
-|wrap-iife|Best Practices|Yes|
+|wrap-iife|Resource|Yes|
 |wrap-regex|Best Practices|No|
 |yoda|Best Practices|Yes|
 
@@ -380,7 +380,7 @@
 |BX_UNBOXING_IMMEDIATELY_REBOXED|Best Practices|No|
 |CD|Code Structure|No|
 |CD_CIRCULAR_DEPENDENCY|Code Structure|No|
-|CI_CONFUSED_INHERITANCE|Interface|No|
+|CI_CONFUSED_INHERITANCE|Object Oriented Design|No|
 |CN|Interface|No|
 |CN_IDIOM|Interface|No|
 |CN_IDIOM_NO_SUPER_CALL|Interface|No|
@@ -415,7 +415,7 @@
 |DM_BOXED_PRIMITIVE_FOR_PARSING|Best Practices|No|
 |DM_BOXED_PRIMITIVE_TOSTRING|Best Practices|No|
 |DM_CONVERT_CASE|Logic|No|
-|DM_DEFAULT_ENCODING|Logic|No|
+|DM_DEFAULT_ENCODING|Interface|No|
 |DM_EXIT|Best Practices|No|
 |DM_FP_NUMBER_CTOR|Best Practices|No|
 |DM_GC|Best Practices|No|
@@ -431,13 +431,13 @@
 |DMI_ANNOTATION_IS_NOT_VISIBLE_TO_REFLECTION|Best Practices|No|
 |DMI_ARGUMENTS_WRONG_ORDER|Interface|No|
 |DMI_BAD_MONTH|Logic|No|
-|DMI_BIGDECIMAL_CONSTRUCTED_FROM_DOUBLE|Logic|No|
+|DMI_BIGDECIMAL_CONSTRUCTED_FROM_DOUBLE|Resource|No|
 |DMI_BLOCKING_METHODS_ON_URL|Best Practices|No|
 |DMI_CALLING_NEXT_FROM_HASNEXT|Logic|No|
 |DMI_COLLECTION_OF_URLS|Best Practices|No|
 |DMI_COLLECTIONS_SHOULD_NOT_CONTAIN_THEMSELVES|Interface|No|
 |DMI_CONSTANT_DB_PASSWORD|Best Practices|No|
-|DMI_DOH|Interface|No|
+|DMI_DOH|Logic|No|
 |DMI_EMPTY_DB_PASSWORD|Best Practices|No|
 |DMI_ENTRY_SETS_MAY_REUSE_ENTRY_OBJECTS|Resource|No|
 |DMI_FUTILE_ATTEMPT_TO_CHANGE_MAXPOOL_SIZE_OF_SCHEDULED_THREAD_POOL_EXECUTOR|Concurrency|No|
@@ -673,6 +673,7 @@
 |OBL|Resource|No|
 |OBL_UNSATISFIED_OBLIGATION|Resource|No|
 |OBL_UNSATISFIED_OBLIGATION_EXCEPTION_EDGE|Resource|No|
+|ODR|Resource|No|
 |ODR_OPEN_DATABASE_RESOURCE|Resource|No|
 |ODR_OPEN_DATABASE_RESOURCE_EXCEPTION_PATH|Resource|No|
 |OS_OPEN_STREAM|Resource|No|
@@ -698,8 +699,8 @@
 |RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE|Refactorings - Redundancies|No|
 |RCN_REDUNDANT_NULLCHECK_WOULD_HAVE_BEEN_A_NPE|Refactorings - Redundancies|No|
 |RE_BAD_SYNTAX_FOR_REGULAR_EXPRESSION|Logic|No|
-|RE_CANT_USE_FILE_SEPARATOR_AS_REGULAR_EXPRESSION|Interface|No|
-|RE_POSSIBLE_UNINTENDED_PATTERN|Interface|No|
+|RE_CANT_USE_FILE_SEPARATOR_AS_REGULAR_EXPRESSION|Logic|No|
+|RE_POSSIBLE_UNINTENDED_PATTERN|Logic|No|
 |REC|Error Handling|No|
 |REC_CATCH_EXCEPTION|Error Handling|No|
 |RI_REDUNDANT_INTERFACES|Refactorings - Redundancies|No|
@@ -721,15 +722,15 @@
 |RV_REM_OF_HASHCODE|Best Practices|No|
 |RV_REM_OF_RANDOM_INT|Best Practices|No|
 |RV_RETURN_VALUE_IGNORED|Resource|No|
-|RV_RETURN_VALUE_IGNORED_BAD_PRACTICE|Best Practices|No|
+|RV_RETURN_VALUE_IGNORED_BAD_PRACTICE|Check|No|
 |RV_RETURN_VALUE_IGNORED_INFERRED|Resource|No|
 |RV_RETURN_VALUE_OF_PUTIFABSENT_IGNORED|Concurrency|No|
-|SA_FIELD_DOUBLE_ASSIGNMENT|Refactorings - Redundancies|No|
+|SA_FIELD_DOUBLE_ASSIGNMENT|Logic|No|
 |SA_FIELD_SELF_ASSIGNMENT|Logic|No|
 |SA_FIELD_SELF_COMPARISON|Logic|No|
 |SA_FIELD_SELF_COMPUTATION|Logic|No|
 |SA_LOCAL_DOUBLE_ASSIGNMENT|Logic|No|
-|SA_LOCAL_SELF_ASSIGNMENT|Refactorings - Redundancies|No|
+|SA_LOCAL_SELF_ASSIGNMENT|Logic|No|
 |SA_LOCAL_SELF_ASSIGNMENT_INSTEAD_OF_FIELD|Logic|No|
 |SA_LOCAL_SELF_COMPARISON|Logic|No|
 |SA_LOCAL_SELF_COMPUTATION|Logic|No|
@@ -805,6 +806,7 @@
 |UCF_USELESS_CONTROL_FLOW_NEXT_LINE|Logic|No|
 |UG|Concurrency|No|
 |UG_SYNC_SET_UNSYNC_GET|Concurrency|No|
+|UI|Interface|No|
 |UI_INHERITANCE_UNSAFE_GETRESOURCE|Interface|No|
 |UL|Concurrency|No|
 |UL_UNRELEASED_LOCK|Concurrency|No|
@@ -866,112 +868,112 @@
 
 |Rule name|Classification|Redefinable|
 |---------|--------------|-----------|
-|AppendingToAnObjectOutputStream|Likely Error|No|
+|AppendingToAnObjectOutputStream|Interface|No|
 |AtomicityProblem|Concurrency|No|
-|BadAppletConstructor|Likely Error|No|
-|BadlyOverriddenAdapter|Likely Error|No|
-|BadResultSetAccess|Likely Error|No|
-|BadSyntaxForRegularExpression|Likely Error|No|
+|BadAppletConstructor|Logic|No|
+|BadlyOverriddenAdapter|Interface|No|
+|BadResultSetAccess|Interface|No|
+|BadSyntaxForRegularExpression|Logic|No|
 |BadUseOfReturnValue|Multiple|No|
-|BooleanReturnNull|Likely Error|No|
+|BooleanReturnNull|Interface|No|
 |BuildInterproceduralCallGraph|Tool Specifc|No|
 |BuildObligationPolicyDatabase|Tool Specifc|No|
 |CalledMethods|Tool Specifc|No|
-|CallToUnsupportedMethod|Likely Error|No|
+|CallToUnsupportedMethod|Interface|No|
 |CheckCalls|Tool Specifc|No|
 |CheckExpectedWarnings|Tool Specifc|No|
-|CheckImmutableAnnotation|Likely Error - Omission|No|
-|CheckRelaxingNullnessAnnotation|Likely Error|No|
-|CheckTypeQualifiers|Likely Error|No|
-|CloneIdiom|Likely Error - Omission|No|
+|CheckImmutableAnnotation|Interface|No|
+|CheckRelaxingNullnessAnnotation|Interface|No|
+|CheckTypeQualifiers|Multiple|No|
+|CloneIdiom|Interface|No|
 |ComparatorIdiom|Best Practices|No|
 |ConfusedInheritance|Object Oriented Design|No|
 |ConfusionBetweenInheritedAndOuterMethod|Best Practices|No|
-|CrossSiteScripting|Likely Error|No|
-|DefaultEncodingDetector|Likely Error|No|
-|DoInsideDoPrivileged|Likely Error|No|
+|CrossSiteScripting|Interface|No|
+|DefaultEncodingDetector|Interface|No|
+|DoInsideDoPrivileged|Interface|No|
 |DontCatchIllegalMonitorStateException|Error Handling|No|
 |DontIgnoreResultOfPutIfAbsent|Concurrency|No|
 |DontUseEnum|Migration|No|
 |DroppedException|Error Handling|No|
 |DumbMethodInvocations|Multiple|No|
 |DumbMethods|Multiple|No|
-|DuplicateBranches|Likely Error|No|
-|EmptyZipFileEntry|Likely Error - Omission|No|
-|EqualsOperandShouldHaveClassCompatibleWithThis|Likely Error|No|
+|DuplicateBranches|Logic|No|
+|EmptyZipFileEntry|Interface|No|
+|EqualsOperandShouldHaveClassCompatibleWithThis|Logic|No|
 |ExplicitSerialization|Tool Specifc|No|
 |FieldItemSummary|Tool Specifc|No|
 |FinalizerNullsFields|Refactorings - Redundancies|No|
 |FindBadCast2|Multiple|No|
-|FindBadForLoop|Likely Error|No|
+|FindBadForLoop|Check|No|
 |FindBugsSummaryStats|Tool Specifc|No|
 |FindCircularDependencies|Code Structure|No|
 |FindDeadLocalStores|Multiple|No|
 |FindDoubleCheck|Concurrency|No|
 |FindEmptySynchronizedBlock|Concurrency|No|
-|FindFieldSelfAssignment|Likely Error|No|
+|FindFieldSelfAssignment|Logic|No|
 |FindFinalizeInvocations|Multiple|No|
-|FindFloatEquality|Likely Error|No|
-|FindFloatMath|Likely Error|No|
-|FindHEmismatch|Likely Error|No|
+|FindFloatEquality|Logic|No|
+|FindFloatMath|Logic|No|
+|FindHEmismatch|Interface|No|
 |FindInconsistentSync2|Concurrency|No|
 |FindJSR166LockMonitorenter|Concurrency|No|
-|FindLocalSelfAssignment2|Multiple|No|
-|FindMaskedFields|Likely Error|No|
+|FindLocalSelfAssignment2|Logic|No|
+|FindMaskedFields|Logic|No|
 |FindMismatchedWaitOrNotify|Concurrency|No|
 |FindNakedNotify|Concurrency|No|
-|FindNonSerializableStoreIntoSession|Likely Error|No|
-|FindNonSerializableValuePassedToWriteObject|Likely Error|No|
+|FindNonSerializableStoreIntoSession|Interface|No|
+|FindNonSerializableValuePassedToWriteObject|Interface|No|
 |FindNonShortCircuit|Best Practices|No|
 |FindNullDeref|Multiple|No|
-|FindNullDerefsInvolvingNonShortCircuitEvaluation|Likely Error|No|
-|FindOpenStream|Likely Error - Omission|No|
+|FindNullDerefsInvolvingNonShortCircuitEvaluation|Check|No|
+|FindOpenStream|Resource|No|
 |FindPuzzlers|Multiple|No|
-|FindRefComparison|Likely Error|No|
-|FindReturnRef|Likely Error|No|
+|FindRefComparison|Logic|No|
+|FindReturnRef|Interface|No|
 |FindRoughConstants|Best Practices|No|
 |FindRunInvocations|Concurrency|No|
-|FindSelfComparison|Likely Error|No|
-|FindSelfComparison2|Likely Error|No|
+|FindSelfComparison|Logic|No|
+|FindSelfComparison2|Logic|No|
 |FindSleepWithLockHeld|Concurrency|No|
 |FindSpinLoop|Concurrency|No|
-|FindSqlInjection|Likely Error|No|
+|FindSqlInjection|Interface|No|
 |FindTwoLockWait|Concurrency|No|
 |FindUncalledPrivateMethods|Refactorings - Redundancies|No|
 |FindUnconditionalWait|Concurrency|No|
-|FindUninitializedGet|Likely Error|No|
+|FindUninitializedGet|Resource|No|
 |FindUnrelatedTypesInGenericContainer|Multiple|No|
 |FindUnreleasedLock|Concurrency|No|
-|FindUnsatisfiedObligation|Likely Error|No|
+|FindUnsatisfiedObligation|Resource|No|
 |FindUnsyncGet|Concurrency|No|
 |FindUselessControlFlow|Multiple|No|
-|FindUseOfNonSerializableValue|Likely Error|No|
+|FindUseOfNonSerializableValue|Interface|No|
 |FormatStringChecker|Multiple|No|
 |FunctionsThatMightBeMistakenForProcedures|Tool Specifc|No|
 |HugeSharedStringConstants|Best Practices|No|
-|IDivResultCastToDouble|Likely Error|No|
-|IncompatMask|Likely Error|No|
-|InconsistentAnnotations|Likely Error|No|
+|IDivResultCastToDouble|Logic|No|
+|IncompatMask|Logic|No|
+|InconsistentAnnotations|Interface|No|
 |InefficientIndexOf|Best Practices|No|
 |InefficientMemberAccess|Best Practices|No|
 |InefficientToArray|Best Practices|No|
-|InfiniteLoop|Likely Error|No|
-|InfiniteRecursiveLoop|Likely Error|No|
-|InheritanceUnsafeGetResource|Likely Error|No|
-|InitializationChain|Likely Error|No|
-|InitializeNonnullFieldsInConstructor|Likely Error|No|
+|InfiniteLoop|Logic|No|
+|InfiniteRecursiveLoop|Logic|No|
+|InheritanceUnsafeGetResource|Interface|No|
+|InitializationChain|Multiple|No|
+|InitializeNonnullFieldsInConstructor|Resource|No|
 |InstantiateStaticClass|Refactorings - Redundancies|No|
-|IntCast2LongAsInstant|Likely Error|No|
+|IntCast2LongAsInstant|Logic|No|
 |InvalidJUnitTest|Multiple|No|
 |IteratorIdioms|Best Practices|No|
 |LazyInit|Concurrency|No|
-|LoadOfKnownNullValue|Likely Error|No|
-|LostLoggerDueToWeakReference|Likely Error|No|
+|LoadOfKnownNullValue|Logic|No|
+|LostLoggerDueToWeakReference|Interface|No|
 |MethodReturnCheck|Multiple|No|
 |Methods|Tool Specifc|No|
 |MultithreadedInstanceAccess|Concurrency|No|
 |MutableLock|Concurrency|No|
-|MutableStaticFields|Likely Error|No|
+|MutableStaticFields|Interface|No|
 |Naming|Multiple|No|
 |Noise|Tool Specifc|No|
 |NoiseNullDeref|Tool Specifc|No|
@@ -983,19 +985,19 @@
 |NoteNonNullAnnotations|Tool Specifc|No|
 |NoteNonnullReturnValues|Tool Specifc|No|
 |NoteSuppressedWarnings|Tool Specifc|No|
-|NoteUnconditionalParamDerefs|Likely Error|No|
+|NoteUnconditionalParamDerefs|Multiple|No|
 |NumberConstructor|Best Practices|No|
-|OptionalReturnNull|Likely Error|No|
-|OverridingEqualsNotSymmetrical|Likely Error|No|
+|OptionalReturnNull|Interface|No|
+|OverridingEqualsNotSymmetrical|Logic|No|
 |PreferZeroLengthArrays|Best Practices|No|
 |PublicSemaphores|Concurrency|No|
-|QuestionableBooleanAssignment|Likely Error|No|
-|ReadOfInstanceFieldInMethodInvokedByConstructorInSuperclass|Likely Error|No|
-|ReadReturnShouldBeChecked|Likely Error - Omission|No|
+|QuestionableBooleanAssignment|Logic|No|
+|ReadOfInstanceFieldInMethodInvokedByConstructorInSuperclass|Logic|No|
+|ReadReturnShouldBeChecked|Check|No|
 |RedundantInterfaces|Refactorings - Redundancies|No|
 |ReflectiveClasses|Tool Specifc|No|
-|RepeatedConditionals|Likely Error|No|
-|ResolveAllReferences|Likely Error|No|
+|RepeatedConditionals|Logic|No|
+|ResolveAllReferences|Interface|No|
 |RuntimeExceptionCapture|Error Handling|No|
 |SerializableIdiom|Multiple|No|
 |StartInConstructor|Concurrency|No|
@@ -1003,7 +1005,7 @@
 |StringConcatenation|Best Practices|No|
 |SuperfluousInstanceOf|Refactorings - Simplifications|No|
 |SuspiciousThreadInterrupted|Concurrency|No|
-|SwitchFallthrough|Likely Error - Omission|No|
+|SwitchFallthrough|Logic|No|
 |SynchronizationOnSharedBuiltinConstant|Concurrency|No|
 |SynchronizeAndNullCheckField|Concurrency|No|
 |SynchronizeOnClassLiteralNotGetClass|Concurrency|No|
@@ -1016,12 +1018,12 @@
 |TrainLongInstantfParams|Tool Specifc|No|
 |TrainNonNullAnnotations|Tool Specifc|No|
 |TrainUnconditionalDerefParams|Tool Specifc|No|
-|UncallableMethodOfAnonymousClass|Likely Error|No|
+|UncallableMethodOfAnonymousClass|Interface|No|
 |UnnecessaryMath|Refactorings - Redundancies|No|
 |UnreadFields|Multiple|No|
 |URLProblems|Best Practices|No|
 |UselessSubclassMethod|Refactorings - Redundancies|No|
-|VarArgsProblems|Likely Error|No|
+|VarArgsProblems|Interface|No|
 |VolatileUsage|Concurrency|No|
 |WaitInLoop|Concurrency|No|
 |WrongMapIterator|Best Practices|No|
@@ -1111,7 +1113,7 @@
 |requirePaddingNewlinesBeforeLineComments|Style Conventions|No|
 |requirePaddingNewlinesInBlocks|Style Conventions|Yes|
 |requirePaddingNewLinesInObjects|Style Conventions|No|
-|requireParenthesesAroundIIFE|Likely Error|No|
+|requireParenthesesAroundIIFE|Resource|No|
 |requireQuotedKeysInObjects|Best Practices|No|
 |requireRightStickedOperators|Style Conventions|No|
 |requireSemicolon|Style Conventions|No|
@@ -1153,8 +1155,8 @@
 |Rule name|Classification|Redefinable|
 |---------|--------------|-----------|
 |asi|Style Conventions|No|
-|bitwise|Likely Error|No|
-|boss|Likely Error|No|
+|bitwise|Logic|No|
+|boss|Logic|No|
 |browser|Tool Specific|No|
 |browserify|Tool Specific|No|
 |camelcase|Naming Conventions|Yes|
@@ -1170,59 +1172,59 @@
 |E005: Input is empty|Tool Specific|No|
 |E006: Unexpected early end of program|Tool Specific|No|
 |E007: Missing \use strict\ statement|Best Practices|No|
-|E008: Strict violation|Likely Error|No|
-|E009: Option 'validthis' can't be used in a global scope|Likely Error|No|
-|E010: 'with' is not allowed in strict mode|Likely Error|No|
-|E011: const '{a}' has already been declared|Likely Error|No|
-|E012: const '{a}' is initialized to 'undefined'|Likely Error|No|
-|E013: Attempting to override '{a}' which is a constant|Likely Error|No|
+|E008: Strict violation|Interface|No|
+|E009: Option 'validthis' can't be used in a global scope|Interface|No|
+|E010: 'with' is not allowed in strict mode|Interface|No|
+|E011: const '{a}' has already been declared|Resource|No|
+|E012: const '{a}' is initialized to 'undefined'|Resource|No|
+|E013: Attempting to override '{a}' which is a constant|Resource|No|
 |E014: A regular expression literal can be confused with '/='|Best Practices|No|
-|E015: Unclosed regular expression|Likely Error - Omission|No|
-|E016: Invalid regular expression|Likely Error|No|
-|E017: Unclosed comment|Likely Error - Omission|No|
-|E018: Unbegun comment|Likely Error|No|
-|E019: Unmatched '{a}'|Likely Error - Omission|No|
-|E020: Expected '{a}' to match '{b}' from line {c} and instead saw '{d}'|Likely Error|No|
-|E021: Expected '{a}' and instead saw '{b}'|Likely Error|No|
-|E022: Line breaking error '{a}'|Likely Error|No|
-|E023: Missing '{a}'|Likely Error - Omission|No|
-|E024: Unexpected '{a}'|Likely Error|No|
-|E025: Missing ':' on a case clause|Likely Error - Omission|No|
-|E026: Missing '}' to match '{' from line {a}|Likely Error - Omission|No|
-|E027: Missing ']' to match '[' form line {a}|Likely Error - Omission|No|
-|E028: Illegal comma|Likely Error|No|
-|E029: Unclosed string|Likely Error - Omission|No|
-|E030: Expected an identifier and instead saw '{a}'|Likely Error|No|
-|E031: Bad assignment|Likely Error|No|
-|E032: Expected a small integer or 'false' and instead saw '{a}'|Likely Error|No|
-|E033: Expected an operator and instead saw '{a}'|Likely Error|No|
+|E015: Unclosed regular expression|Logic|No|
+|E016: Invalid regular expression|Logic|No|
+|E017: Unclosed comment|Logic|No|
+|E018: Unbegun comment|Logic|No|
+|E019: Unmatched '{a}'|Logic|No|
+|E020: Expected '{a}' to match '{b}' from line {c} and instead saw '{d}'|Logic|No|
+|E021: Expected '{a}' and instead saw '{b}'|Logic|No|
+|E022: Line breaking error '{a}'|Logic|No|
+|E023: Missing '{a}'|Logic|No|
+|E024: Unexpected '{a}'|Logic|No|
+|E025: Missing ':' on a case clause|Logic|No|
+|E026: Missing '}' to match '{' from line {a}|Logic|No|
+|E027: Missing ']' to match '[' form line {a}|Logic|No|
+|E028: Illegal comma|Logic|No|
+|E029: Unclosed string|Logic|No|
+|E030: Expected an identifier and instead saw '{a}'|Logic|No|
+|E031: Bad assignment|Logic|No|
+|E032: Expected a small integer or 'false' and instead saw '{a}'|Logic|No|
+|E033: Expected an operator and instead saw '{a}'|Logic|No|
 |E034: get/set are ES5 features|Migration|No|
-|E035: Missing property name|Likely Error - Omission|No|
-|E036: Expected to see a statement and instead saw a block|Likely Error|No|
-|E037: Constant {a} was not declared correctly|Likely Error|No|
-|E038: Variable {a} was not declared correctly|Likely Error|No|
-|E039: Function declarations are not invocable. Wrap the whole function invocation in parens|Likely Error - Omission|No|
-|E040: Each value should have its own case label|Likely Error|No|
-|E041: Unrecoverable syntax error|Likely Error|No|
+|E035: Missing property name|Interface|No|
+|E036: Expected to see a statement and instead saw a block|Logic|No|
+|E037: Constant {a} was not declared correctly|Resource|No|
+|E038: Variable {a} was not declared correctly|Resource|No|
+|E039: Function declarations are not invocable. Wrap the whole function invocation in parens|Resource|No|
+|E040: Each value should have its own case label|Logic|No|
+|E041: Unrecoverable syntax error|Logic|No|
 |E042: Stopping|Tool Specific|No|
 |E043: Too many errors|Tool Specific|No|
-|E044: '{a}' is already defined and can't be redefined|Likely Error|No|
-|E045: Invalid for each loop|Likely Error|No|
-|E046: A yield statement shall be within a generator function (with syntax: `function*`)|Likely Error|No|
-|E047: A generator function shall contain a yield statement|Likely Error - Omission|No|
-|E048: Let declaration not directly within block|Likely Error|No|
+|E044: '{a}' is already defined and can't be redefined|Resource|No|
+|E045: Invalid for each loop|Logic|No|
+|E046: A yield statement shall be within a generator function (with syntax: `function*`)|Interface|No|
+|E047: A generator function shall contain a yield statement|Interface|No|
+|E048: Let declaration not directly within block|Logic|No|
 |E049: A {a} cannot be named '{b}'|Naming Conventions|No|
 |enforceall|Tool Specific|No|
-|eqeqeq|Likely Error|Yes|
-|eqnull|Likely Error|No|
+|eqeqeq|Logic|Yes|
+|eqnull|Logic|No|
 |es3|Tool Specific|No|
 |es5|Tool Specific|No|
 |esnext|Tool Specific|No|
-|evil|Likely Error|No|
-|expr|Likely Error|No|
+|evil|Interface|No|
+|expr|Logic|No|
 |extends|Tool Specific|No|
 |files|Tool Specific|No|
-|forin|Likely Error - Omission|No|
+|forin|Logic|No|
 |freeze|Best Practices|No|
 |funcscope|Best Practices|No|
 |gcl|Tool Specific|No|
@@ -1233,14 +1235,14 @@
 |I003: ES5 option is now set per default|Tool Specific|No|
 |immed|Best Practices|No|
 |indent|Style Conventions|Yes|
-|iterator|Likely Error|No|
+|iterator|Logic|No|
 |jasmine|Tool Specific|No|
 |jquery|Tool Specific|No|
 |lastsemic|Style Conventions|No|
 |latedef|Best Practices|Yes|
 |laxbreak|Style Conventions|No|
 |laxcomma|Style Conventions|No|
-|loopfunc|Likely Error|No|
+|loopfunc|Logic|No|
 |maxcomplexity|Metric|Yes|
 |maxdepth|Metric|Yes|
 |maxerr|Tool Specific|Yes|
@@ -1256,11 +1258,11 @@
 |node|Tool Specific|No|
 |noempty|Refactorings - Redundancies|No|
 |nomen|Naming Conventions|No|
-|nonbsp|Likely Error|No|
+|nonbsp|Interface|No|
 |nonew|Best Practices|No|
 |nonstandard|Tool Specific|No|
-|notypeof|Likely Error|No|
-|noyield|Likely Error - Omission|No|
+|notypeof|Interface|No|
+|noyield|Interface|No|
 |onecase|Best Practices|No|
 |onevar|Best Practices|No|
 |phantom|Tool Specific|No|
@@ -1269,10 +1271,10 @@
 |prototypejs|Tool Specific|No|
 |qunit|Tool Specific|No|
 |quotmark|Style Conventions|Yes|
-|regexdash|Likely Error|No|
-|regexp|Likely Error|No|
+|regexdash|Logic|No|
+|regexp|Logic|No|
 |rhino|Tool Specific|No|
-|scripturl|Likely Error|No|
+|scripturl|Interface|No|
 |shadow|Best Practices|No|
 |shelljs|Tool Specific|No|
 |smarttabs|Style Conventions|No|
@@ -1281,13 +1283,13 @@
 |supernew|Best Practices|No|
 |trailing|Refactorings - Redundancies|No|
 |typed|Tool Specific|No|
-|undef|Likely Error|No|
+|undef|Resource|No|
 |unused|Refactorings - Redundancies|Yes|
 |validthis|Best Practices|No|
 |W001: 'hasOwnProperty' is a really bad name|Naming Conventions|No|
 |W002: Value of '{a}' may be overwritten in IE 8 and earlier|Best Practices|No|
-|W003: '{a}' was used before it was defined|Likely Error|No|
-|W004: '{a}' is already defined|Likely Error|No|
+|W003: '{a}' was used before it was defined|Resource|No|
+|W004: '{a}' is already defined|Logic|No|
 |W005: A dot following a number can be confused with a decimal point|Best Practices|No|
 |W006: Confusing minuses|Best Practices|No|
 |W007: Confusing pluses|Best Practices|No|
@@ -1299,57 +1301,57 @@
 |W013: Missing space after '{a}'|Style Conventions|No|
 |W014: Bad line breaking before '{a}'|Best Practices|No|
 |W015: Expected '{a}' to have an indentation at {b} instead at {c}|Style Conventions|No|
-|W016: Unexpected use of '{a}'|Likely Error|No|
+|W016: Unexpected use of '{a}'|Logic|No|
 |W017: Bad operand|Best Practices|No|
 |W018: Confusing use of '{a}'|Best Practices|No|
-|W019: Use the isNaN function to compare with NaN|Likely Error|No|
-|W020: Read only|Likely Error|No|
-|W021: '{a}' is a function|Likely Error|No|
+|W019: Use the isNaN function to compare with NaN|Logic|No|
+|W020: Read only|Interface|No|
+|W021: '{a}' is a function|Interface|No|
 |W022: Do not assign to the exception parameter|Error Handling|No|
-|W023: Expected an identifier in an assignment and instead saw a function invocation|Likely Error|No|
-|W024: Expected an identifier and instead saw '{a}' (a reserved word)|Likely Error|No|
-|W025: Missing name in function declaration|Likely Error|No|
+|W023: Expected an identifier in an assignment and instead saw a function invocation|Logic|No|
+|W024: Expected an identifier and instead saw '{a}' (a reserved word)|Logic|No|
+|W025: Missing name in function declaration|Logic|No|
 |W026: Inner functions should be listed at the top of the outer function|Best Practices|No|
 |W027: Unreachable '{a}' after '{b}'|Refactorings - Redundancies|No|
 |W028: Label '{a}' on {b} statement|Best Practices|No|
-|W030: Expected an assignment or function call and instead saw an expression|Likely Error|No|
+|W030: Expected an assignment or function call and instead saw an expression|Logic|No|
 |W031: Do not use 'new' for side effects|Best Practices|No|
 |W032: Unnecessary semicolon|Style Conventions|No|
 |W033: Missing semicolon|Style Conventions|No|
 |W034: Unnecessary directive \{a}\|Refactorings - Redundancies|No|
 |W035: Empty block|Refactorings - Redundancies|No|
-|W036: Unexpected /*member '{a}'|Likely Error|No|
+|W036: Unexpected /*member '{a}'|Logic|No|
 |W037: '{a}' is a statement label|Best Practices|No|
 |W038: '{a}' used out of scope|Best Practices|No|
-|W039: '{a}' is not allowed|Likely Error|No|
+|W039: '{a}' is not allowed|Logic|No|
 |W040: Possible strict violation|Best Practices|No|
-|W041: Use '{a}' to compare with '{b}'|Likely Error|No|
+|W041: Use '{a}' to compare with '{b}'|Logic|No|
 |W042: Avoid EOL escaping|Best Practices|No|
 |W043: Bad escaping of EOL. Use option multistr if needed|Best Practices|No|
 |W044: Bad or unnecessary escaping|Best Practices|No|
 |W045: Bad number '{a}'|Best Practices|No|
 |W046: Don't use extra leading zeros '{a}'|Best Practices|No|
 |W047: A trailing decimal point can be confused with a dot: '{a}'|Best Practices|No|
-|W048: Unexpected control character in regular expression|Likely Error|No|
-|W049: Unexpected escaped character '{a}' in regular expression|Likely Error|No|
-|W050: JavaScript URL|Likely Error|No|
+|W048: Unexpected control character in regular expression|Logic|No|
+|W049: Unexpected escaped character '{a}' in regular expression|Logic|No|
+|W050: JavaScript URL|Interface|No|
 |W051: Variables should not be deleted|Best Practices|No|
-|W052: Unexpected '{a}'|Likely Error|No|
+|W052: Unexpected '{a}'|Logic|No|
 |W053: Do not use {a} as a constructor|Best Practices|No|
-|W054: The Function constructor is a form of eval|Likely Error|No|
+|W054: The Function constructor is a form of eval|Interface|No|
 |W055: A constructor name should start with an uppercase letter|Naming Conventions|No|
-|W056: Bad constructor|Likely Error|No|
+|W056: Bad constructor|Interface|No|
 |W057: Weird construction. Is 'new' unnecessary|Best Practices|No|
 |W058: Missing '()' invoking a constructor|Best Practices|No|
 |W059: Avoid arguments.{a}|Best Practices|No|
-|W060: document.write can be a form of eval|Likely Error|No|
-|W061: eval can be harmful|Likely Error|No|
-|W062: Wrap an immediate function invocation in parens to assist the reader in understanding that the expression is the result of a function|and not the function itself|No|
-|W063: Math is not a function|Likely Error|No|
-|W064: Missing 'new' prefix when invoking a constructor|Likely Error|No|
+|W060: document.write can be a form of eval|Interface|No|
+|W061: eval can be harmful|Interface|No|
+|W062: Wrap an immediate function invocation in parens to assist the reader in understanding that the expression is the result of a function and not the function itself|Best Practices|No|
+|W063: Math is not a function|Interface|No|
+|W064: Missing 'new' prefix when invoking a constructor|Logic|No|
 |W065: Missing radix parameter|Best Practices|No|
-|W066: Implied eval. Consider passing a function instead of a string|Likely Error|No|
-|W067: Bad invocation|Likely Error|No|
+|W066: Implied eval. Consider passing a function instead of a string|Interface|No|
+|W067: Bad invocation|Interface|No|
 |W068: Wrapping non-IIFE function literals in parens is unnecessary|Best Practices|No|
 |W069: ['{a}'] is better written in dot notation|Best Practices|No|
 |W070: Extra comma. (it breaks older versions of IE|Style Conventions|No|
@@ -1357,49 +1359,49 @@
 |W072: This function has too many parameters. ({a}|Metric|No|
 |W073: Blocks are nested too deeply. ({a})|Metric|No|
 |W074: This function's cyclomatic complexity is too high. ({a}|Metric|No|
-|W075: Duplicate key '{a}'|Likely Error|No|
-|W076: Unexpected parameter '{a}' in get {b} function|Likely Error|No|
-|W077: Expected a single parameter in set {a} function|Likely Error|No|
-|W078: Setter is defined without getter|Likely Error - Omission|No|
-|W079: Redefinition of '{a}'|Likely Error|No|
+|W075: Duplicate key '{a}'|Interface|No|
+|W076: Unexpected parameter '{a}' in get {b} function|Interface|No|
+|W077: Expected a single parameter in set {a} function|Interface|No|
+|W078: Setter is defined without getter|Interface|No|
+|W079: Redefinition of '{a}'|Logic|No|
 |W080: It's not necessary to initialize '{a}' to 'undefined'|Refactorings - Redundancies|No|
 |W081: Too many var statements|Best Practices|No|
 |W082: Function declarations should not be placed in blocks. Use a function expression or move the statement to the top of the outer function|Best Practices|No|
-|W083: Don't make functions within a loop|Likely Error|No|
-|W084: Expected a conditional expression and instead saw an assignment|Likely Error|No|
+|W083: Don't make functions within a loop|Logic|No|
+|W084: Expected a conditional expression and instead saw an assignment|Logic|No|
 |W085: Don't use 'with'|Best Practices|No|
-|W086: Expected a 'break' statement before '{a}'|Likely Error|No|
+|W086: Expected a 'break' statement before '{a}'|Logic|No|
 |W087: Forgotten 'debugger' statement|Best Practices|No|
-|W088: Creating global 'for' variable. Should be 'for (var {a} ...'|Likely Error|No|
-|W089: The body of a for in should be wrapped in an if statement to filter unwanted properties from the prototype|Likely Error - Omission|No|
-|W090: '{a}' is not a statement label|Likely Error|No|
-|W091: '{a}' is out of scope|Likely Error|No|
+|W088: Creating global 'for' variable. Should be 'for (var {a} ...'|Logic|No|
+|W089: The body of a for in should be wrapped in an if statement to filter unwanted properties from the prototype|Logic|No|
+|W090: '{a}' is not a statement label|Logic|No|
+|W091: '{a}' is out of scope|Resource|No|
 |W092: Wrap the /regexp/ literal in parens to disambiguate the slash operator|Best Practices|No|
-|W093: Did you mean to return a conditional instead of an assignment|Likely Error|No|
-|W094: Unexpected comma|Likely Error|No|
-|W095: Expected a string and instead saw {a}|Likely Error|No|
+|W093: Did you mean to return a conditional instead of an assignment|Logic|No|
+|W094: Unexpected comma|Logic|No|
+|W095: Expected a string and instead saw {a}|Logic|No|
 |W096: The '{a}' key may produce unexpected results|Best Practices|No|
 |W097: Use the function form of \use strict\|Best Practices|No|
 |W098: '{a}' is defined but never used|Refactorings - Redundancies|No|
 |W099: Mixed spaces and tabs|Style Conventions|No|
-|W100: This character may get silently deleted by one or more browsers|Likely Error|No|
+|W100: This character may get silently deleted by one or more browsers|Resource|No|
 |W101: Line is too long|Metric|No|
 |W102: Trailing whitespace|Style Conventions|No|
 |W103: The '{a}' property is deprecated|Migration|No|
 |W104: '{a}' is only available in JavaScript 1.7|Migration|No|
-|W105: Unexpected {a} in '{b}'|Likely Error|No|
+|W105: Unexpected {a} in '{b}'|Logic|No|
 |W106: Identifier '{a}' is not in camel case|Naming Conventions|No|
-|W107: Script URL|Likely Error|No|
+|W107: Script URL|Interface|No|
 |W108: Strings must use doublequote|Style Conventions|No|
 |W109: Strings must use singlequote|Style Conventions|No|
 |W110: Mixed double and single quotes|Style Conventions|No|
-|W112: Unclosed string|Likely Error - Omission|No|
-|W113: Control character in string: {a}|Likely Error|No|
+|W112: Unclosed string|Logic|No|
+|W113: Control character in string: {a}|Logic|No|
 |W114: Avoid {a}|Best Practices|No|
-|W115: Octal literals are not allowed in strict mode|Likely Error|No|
+|W115: Octal literals are not allowed in strict mode|Resource|No|
 |W116: Expected '{a}' and instead saw '{b}'|Best Practices|No|
-|W117: '{a}' is not defined|Likely Error|No|
-|W118: '{a}' is only available in Mozilla JavaScript extensions (use moz option)|Likely Error|No|
+|W117: '{a}' is not defined|Resource|No|
+|W118: '{a}' is only available in Mozilla JavaScript extensions (use moz option)|Interface|No|
 |W119: '{a}' is only available in ES6 (use esnext option)|Migration|No|
 |white|Style Conventions|No|
 |worker|Tool Specific|No|
@@ -1410,25 +1412,25 @@
 
 |Rule name|Classification|Redefinable|
 |---------|--------------|-----------|
-|always_use_option_explicit|Likely Error - Omission|No|
-|ambiguous_else_stmt|Likely Error - Omission|No|
-|ambiguous_nested_stmt|Likely Error - Omission|No|
+|always_use_option_explicit|Tool Specific|No|
+|ambiguous_else_stmt|Logic|No|
+|ambiguous_nested_stmt|Logic|No|
 |ambiguous_newline|Best Practices|No|
-|anon_no_return_value|Likely Error - Omission|No|
-|assign_to_function_call|Likely Error|No|
+|anon_no_return_value|Logic|No|
+|assign_to_function_call|Logic|No|
 |block_without_braces|Style Conventions|No|
 |comma_separated_stmts|Best Practices|No|
-|comparison_type_conv|Likely Error|No|
+|comparison_type_conv|Logic|No|
 |context|Tool Specific|No|
 |default_not_at_end|Best Practices|No|
 |define|Tool Specific|No|
 |dup_option_explicit|Tool Specific|No|
-|duplicate_case_in_switch|Likely Error|No|
+|duplicate_case_in_switch|Logic|No|
 |duplicate_formal|Refactorings - Redundancies|No|
 |empty_statement|Refactorings - Redundancies|No|
-|equal_as_assign|Likely Error|No|
+|equal_as_assign|Logic|No|
 |identifier_hides_another|Best Practices|No|
-|inc_dec_within_stmt|Likely Error|No|
+|inc_dec_within_stmt|Logic|No|
 |incorrect_version|Tool Specific|No|
 |invalid_fallthru|Tool Specific|No|
 |invalid_pass|Tool Specific|No|
@@ -1441,16 +1443,16 @@
 |meaningless_block|Refactorings - Redundancies|No|
 |mismatch_ctrl_comments|Tool Specific|No|
 |misplaced_regex|Best Practices|No|
-|missing_break|Likely Error - Omission|No|
-|missing_break_for_last_case|Likely Error - Omission|No|
-|missing_default_case|Likely Error - Omission|No|
+|missing_break|Logic|No|
+|missing_break_for_last_case|Logic|No|
+|missing_default_case|Logic|No|
 |missing_option_explicit|Tool Specific|No|
 |missing_semicolon|Style Conventions|No|
 |missing_semicolon_for_lambda|Style Conventions|No|
-|multiple_plus_minus|Likely Error|No|
+|multiple_plus_minus|Logic|No|
 |nested_comment|Documentation Conventions|No|
-|no_return_value|Likely Error - Omission|No|
-|octal_number|Likely Error|No|
+|no_return_value|Logic|No|
+|octal_number|Resource|No|
 |output-format __FILE__(__LINE__)|Tool Specific|No|
 |parseint_missing_radix|Best Practices|No|
 |partial_option_explicit|Tool Specific|No|
@@ -1459,7 +1461,7 @@
 |redeclared_var|Refactorings - Redundancies|No|
 |trailing_comma_in_array|Refactorings - Redundancies|No|
 |trailing_decimal_point|Style Conventions|No|
-|undeclared_identifier|Likely Error - Omission|No|
+|undeclared_identifier|Resource|No|
 |unreachable_code|Refactorings - Redundancies|No|
 |unreferenced_argument|Refactorings - Redundancies|No|
 |unreferenced_function|Refactorings - Redundancies|No|
@@ -1470,7 +1472,7 @@
 |useless_comparison|Refactorings - Redundancies|No|
 |useless_quotes|Refactorings - Redundancies|No|
 |useless_void|Refactorings - Redundancies|No|
-|var_hides_arg|Likely Error|No|
+|var_hides_arg|Logic|No|
 |want_assign_or_call|Refactorings - Simplifications|No|
 |with_statement|Best Practices|No|
 
@@ -1483,21 +1485,21 @@
 |android.xml/CallSuperLast|Best Practices|No|
 |android.xml/DoNotHardCodeSDCard|Best Practices|No|
 |basic.xml|Multiple|No|
-|basic.xml/AvoidBranchingStatementAsLastInLoop|Likely Error|No|
-|basic.xml/AvoidDecimalLiteralsInBigDecimalConstructor|Likely Error|No|
-|basic.xml/AvoidMultipleUnaryOperators|Likely Error|No|
+|basic.xml/AvoidBranchingStatementAsLastInLoop|Logic|No|
+|basic.xml/AvoidDecimalLiteralsInBigDecimalConstructor|Resource|No|
+|basic.xml/AvoidMultipleUnaryOperators|Logic|No|
 |basic.xml/AvoidThreadGroup|Concurrency|No|
 |basic.xml/AvoidUsingHardCodedIP|Best Practices|No|
-|basic.xml/AvoidUsingOctalValues|Likely Error|No|
+|basic.xml/AvoidUsingOctalValues|Resource|No|
 |basic.xml/BigIntegerInstantiation|Best Practices|No|
 |basic.xml/BooleanInstantiation|Refactorings - Simplifications|No|
-|basic.xml/BrokenNullCheck|Likely Error|No|
-|basic.xml/CheckResultSet|Likely Error - Omission|No|
-|basic.xml/CheckSkipResult|Likely Error - Omission|No|
-|basic.xml/ClassCastExceptionWithToArray|Likely Error|No|
+|basic.xml/BrokenNullCheck|Logic|No|
+|basic.xml/CheckResultSet|Check|No|
+|basic.xml/CheckSkipResult|Check|No|
+|basic.xml/ClassCastExceptionWithToArray|Interface|No|
 |basic.xml/CollapsibleIfStatements|Refactorings - Simplifications|No|
 |basic.xml/DontCallThreadRun|Concurrency|No|
-|basic.xml/DontUseFloatTypeForLoopIndices|Likely Error|No|
+|basic.xml/DontUseFloatTypeForLoopIndices|Resource|No|
 |basic.xml/DoubleCheckedLocking|Concurrency|No|
 |basic.xml/EmptyCatchBlock|Refactorings - Redundancies|No|
 |basic.xml/EmptyFinallyBlock|Refactorings - Redundancies|No|
@@ -1512,15 +1514,15 @@
 |basic.xml/EmptyWhileStmt|Refactorings - Redundancies|No|
 |basic.xml/ExtendsObject|Object Oriented Design|No|
 |basic.xml/ForLoopShouldBeWhileLoop|Refactorings - Simplifications|No|
-|basic.xml/JumbledIncrementer|Likely Error|No|
-|basic.xml/MisplacedNullCheck|Likely Error|No|
-|basic.xml/OverrideBothEqualsAndHashcode|Likely Error - Omission|No|
+|basic.xml/JumbledIncrementer|Logic|No|
+|basic.xml/MisplacedNullCheck|Logic|No|
+|basic.xml/OverrideBothEqualsAndHashcode|Interface|No|
 |basic.xml/ReturnFromFinallyBlock|Error Handling|No|
 |basic.xml/UnconditionalIfStatement|Refactorings - Redundancies|No|
 |basic.xml/UnnecessaryConversionTemporary|Refactorings - Redundancies|No|
 |basic.xml/UnnecessaryFinalModifier|Refactorings - Redundancies|No|
 |basic.xml/UnnecessaryReturn|Refactorings - Redundancies|No|
-|basic.xml/UnusedNullCheckInEquals|Likely Error|No|
+|basic.xml/UnusedNullCheckInEquals|Logic|No|
 |basic.xml/UselessOperationOnImmutable|Refactorings - Redundancies|No|
 |basic.xml/UselessOverridingMethod|Refactorings - Redundancies|No|
 |basic.xml/UselessParentheses|Refactorings - Redundancies|No|
@@ -1529,10 +1531,10 @@
 |braces.xml/IfElseStmtsMustUseBraces|Style Conventions|No|
 |braces.xml/IfStmtsMustUseBraces|Style Conventions|No|
 |braces.xml/WhileLoopsMustUseBraces|Style Conventions|No|
-|clone.xml|Likely Error - Omission|No|
-|clone.xml/CloneMethodMustImplementCloneable|Likely Error - Omission|No|
-|clone.xml/CloneThrowsCloneNotSupportedException|Likely Error - Omission|No|
-|clone.xml/ProperCloneImplementation|Likely Error - Omission|No|
+|clone.xml|Interface|No|
+|clone.xml/CloneMethodMustImplementCloneable|Interface|No|
+|clone.xml/CloneThrowsCloneNotSupportedException|Interface|No|
+|clone.xml/ProperCloneImplementation|Interface|No|
 |codesize.xml|Metric|No|
 |codesize.xml/CyclomaticComplexity|Metric|No|
 |codesize.xml/ExcessiveClassLength|Metric|No|
@@ -1553,7 +1555,7 @@
 |comments.xml/CommentSize|Metric|No|
 |controversial.xml|Multiple|No|
 |controversial.xml/AssignmentInOperand|Best Practices|No|
-|controversial.xml/AtLeastOneConstructor|Object Oriented Design|No|
+|controversial.xml/AtLeastOneConstructor|Interface|No|
 |controversial.xml/AvoidAccessibilityAlteration|Object Oriented Design|No|
 |controversial.xml/AvoidFinalLocalVariable|Best Practices|No|
 |controversial.xml/AvoidLiteralsInIfCondition|Best Practices|No|
@@ -1563,14 +1565,14 @@
 |controversial.xml/AvoidUsingVolatile|Best Practices|No|
 |controversial.xml/BooleanInversion|Best Practices|No|
 |controversial.xml/CallSuperInConstructor|Object Oriented Design|No|
-|controversial.xml/DataflowAnomalyAnalysis|Likely Error|No|
+|controversial.xml/DataflowAnomalyAnalysis|Resource|No|
 |controversial.xml/DefaultPackage|Object Oriented Design|No|
 |controversial.xml/DoNotCallGarbageCollectionExplicitly|Best Practices|No|
 |controversial.xml/DontImportSun|Code Structure|No|
 |controversial.xml/NullAssignment|Refactorings - Redundancies|No|
 |controversial.xml/OneDeclarationPerLine|Best Practices|No|
 |controversial.xml/OnlyOneReturn|Best Practices|No|
-|controversial.xml/SuspiciousOctalEscape|Likely Error|No|
+|controversial.xml/SuspiciousOctalEscape|Logic|No|
 |controversial.xml/UnnecessaryConstructor|Refactorings - Redundancies|No|
 |controversial.xml/UnnecessaryParentheses|Refactorings - Redundancies|No|
 |controversial.xml/UseConcurrentHashMap|Concurrency|No|
@@ -1582,10 +1584,10 @@
 |coupling.xml/LooseCoupling|Object Oriented Design|No|
 |coupling.xml/LoosePackageCoupling|Object Oriented Design|No|
 |design.xml|Multiple|No|
-|design.xml/AbstractClassWithoutAbstractMethod|Likely Error - Omission|No|
-|design.xml/AbstractClassWithoutAnyMethod|Object Oriented Design|No|
-|design.xml/AccessorClassGeneration|Object Oriented Design|No|
-|design.xml/AssignmentToNonFinalStatic|Likely Error|No|
+|design.xml/AbstractClassWithoutAbstractMethod|Interface|No|
+|design.xml/AbstractClassWithoutAnyMethod|Interface|No|
+|design.xml/AccessorClassGeneration|Interface|No|
+|design.xml/AssignmentToNonFinalStatic|Resource|No|
 |design.xml/AvoidConstantsInterface|Object Oriented Design|No|
 |design.xml/AvoidDeeplyNestedIfStmts|Metric|No|
 |design.xml/AvoidInstanceofChecksInCatchClause|Error Handling|No|
@@ -1593,15 +1595,15 @@
 |design.xml/AvoidProtectedMethodInFinalClassNotExtending|Object Oriented Design|No|
 |design.xml/AvoidReassigningParameters|Best Practices|No|
 |design.xml/AvoidSynchronizedAtMethodLevel|Concurrency|No|
-|design.xml/BadComparison|Likely Error|No|
+|design.xml/BadComparison|Logic|No|
 |design.xml/ClassWithOnlyPrivateConstructorsShouldBeFinal|Best Practices|No|
-|design.xml/CloseResource|Likely Error - Omission|No|
-|design.xml/CompareObjectsWithEquals|Likely Error|No|
+|design.xml/CloseResource|Resource|No|
+|design.xml/CompareObjectsWithEquals|Logic|No|
 |design.xml/ConfusingTernary|Best Practices|No|
-|design.xml/ConstructorCallsOverridableMethod|Likely Error|No|
+|design.xml/ConstructorCallsOverridableMethod|Interface|No|
 |design.xml/DefaultLabelNotLastInSwitchStmt|Best Practices|No|
-|design.xml/EmptyMethodInAbstractClassShouldBeAbstract|Object Oriented Design|No|
-|design.xml/EqualsNull|Likely Error|No|
+|design.xml/EmptyMethodInAbstractClassShouldBeAbstract|Interface|No|
+|design.xml/EqualsNull|Logic|No|
 |design.xml/FieldDeclarationsShouldBeAtStartOfClass|Best Practices|No|
 |design.xml/FinalFieldCouldBeStatic|Best Practices|No|
 |design.xml/GodClass|Metric|No|
@@ -1609,23 +1611,23 @@
 |design.xml/ImmutableField|Best Practices|No|
 |design.xml/InstantiationToGetClass|Object Oriented Design|No|
 |design.xml/LogicInversion|Refactorings - Simplifications|No|
-|design.xml/MissingBreakInSwitch|Likely Error - Omission|No|
-|design.xml/MissingStaticMethodInNonInstantiatableClass|Likely Error - Omission|No|
-|design.xml/NonCaseLabelInSwitchStatement|Likely Error|No|
-|design.xml/NonStaticInitializer|Likely Error|No|
+|design.xml/MissingBreakInSwitch|Logic|No|
+|design.xml/MissingStaticMethodInNonInstantiatableClass|Interface|No|
+|design.xml/NonCaseLabelInSwitchStatement|Logic|No|
+|design.xml/NonStaticInitializer|Interface|No|
 |design.xml/NonThreadSafeSingleton|Concurrency|No|
 |design.xml/OptimizableToArrayCall|Best Practices|No|
-|design.xml/PositionLiteralsFirstInCaseInsensitiveComparisons|Likely Error|No|
-|design.xml/PositionLiteralsFirstInComparisons|Likely Error|No|
+|design.xml/PositionLiteralsFirstInCaseInsensitiveComparisons|Logic|No|
+|design.xml/PositionLiteralsFirstInComparisons|Logic|No|
 |design.xml/PreserveStackTrace|Error Handling|No|
 |design.xml/ReturnEmptyArrayRatherThanNull|Best Practices|No|
-|design.xml/SimpleDateFormatNeedsLocale|Likely Error|No|
+|design.xml/SimpleDateFormatNeedsLocale|Interface|No|
 |design.xml/SimplifyBooleanExpressions|Refactorings - Simplifications|No|
 |design.xml/SimplifyBooleanReturns|Refactorings - Simplifications|No|
 |design.xml/SimplifyConditional|Refactorings - Simplifications|No|
 |design.xml/SingularField|Best Practices|No|
 |design.xml/SwitchDensity|Metric|No|
-|design.xml/SwitchStmtsShouldHaveDefault|Likely Error - Omission|No|
+|design.xml/SwitchStmtsShouldHaveDefault|Logic|No|
 |design.xml/TooFewBranchesForASwitchStatement|Metric|No|
 |design.xml/UncommentedEmptyConstructor|Refactorings - Redundancies|No|
 |design.xml/UncommentedEmptyMethod|Refactorings - Redundancies|No|
@@ -1633,7 +1635,7 @@
 |design.xml/UnnecessaryLocalBeforeReturn|Refactorings - Redundancies|No|
 |design.xml/UnsynchronizedStaticDateFormatter|Concurrency|No|
 |design.xml/UseCollectionIsEmpty|Best Practices|No|
-|design.xml/UseLocaleWithCaseConversions|Likely Error|No|
+|design.xml/UseLocaleWithCaseConversions|Interface|No|
 |design.xml/UseNotifyAllInsteadOfNotify|Concurrency|No|
 |design.xml/UseUtilityClass|Object Oriented Design|No|
 |design.xml/UseVarargs|Best Practices|No|
@@ -1649,19 +1651,13 @@
 |empty.xml/EmptySynchronizedBlock|Refactorings - Redundancies|No|
 |empty.xml/EmptyTryBlock|Refactorings - Redundancies|No|
 |empty.xml/EmptyWhileStmt|Refactorings - Redundancies|No|
-|finalizer.xml/AvoidCallingFinalize|Likely Error|No|
-|finalizer.xml/EmptyFinalizer|Refactorings - Redundancies|No|
-|finalizer.xml/FinalizeDoesNotCallSuperFinalize|Likely Error - Omission|No|
-|finalizer.xml/FinalizeOnlyCallsSuperFinalize|Refactorings - Redundancies|No|
-|finalizer.xml/FinalizeOverloaded|Likely Error|No|
-|finalizer.xml/FinalizeShouldBeProtected|Likely Error - Omission|No|
 |finalizers.xml|Multiple|No|
-|finalizers.xml/AvoidCallingFinalize|Likely Error|No|
+|finalizers.xml/AvoidCallingFinalize|Resource|No|
 |finalizers.xml/EmptyFinalizer|Refactorings - Redundancies|No|
-|finalizers.xml/FinalizeDoesNotCallSuperFinalize|Likely Error - Omission|No|
-|finalizers.xml/FinalizeOnlyCallsSuperFinalize|Best Practices|No|
-|finalizers.xml/FinalizeOverloaded|Likely Error|No|
-|finalizers.xml/FinalizeShouldBeProtected|Likely Error|No|
+|finalizers.xml/FinalizeDoesNotCallSuperFinalize|Interface|No|
+|finalizers.xml/FinalizeOnlyCallsSuperFinalize|Refactorings - Redundancies|No|
+|finalizers.xml/FinalizeOverloaded|Interface|No|
+|finalizers.xml/FinalizeShouldBeProtected|Interface|No|
 |imports.xml|Multiple|No|
 |imports.xml/DontImportJavaLang|Code Structure|No|
 |imports.xml/DuplicateImports|Refactorings - Redundancies|No|
@@ -1788,15 +1784,15 @@
 |strings.xml/StringInstantiation|Best Practices|No|
 |strings.xml/StringToString|Refactorings - Redundancies|No|
 |strings.xml/UnnecessaryCaseChange|Best Practices|No|
-|strings.xml/UseEqualsToCompareStrings|Likely Error|No|
+|strings.xml/UseEqualsToCompareStrings|Logic|No|
 |strings.xml/UseIndexOfChar|Best Practices|No|
 |strings.xml/UselessStringValueOf|Refactorings - Redundancies|No|
 |strings.xml/UseStringBufferLength|Best Practices|No|
 |sunsecure.xml|Multiple|No|
 |sunsecure.xml/ArrayIsStoredDirectly|Best Practices|No|
-|sunsecure.xml/MethodReturnsInternalArray|Object Oriented Design|No|
+|sunsecure.xml/MethodReturnsInternalArray|Interface|No|
 |typeresolution.xml|Multiple|No|
-|typeresolution.xml/CloneMethodMustImplementCloneable|Likely Error - Omission|No|
+|typeresolution.xml/CloneMethodMustImplementCloneable|Interface|No|
 |typeresolution.xml/LooseCoupling|Best Practices|No|
 |typeresolution.xml/SignatureDeclareThrowsException|Error Handling|No|
 |typeresolution.xml/UnusedImports|Code Structure|No|
@@ -1819,15 +1815,15 @@
 
 |Rule name|Classification|Redefinable|
 |---------|--------------|-----------|
-|abstract-method|Object Oriented Design|No|
+|abstract-method|Interface|No|
 |acquired-members|Tool Specific|No|
 |additional-builtins|Naming Conventions|No|
 |argument-name-hint|Naming Conventions|No|
 |argument-rgx|Naming Conventions|No|
+|attribute-defined-outside-init|Best Practices|No|
 |attr-name-hint|Naming Conventions|No|
 |attr-rgx|Naming Conventions|No|
-|attribute-defined-outside-init|Best Practices|No|
-|bad-continuation|Likely Error|No|
+|bad-continuation|Logic|No|
 |bad-functions|Best Practices|No|
 |bad-names|Naming Conventions|No|
 |bad-whitespace|Style Conventions|No|
@@ -1836,7 +1832,7 @@
 |C0103: Invalid %s name '%s'|Naming Conventions|No|
 |C0111: Missing %s docstring|Documentation Conventions|No|
 |C0112: Empty %s docstring|Documentation Conventions|No|
-|C0121: Missing required attribute “%s”|Likely Error - Omission|No|
+|C0121: Missing required attribute “%s”|Interface|No|
 |C0202: Class method %s should have cls as first argument|Naming Conventions|No|
 |C0203: Metaclass method %s should have mcs as first argument|Naming Conventions|No|
 |C0204: Metaclass class method %s should have %s as first argument|Naming Conventions|No|
@@ -1850,7 +1846,7 @@
 |C0324: Old: Comma not followed by a space|Style Conventions|No|
 |C0325: Unnecessary parens after %r keyword|Style Conventions|No|
 |C0326: %s space %s %s %s\n%s|Style Conventions|No|
-|C0330: Wrong %s indentation%s|Likely Error|No|
+|C0330: Wrong %s indentation%s|Logic|No|
 |C1001: Old-style class defined|Migration|No|
 |cache-size|Tool Specific|No|
 |callbacks|Naming Conventions|No|
@@ -1870,64 +1866,64 @@
 |docstring-min-length|Metric|No|
 |dummy-variables-rgx|Naming Conventions|No|
 |duplicate-code|Refactorings - Redundancies|No|
-|E0001: (syntax error raised for a module; message varies)|Likely Error|No|
+|E0001: (syntax error raised for a module; message varies)|Logic|No|
 |E0011: Unrecognized file option %r|Tool Specific|No|
 |E0012: Bad option value %r|Tool Specific|No|
-|E0100: __init__ method is a generator|Likely Error|No|
-|E0101: Explicit return in __init__|Likely Error|No|
-|E0102: %s already defined line %s|Likely Error|No|
-|E0103: %r not properly in loop|Likely Error|No|
-|E0104: Return outside function|Likely Error|No|
-|E0105: Yield outside function|Likely Error|No|
-|E0106: Return with argument inside generator|Likely Error|No|
-|E0107: Use of the non-existent %s operator|Likely Error|No|
-|E0108: Duplicate argument name %s in function definition|Likely Error|No|
-|E0202: An attribute affected in %s line %s hide this method|Likely Error|No|
-|E0203: Access to member %r before its definition line %s|Likely Error|No|
-|E0211: Method has no argument|Likely Error - Omission|No|
+|E0100: __init__ method is a generator|Interface|No|
+|E0101: Explicit return in __init__|Interface|No|
+|E0102: %s already defined line %s|Logic|No|
+|E0103: %r not properly in loop|Logic|No|
+|E0104: Return outside function|Logic|No|
+|E0105: Yield outside function|Logic|No|
+|E0106: Return with argument inside generator|Logic|No|
+|E0107: Use of the non-existent %s operator|Logic|No|
+|E0108: Duplicate argument name %s in function definition|Resource|No|
+|E0202: An attribute affected in %s line %s hide this method|Logic|No|
+|E0203: Access to member %r before its definition line %s|Resource|No|
+|E0211: Method has no argument|Interface|No|
 |E0213: Method should have 'self' as first argument|Naming Conventions|No|
-|E0221: Interface resolved to %s is not a class|Likely Error|No|
-|E0222: Missing method %r from %s interface|Likelt Error - Omission|No|
-|E0235: __exit__ must accept 3 arguments: type|value|No|
-|E0501: Old: Non ascii characters found but no encoding specified (PEP 263)|Likely Error|No|
-|E0502: Old: Wrong encoding specified (%s)|Likely Error|No|
-|E0503: Old: Unknown encoding specified (%s)|Likely Error|No|
-|E0601: Using variable %r before assignment|Likely Error|No|
-|E0602: Undefined variable %r|Likely Error|No|
-|E0603: Undefined variable name %r in __all__|Likely Error|No|
-|E0604: Invalid object %r in __all__. Must contain only strings|Likely Error|No|
-|E0611: No name %r in module %r|Likely Error|No|
+|E0221: Interface resolved to %s is not a class|Interface|No|
+|E0222: Missing method %r from %s interface|Interface|No|
+|E0235: __exit__ must accept 3 arguments: type; value; traceback|Interface|No|
+|E0501: Old: Non ascii characters found but no encoding specified (PEP 263)|Interface|No|
+|E0502: Old: Wrong encoding specified (%s)|Interface|No|
+|E0503: Old: Unknown encoding specified (%s)|Interface|No|
+|E0601: Using variable %r before assignment|Interface|No|
+|E0602: Undefined variable %r|Interface|No|
+|E0603: Undefined variable name %r in __all__|Interface|No|
+|E0604: Invalid object %r in __all__. Must contain only strings|Logic|No|
+|E0611: No name %r in module %r|Interface|No|
 |E0701: Bad except clauses order (%s)|Error Handling|No|
 |E0702: Raising %s while only classes or instances are allowed|Error Handling|No|
 |E0710: Raising a new style class which doesn't inherit from BaseException|Error Handling|No|
 |E0711: NotImplemented raised - should raise NotImplementedError|Error Handling|No|
 |E0712: Catching an exception which doesn’t inherit from BaseException: %s|Error Handling|No|
-|E1001: Use of __slots__ on an old style class|Likely Error|No|
-|E1002: Use of super on an old style class|Likely Error|No|
-|E1003: Bad first argument %r given to super()|Likely Error|No|
-|E1004: Missing argument to super()|Likely Error - Omission|No|
-|E1101: %s %r has no %r member|Likely Error|No|
-|E1102: %s is not callable|Likely Error|No|
-|E1103: %s %r has no %r member (but some types could not be inferred)|Likely Error|No|
-|E1111: Assigning to function call which doesn’t return|Likely Error|No|
-|E1120: No value passed for parameter %s in function call|Likely Error|No|
-|E1121: Too many positional arguments for function call|Likely Error|No|
-|E1122: Old: Duplicate keyword argument %r in function call|Likely Error|No|
-|E1123: Passing unexpected keyword argument %r in function call|Likely Error|No|
-|E1124: Argument %r passed by position and keyword in %s call|Likely Error|No|
-|E1125: Missing mandatory keyword argument %r in %s call|Likely Error - Omission|No|
-|E1200: Unsupported logging format character %r (%#02x) at index %d|Likely Error|No|
-|E1201: Logging format string ends in middle of conversion specifier|Likely Error|No|
-|E1205: Too many arguments for logging format string|Likely Error|No|
-|E1206: Not enough arguments for logging format string|Likely Error - Omission|No|
-|E1300: Unsupported format character %r (%#02x) at index %d|Likely Error|No|
-|E1301: Format string ends in middle of conversion specifier|Likely Error|No|
-|E1302: Mixing named and unnamed conversion specifiers in format string|Likely Error|No|
-|E1303: Expected mapping for format string|not %s|No|
-|E1304: Missing key %r in format string dictionary|Likely Error - Omission|No|
-|E1305: Too many arguments for format string|Likely Error|No|
-|E1306: Not enough arguments for format string|Likely Error - Omission|No|
-|E1310: Suspicious argument in %s.%s call|Likely Error|No|
+|E1001: Use of __slots__ on an old style class|Interface|No|
+|E1002: Use of super on an old style class|Interface|No|
+|E1003: Bad first argument %r given to super()|Interface|No|
+|E1004: Missing argument to super()|Interface|No|
+|E1101: %s %r has no %r member|Interface|No|
+|E1102: %s is not callable|Interface|No|
+|E1103: %s %r has no %r member (but some types could not be inferred)|Interface|No|
+|E1111: Assigning to function call which doesn’t return|Interface|No|
+|E1120: No value passed for parameter %s in function call|Interface|No|
+|E1121: Too many positional arguments for function call|Interface|No|
+|E1122: Old: Duplicate keyword argument %r in function call|Interface|No|
+|E1123: Passing unexpected keyword argument %r in function call|Interface|No|
+|E1124: Argument %r passed by position and keyword in %s call|Interface|No|
+|E1125: Missing mandatory keyword argument %r in %s call|Interface|No|
+|E1200: Unsupported logging format character %r (%02x) at index %d|Interface|No|
+|E1201: Logging format string ends in middle of conversion specifier|Logic|No|
+|E1205: Too many arguments for logging format string|Interface|No|
+|E1206: Not enough arguments for logging format string|Interface|No|
+|E1300: Unsupported format character %r (%02x) at index %d|Interface|No|
+|E1301: Format string ends in middle of conversion specifier|Logic|No|
+|E1302: Mixing named and unnamed conversion specifiers in format string|Logic|No|
+|E1303: Expected mapping for format string. Not %s|Logic|No|
+|E1304: Missing key %r in format string dictionary|Logic|No|
+|E1305: Too many arguments for format string|Interface|No|
+|E1306: Not enough arguments for format string|Interface|No|
+|E1310: Suspicious argument in %s.%s call|Interface|No|
 |E1601: Print statement used|Migration|No|
 |E1602: Parameter unpacking specified|Migration|No|
 |E1603: Implicit unpacking of exceptions is not supported in Python 3|Migration|No|
@@ -1969,14 +1965,14 @@
 |I0022: Deprecated pragma 'pylint:disable-msg' or 'pylint:enable-msg'|Tool Specific|No|
 |ignore|Tool Specific|No|
 |ignore-comments|Tool Specific|No|
+|ignored-argument-names|Tool Specific|No|
+|ignored-classes|Tool Specific|No|
+|ignored-modules|Tool Specific|No|
 |ignore-docstrings|Tool Specific|No|
 |ignore-iface-methods|Tool Specific|No|
 |ignore-imports|Tool Specific|No|
 |ignore-long-lines|Style Conventions|No|
-|ignore-mixin-members|Likely Error|No|
-|ignored-argument-names|Tool Specific|No|
-|ignored-classes|Tool Specific|No|
-|ignored-modules|Tool Specific|No|
+|ignore-mixin-members|Interface|No|
 |import-error|Tool Specific|No|
 |import-graph|Tool Specific|No|
 |include-ids|Tool Specific|No|
@@ -2015,9 +2011,9 @@
 |msg-template|Tool Specific|No|
 |name-group|Naming Conventions|No|
 |no-docstring-rgx|Documentation Conventions|No|
-|no-init|Object Oriented Design|No|
-|no-member|Likely Error|No|
-|no-name-in-module|Likely Error|No|
+|no-init|Interface|No|
+|no-member|Interface|No|
+|no-name-in-module|Interface|No|
 |no-self-use|Best Practices|No|
 |no-space-check|Style Conventions|No|
 |notes|Documentation Conventions|No|
@@ -2026,7 +2022,7 @@
 |overgeneral-exceptions|Error Handling|No|
 |persistent|Tool Specific|No|
 |profile|Tool Specific|No|
-|protected-access|Object Oriented Design|No|
+|protected-access|Interface|No|
 |py3k|Tool Specific|No|
 |R0201: Method could be a function|Best Practices|No|
 |R0401: Cyclic import (%s)|Code Structure|No|
@@ -2053,8 +2049,8 @@
 |RP0004: Global evaluation|Tool Specific|No|
 |RP0101: Statistics by type|Tool Specific|No|
 |RP0401: External dependencies|Tool Specific|No|
-|RP0402:	Modules dependencies graph|Tool Specific|No|
-|RP0701: Raw Metric|Tool Specific|No|
+|"RP0402:	Modules dependencies graph"|Tool Specific|No|
+|RP0701: Raw metrics|Tool Specific|No|
 |RP0801: Duplication|Tool Specific|No|
 |single-line-if-stmt|Style Conventions|No|
 |spelling-dict|Tool Specific|No|
@@ -2062,8 +2058,8 @@
 |spelling-private-dict-file|Tool Specific|No|
 |spelling-store-unknown-words|Tool Specific|No|
 |star-args|Code Structure|No|
-|super-on-old-class|Likely Error|No|
 |superfluous-parens|Refactorings - Redundancies|No|
+|super-on-old-class|Interface|No|
 |symbols|Tool Specific|No|
 |too-few-public-methods|Metric|No|
 |too-many-ancestors|Metric|No|
@@ -2078,49 +2074,50 @@
 |too-many-return-statements|Metric|No|
 |too-many-statements|Metric|No|
 |trailing-whitespace|Refactorings - Redundancies|No|
-|undefined-loop-variable|Likely Error|No|
+|undefined-loop-variable|Logic|No|
 |unnecessary-lambda|Refactorings - Simplifications|No|
 |unnecessary-semicolon|Style Conventions|No|
-|unpacking-non-sequence|Likely Error|No|
+|unpacking-non-sequence|Interface|No|
+|unsafe-load-any-extension|Tool Specific|No|
 |unused-argument|Refactorings - Redundancies|No|
 |unused-import|Refactorings - Redundancies|No|
 |unused-variable|Refactorings - Redundancies|No|
 |unused-wildcard-import|Code Structure|No|
-|useless-else-on-loop|Likely Error - Omission|No|
+|useless-else-on-loop|Logic|No|
 |valid-classmethod-first-arg|Naming Conventions|No|
 |valid-metaclass-classmethod-first-arg|Naming Conventions|No|
 |variable-name-hint|Naming Conventions|No|
 |variable-rgx|Naming Conventions|No|
 |W0101: Unreachable code|Refactorings - Redundancies|No|
-|W0102: Dangerous default value %s as argument|Likely Error|No|
-|W0104: Statement seems to have no effect|Likely Error - Omission|No|
+|W0102: Dangerous default value %s as argument|Interface|No|
+|W0104: Statement seems to have no effect|Logic|No|
 |W0105: String statement has no effect|Refactorings - Redundancies|No|
-|W0106: Expression '%s' is assigned to nothing|Likely Error - Omission|No|
+|W0106: Expression '%s' is assigned to nothing|Resource|No|
 |W0107: Unnecessary pass statement|Refactorings - Redundancies|No|
 |W0108: Lambda may not be necessary|Refactorings - Simplifications|No|
-|W0109: Duplicate key %r in dictionary|Likely Error|No|
+|W0109: Duplicate key %r in dictionary|Logic|No|
 |W0110: map/filter on lambda could be replaced by comprehension|Refactorings - Simplifications|No|
-|W0120: Else clause on loop without a break statement|Likely Error - Omission|No|
+|W0120: Else clause on loop without a break statement|Logic|No|
 |W0121: Use raise ErrorClass(args) instead of raise ErrorClass. Args|Error Handling|No|
-|W0122: Use of exec|Likely Error|No|
-|W0123: Use of eval|Likely Error|No|
+|W0122: Use of exec|Interface|No|
+|W0123: Use of eval|Interface|No|
 |W0141: Used builtin function %r|Best Practices|No|
 |W0142: Used * or ** magic|Best Practices|No|
 |W0150: %s statement in finally block may swallow exception|Error Handling|No|
 |W0199: Assert called on a 2-uple. Did you mean \'assert x|y\'?|No|
 |W0201: Attribute %r defined outside __init__|Best Practices|No|
 |W0211: Static method with %r as first argument|Best Practices|No|
-|W0212: Access to a protected member %s of a client class|Object Oriented Design|No|
-|W0221: Arguments number differs from %s method|Likely Error|No|
-|W0222: Signature differs from %s method|Likely Error|No|
-|W0223: Method %r is abstract in class %r but is not overridden|Object Oriented Design|No|
-|W0231: __init__ method from base class %r is not called|Object Oriented Design|No|
-|W0232: Class has no __init__ method|Object Oriented Design|No|
-|W0233: __init__ method from a non direct base class %r is called|Object Oriented Design|No|
-|W0234: __iter__ returns non-iterator|Likely Error - Omission|No|
+|W0212: Access to a protected member %s of a client class|Interface|No|
+|W0221: Arguments number differs from %s method|Interface|No|
+|W0222: Signature differs from %s method|Interface|No|
+|W0223: Method %r is abstract in class %r but is not overridden|Interface|No|
+|W0231: __init__ method from base class %r is not called|Interface|No|
+|W0232: Class has no __init__ method|Interface|No|
+|W0233: __init__ method from a non direct base class %r is called|Interface|No|
+|W0234: __iter__ returns non-iterator|Logic|No|
 |W0301: Unnecessary semicolon|Style Conventions|No|
-|W0311: Bad indentation. Found %s %s. Expected %s|Likely Error|No|
-|W0312: Found indentation with %ss instead of %ss|Likely Error|No|
+|W0311: Bad indentation. Found %s %s. Expected %s|Logic|No|
+|W0312: Found indentation with %ss instead of %ss|Logic|No|
 |W0331: Use of the &lt;&gt; operator|Best Practices|No|
 |W0332: Use of “l” as long integer identifier|Best Practices|No|
 |W0333: Use of the `` operator|Best Practices|No|
@@ -2129,9 +2126,9 @@
 |W0403: Relative import %r. Should be %r|Code Structure|No|
 |W0404: Reimport %r (imported line %s)|Refactorings - Redundancies|No|
 |W0406: Module import itself|Refactorings - Redundancies|No|
-|W0410: __future__ import is not the first non docstring statement|Likely Error|No|
+|W0410: __future__ import is not the first non docstring statement|Interface|No|
 |W0511: (warning notes in code comments; message varies)|Documentation Conventions|No|
-|W0512: Cannot decode using encoding '%s'. Unexpected byte at position %d|Likely Error|No|
+|W0512: Cannot decode using encoding '%s'. Unexpected byte at position %d|Interface|No|
 |W0601: Global variable %r undefined at the module level|Best Practices|No|
 |W0602: Using global for %r but no assigment is done|Best Practices|No|
 |W0603: Using the global statement|Best Practices|No|
@@ -2143,10 +2140,10 @@
 |W0621: Redefining name %r from outer scope (line %s)|Best Practices|No|
 |W0622: Redefining built-in %r|Best Practices|No|
 |W0623: Redefining name %r from %s in exception handler|Error Handling|No|
-|W0631: Using possibly undefined loop variable %r|Likely Error|No|
-|W0632: Possible unbalanced tuple unpacking with sequence%s: …|Likely Error|No|
-|W0633: Attempting to unpack a non-sequence%s|Likely Error|No|
-|W0640: Cell variable %s defined in loop|Likely Error|No|
+|W0631: Using possibly undefined loop variable %r|Resource|No|
+|W0632: Possible unbalanced tuple unpacking with sequence%s: …|Interface|No|
+|W0633: Attempting to unpack a non-sequence%s|Interface|No|
+|W0640: Cell variable %s defined in loop|Logic|No|
 |W0701: Raising a string exception|Error Handling|No|
 |W0702: No exception type(s) specified|Error Handling|No|
 |W0703: Catching too general exception %s|Error Handling|No|
@@ -2154,16 +2151,16 @@
 |W0710: Exception doesn't inherit from standard 'Exception' class|Error Handling|No|
 |W0711: Exception to catch is the result of a binary “%s” operation|Error Handling|No|
 |W0712: Implicit unpacking of exceptions is not supported in Python 3|Migration|No|
-|W1001: Use of 'property' on an old style class|Likely Error|No|
-|W1111: Assigning to function call which only returns None|Likely Error|No|
+|W1001: Use of 'property' on an old style class|Interface|No|
+|W1111: Assigning to function call which only returns None|Interface|No|
 |W1201: Specify string format arguments as logging function parameters|Best Practices|No|
 |W1202: Use % formatting in logging functions but pass the % parameters as arguments|Best Practices|No|
-|W1300: Format string dictionary key should be a string|not %s|No|
+|W1300: Format string dictionary key should be a string. Not %s|Interface|No|
 |W1301: Unused key %r in format string dictionary|Refactorings - Redundancies|No|
 |W1302: Invalid format string|Best Practices|No|
-|W1401: Anomalous backslash in string: \'%s\'. String constant might be missing an r prefix|Likely Error|No|
-|W1402: Anomalous Unicode escape in byte string: ‘%s’. String constant might be missing an r or u prefix|Likely Error|No|
-|W1501:'%s' is not a valid mode for open|Likely Error|No|
+|W1401: Anomalous backslash in string: \'%s\'. String constant might be missing an r prefix|Logic|No|
+|W1402: Anomalous Unicode escape in byte string: ‘%s’. String constant might be missing an r or u prefix|Logic|No|
+|W1501:'%s' is not a valid mode for open|Interface|No|
 |W1601: Apply built-in referenced|Migration|No|
 |W1602: Basestring built-in referenced|Migration|No|
 |W1603: Buffer built-in referenced|Migration|No|
@@ -2221,13 +2218,13 @@
 |AlignArray|Style Conventions|No|
 |AlignHash|Style Conventions|No|
 |AlignParameters|Style Conventions|No|
-|AmbiguousOperator|Likely Error|No|
-|AmbiguousRegexpLiteral|Likely Error|No|
+|AmbiguousOperator|Logic|No|
+|AmbiguousRegexpLiteral|Logic|No|
 |AndOr|Best Practices|No|
 |ArrayJoin|Best Practices|No|
 |AsciiComments|Documentation Conventions|No|
 |AsciiIdentifiers|Naming Conventions|No|
-|AssignmentInCondition|Likely Error|No|
+|AssignmentInCondition|Logic|No|
 |Attr|Best Practices|No|
 |AutoResourceCleanup|Best Practices|No|
 |BarePercentLiterals|Best Practices|No|
@@ -2258,7 +2255,7 @@
 |ConstantName|Naming Conventions|Yes|
 |Copyright|Best Practices|No|
 |CyclomaticComplexity|Metric|Yes|
-|Date|Likely Error|No|
+|Date|Interface|No|
 |Debugger|Best Practices|No|
 |DefaultScope|Best Practices|No|
 |DefEndAlignment|Style Conventions|No|
@@ -2292,7 +2289,7 @@
 |EndInMethod|Best Practices|No|
 |EndOfLine|Style Conventions|No|
 |EnsureReturn|Error Handling|No|
-|Eval|Likely Error|No|
+|Eval|Interface|No|
 |EvenOdd|Best Practices|No|
 |ExtraSpacing|Refactorings - Redundancies|No|
 |FileName|Naming Conventions|No|
@@ -2316,7 +2313,7 @@
 |IndentHash|Style Conventions|No|
 |InfiniteLoop|Best Practices|No|
 |InlineComment|Documentation Conventions|No|
-|InvalidCharacterLiteral|Likely Error|No|
+|InvalidCharacterLiteral|Resource|No|
 |Lambda|Best Practices|No|
 |LambdaCall|Best Practices|No|
 |LeadingCommentSpace|Documentation Conventions|No|
@@ -2403,12 +2400,12 @@
 |StringConversionInInterpolation|Refactorings - Redundancies|No|
 |StringLiterals|Style Conventions|No|
 |StringLiteralsInInterpolation|Style Conventions|No|
-|StructInheritance|Object Oriented Design|No|
+|StructInheritance|Interface|No|
 |SymbolArray|Best Practices|No|
 |SymbolLiteral|Best Practices|No|
 |SymbolProc|Best Practices|No|
 |Tab|Style Conventions|No|
-|TimeZone|Likely Error|No|
+|TimeZone|Interface|No|
 |TrailingBlankLines|Style Conventions|No|
 |TrailingComma|Style Conventions|No|
 |TrailingWhitespace|Refactorings - Redundancies|No|
@@ -2429,7 +2426,7 @@
 |Validation|Best Practices|No|
 |VariableInterpolation|Best Practices|No|
 |VariableName|Naming Conventions|No|
-|Void|Likely Error|No|
+|Void|Check|No|
 |WhenThen|Best Practices|No|
 |WhileUntilDo|Best Practices|No|
 |WhileUntilModifier|Best Practices|No|
