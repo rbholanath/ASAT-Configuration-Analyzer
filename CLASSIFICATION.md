@@ -2104,7 +2104,7 @@
 |W0141: Used builtin function %r|Best Practices|No|
 |W0142: Used * or ** magic|Best Practices|No|
 |W0150: %s statement in finally block may swallow exception|Error Handling|No|
-|W0199: Assert called on a 2-uple. Did you mean \'assert x;y\'?|Likely Error|No|
+|W0199: Assert called on a 2-uple. Did you mean \'assert x;y\'?|Logic|No|
 |W0201: Attribute %r defined outside __init__|Best Practices|No|
 |W0211: Static method with %r as first argument|Best Practices|No|
 |W0212: Access to a protected member %s of a client class|Interface|No|
