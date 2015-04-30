@@ -876,12 +876,12 @@
 |BadSyntaxForRegularExpression|Logic|No|
 |BadUseOfReturnValue|Multiple|No|
 |BooleanReturnNull|Interface|No|
-|BuildInterproceduralCallGraph|Tool Specifc|No|
-|BuildObligationPolicyDatabase|Tool Specifc|No|
-|CalledMethods|Tool Specifc|No|
+|BuildInterproceduralCallGraph|Tool Specific|No|
+|BuildObligationPolicyDatabase|Tool Specific|No|
+|CalledMethods|Tool Specific|No|
 |CallToUnsupportedMethod|Interface|No|
-|CheckCalls|Tool Specifc|No|
-|CheckExpectedWarnings|Tool Specifc|No|
+|CheckCalls|Tool Specific|No|
+|CheckExpectedWarnings|Tool Specific|No|
 |CheckImmutableAnnotation|Interface|No|
 |CheckRelaxingNullnessAnnotation|Interface|No|
 |CheckTypeQualifiers|Multiple|No|
@@ -901,12 +901,12 @@
 |DuplicateBranches|Logic|No|
 |EmptyZipFileEntry|Interface|No|
 |EqualsOperandShouldHaveClassCompatibleWithThis|Logic|No|
-|ExplicitSerialization|Tool Specifc|No|
-|FieldItemSummary|Tool Specifc|No|
+|ExplicitSerialization|Tool Specific|No|
+|FieldItemSummary|Tool Specific|No|
 |FinalizerNullsFields|Refactorings - Redundancies|No|
 |FindBadCast2|Multiple|No|
 |FindBadForLoop|Check|No|
-|FindBugsSummaryStats|Tool Specifc|No|
+|FindBugsSummaryStats|Tool Specific|No|
 |FindCircularDependencies|Code Structure|No|
 |FindDeadLocalStores|Multiple|No|
 |FindDoubleCheck|Concurrency|No|
@@ -949,7 +949,7 @@
 |FindUselessControlFlow|Multiple|No|
 |FindUseOfNonSerializableValue|Interface|No|
 |FormatStringChecker|Multiple|No|
-|FunctionsThatMightBeMistakenForProcedures|Tool Specifc|No|
+|FunctionsThatMightBeMistakenForProcedures|Tool Specific|No|
 |HugeSharedStringConstants|Best Practices|No|
 |IDivResultCastToDouble|Logic|No|
 |IncompatMask|Logic|No|
@@ -970,21 +970,21 @@
 |LoadOfKnownNullValue|Logic|No|
 |LostLoggerDueToWeakReference|Interface|No|
 |MethodReturnCheck|Multiple|No|
-|Methods|Tool Specifc|No|
+|Methods|Tool Specific|No|
 |MultithreadedInstanceAccess|Concurrency|No|
 |MutableLock|Concurrency|No|
 |MutableStaticFields|Interface|No|
 |Naming|Multiple|No|
-|Noise|Tool Specifc|No|
-|NoiseNullDeref|Tool Specifc|No|
-|NoteAnnotationRetention|Tool Specifc|No|
-|NoteCheckReturnValue|Tool Specifc|No|
-|NoteCheckReturnValueAnnotations|Tool Specifc|No|
-|NoteDirectlyRelevantTypeQualifiers|Tool Specifc|No|
-|NoteJCIPAnnotation|Tool Specifc|No|
-|NoteNonNullAnnotations|Tool Specifc|No|
-|NoteNonnullReturnValues|Tool Specifc|No|
-|NoteSuppressedWarnings|Tool Specifc|No|
+|Noise|Tool Specific|No|
+|NoiseNullDeref|Tool Specific|No|
+|NoteAnnotationRetention|Tool Specific|No|
+|NoteCheckReturnValue|Tool Specific|No|
+|NoteCheckReturnValueAnnotations|Tool Specific|No|
+|NoteDirectlyRelevantTypeQualifiers|Tool Specific|No|
+|NoteJCIPAnnotation|Tool Specific|No|
+|NoteNonNullAnnotations|Tool Specific|No|
+|NoteNonnullReturnValues|Tool Specific|No|
+|NoteSuppressedWarnings|Tool Specific|No|
 |NoteUnconditionalParamDerefs|Multiple|No|
 |NumberConstructor|Best Practices|No|
 |OptionalReturnNull|Interface|No|
@@ -995,7 +995,7 @@
 |ReadOfInstanceFieldInMethodInvokedByConstructorInSuperclass|Logic|No|
 |ReadReturnShouldBeChecked|Check|No|
 |RedundantInterfaces|Refactorings - Redundancies|No|
-|ReflectiveClasses|Tool Specifc|No|
+|ReflectiveClasses|Tool Specific|No|
 |RepeatedConditionals|Logic|No|
 |ResolveAllReferences|Interface|No|
 |RuntimeExceptionCapture|Error Handling|No|
@@ -1010,14 +1010,14 @@
 |SynchronizeAndNullCheckField|Concurrency|No|
 |SynchronizeOnClassLiteralNotGetClass|Concurrency|No|
 |SynchronizingOnContentsOfFieldToProtectField|Concurrency|No|
-|TestASM|Tool Specifc|No|
-|TestDataflowAnalysis|Tool Specifc|No|
-|TestingGround|Tool Specifc|No|
+|TestASM|Tool Specific|No|
+|TestDataflowAnalysis|Tool Specific|No|
+|TestingGround|Tool Specific|No|
 |TestingGround2|Tool Specific|No|
-|TrainFieldStoreTypes|Tool Specifc|No|
-|TrainLongInstantfParams|Tool Specifc|No|
-|TrainNonNullAnnotations|Tool Specifc|No|
-|TrainUnconditionalDerefParams|Tool Specifc|No|
+|TrainFieldStoreTypes|Tool Specific|No|
+|TrainLongInstantfParams|Tool Specific|No|
+|TrainNonNullAnnotations|Tool Specific|No|
+|TrainUnconditionalDerefParams|Tool Specific|No|
 |UncallableMethodOfAnonymousClass|Interface|No|
 |UnnecessaryMath|Refactorings - Redundancies|No|
 |UnreadFields|Multiple|No|
@@ -2104,7 +2104,7 @@
 |W0141: Used builtin function %r|Best Practices|No|
 |W0142: Used * or ** magic|Best Practices|No|
 |W0150: %s statement in finally block may swallow exception|Error Handling|No|
-|W0199: Assert called on a 2-uple. Did you mean \'assert x|y\'?|No|
+|W0199: Assert called on a 2-uple. Did you mean \'assert x;y\'?|Likely Error|No|
 |W0201: Attribute %r defined outside __init__|Best Practices|No|
 |W0211: Static method with %r as first argument|Best Practices|No|
 |W0212: Access to a protected member %s of a client class|Interface|No|
