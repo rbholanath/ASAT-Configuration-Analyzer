@@ -21,7 +21,8 @@ import java.util.logging.Level;
 
 public class ConfigReader
 {
-    public static List<ConfigAnalysis> read(final List<Parser> parsers, final List<File> directories)
+    public static List<ConfigAnalysis> read(final List<Parser> parsers, final List<File> directories, final List<File> defaults,
+                                            final List<File> classifications)
     {
         List<ConfigAnalysis> configAnalyses = new ArrayList<>();
 
@@ -29,14 +30,15 @@ public class ConfigReader
         {
             for (int i = 0; i < parsers.size(); i++)
             {
-                configAnalyses.add(readForTool(parsers.get(i), directories.get(i)));
+                configAnalyses.add(readForTool(parsers.get(i), directories.get(i), defaults.get(i), classifications.get(i)));
             }
         }
 
         return configAnalyses;
     }
 
-    private static ConfigAnalysis readForTool(final Parser parser, final File directory)
+    private static ConfigAnalysis readForTool(final Parser parser, final File directory, final File defaultConfig,
+                                              final File classification)
     {
         try
         {

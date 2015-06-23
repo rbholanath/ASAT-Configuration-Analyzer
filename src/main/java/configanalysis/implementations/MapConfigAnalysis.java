@@ -2,7 +2,9 @@ package main.java.configanalysis.implementations;
 
 import main.java.configanalysis.ConfigAnalysis;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class MapConfigAnalysis implements ConfigAnalysis
@@ -10,6 +12,10 @@ public class MapConfigAnalysis implements ConfigAnalysis
     private final Map<String, Integer> occurrences = new HashMap<>();
 
     private final Map<String, Integer> exclusions = new HashMap<>();
+
+    private final List<String> defaultOccurrences = new ArrayList<>();
+
+    private final List<String> defaultExclusions = new ArrayList<>();
 
     private final String toolName;
 
@@ -74,6 +80,36 @@ public class MapConfigAnalysis implements ConfigAnalysis
     public Map<String, Integer> getExclusions()
     {
         return exclusions;
+    }
+
+    public void addDefaultOccurrence(String name)
+    {
+        defaultOccurrences.add(name);
+    }
+
+    public boolean isDefaultOccurrence(String name)
+    {
+        return defaultOccurrences.contains(name);
+    }
+
+    public void addDefaultExclusion(String name)
+    {
+        defaultExclusions.add(name);
+    }
+
+    public boolean isDefaultExclusion(String name)
+    {
+        return defaultExclusions.contains(name);
+    }
+
+    public List<String> getDefaultOccurrences()
+    {
+        return defaultOccurrences;
+    }
+
+    public List<String> getDefaultExclusions()
+    {
+        return defaultExclusions;
     }
 
     public String getToolName()
