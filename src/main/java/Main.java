@@ -61,7 +61,7 @@ public class Main
         parsers.add(new RuboCopParser());
         directories.add(new File(System.getProperty("user.dir") + "/src/main/resources/rubocop/"));
         defaults.add(new File(System.getProperty("user.dir") + "/src/main/resources/rubocop/rubocop.yml"));
-        classifications.add(new File(System.getProperty("user.dir") + "/src/main/resources/rubocop/rubocop.txt"));
+        classifications.add(new File(System.getProperty("user.dir") + "/src/main/resources/rubocop/possible_rubocop.txt"));
 
         AnalyzerLogger.getLogger().log(Level.INFO, "Reading config files");
 

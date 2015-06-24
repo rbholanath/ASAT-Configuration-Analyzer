@@ -1,6 +1,7 @@
 package main.java.configanalysis.implementations;
 
 import main.java.configanalysis.ConfigAnalysis;
+import main.java.configanalysis.SingleConfigAnalysis;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -16,6 +17,14 @@ public class MapConfigAnalysis implements ConfigAnalysis
     private final List<String> defaultOccurrences = new ArrayList<>();
 
     private final List<String> defaultExclusions = new ArrayList<>();
+
+    private final List<String> possibleRules = new ArrayList<>();
+
+    private int deviations = 0;
+
+    private int total = 0;
+
+    private int onlyRedefineDeviations = 0;
 
     private final String toolName;
 
@@ -72,16 +81,6 @@ public class MapConfigAnalysis implements ConfigAnalysis
         }
     }
 
-    public Map<String, Integer> getOccurrences()
-    {
-        return occurrences;
-    }
-
-    public Map<String, Integer> getExclusions()
-    {
-        return exclusions;
-    }
-
     public void addDefaultOccurrence(String name)
     {
         defaultOccurrences.add(name);
@@ -102,6 +101,26 @@ public class MapConfigAnalysis implements ConfigAnalysis
         return defaultExclusions.contains(name);
     }
 
+    public void addPossibleRule(String name)
+    {
+        possibleRules.add(name);
+    }
+
+    public boolean isPossibleRule(String name)
+    {
+        return possibleRules.contains(name);
+    }
+
+    public Map<String, Integer> getOccurrences()
+    {
+        return occurrences;
+    }
+
+    public Map<String, Integer> getExclusions()
+    {
+        return exclusions;
+    }
+
     public List<String> getDefaultOccurrences()
     {
         return defaultOccurrences;
@@ -112,8 +131,18 @@ public class MapConfigAnalysis implements ConfigAnalysis
         return defaultExclusions;
     }
 
+    public List<String> getPossibleRules()
+    {
+        return possibleRules;
+    }
+
     public String getToolName()
     {
         return toolName;
+    }
+
+    public void addSingleConfigAnalysis(final SingleConfigAnalysis singleConfigAnalysis)
+    {
+
     }
 }

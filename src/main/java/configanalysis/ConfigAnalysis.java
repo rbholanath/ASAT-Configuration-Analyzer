@@ -13,10 +13,6 @@ public interface ConfigAnalysis
 
     int getSingleExclusion(final String name);
 
-    Map<String, Integer> getOccurrences();
-
-    Map<String, Integer> getExclusions();
-
     void addDefaultOccurrence(final String name);
 
     boolean isDefaultOccurrence(final String name);
@@ -25,9 +21,19 @@ public interface ConfigAnalysis
 
     boolean isDefaultExclusion(final String name);
 
+    void addPossibleRule(String name);
+
+    boolean isPossibleRule(String name);
+
+    Map<String, Integer> getOccurrences();
+
+    Map<String, Integer> getExclusions();
+
     List<String> getDefaultOccurrences();
 
     List<String> getDefaultExclusions();
+
+    List<String> getPossibleRules();
 
     String getToolName();
 }

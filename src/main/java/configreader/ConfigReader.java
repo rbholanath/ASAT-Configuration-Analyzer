@@ -1,6 +1,7 @@
 package main.java.configreader;
 
 import main.java.configanalysis.ConfigAnalysis;
+import main.java.configanalysis.SingleConfigAnalysis;
 import main.java.configanalysis.implementations.MapConfigAnalysis;
 import main.java.parser.Parser;
 import main.java.util.AnalyzerLogger;
@@ -110,5 +111,14 @@ public class ConfigReader
         }
 
         return null;
+    }
+
+    private static ConfigAnalysis addSingleConfigAnalysis(ConfigAnalysis oldConfigAnalysis, SingleConfigAnalysis singleConfiguration)
+    {
+        ConfigAnalysis configAnalysis = oldConfigAnalysis;
+
+
+
+        return configAnalysis;
     }
 }
