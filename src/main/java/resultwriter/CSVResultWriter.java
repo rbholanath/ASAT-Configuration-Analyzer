@@ -22,6 +22,10 @@ public class CSVResultWriter
         {
             try
             {
+                File directoryToCreate = new File(directory.getAbsolutePath() + "/csv/");
+
+                directoryToCreate.mkdirs();
+
                 Path resultFileOcc = Paths.get(directory.getAbsolutePath() + "/csv/occ_" + result.getToolName() + ".csv");
 
                 BufferedWriter bufferedWriter = Files.newBufferedWriter(resultFileOcc, Charset.forName("UTF-8"));

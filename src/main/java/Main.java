@@ -62,7 +62,7 @@ public class Main
         parsers.add(new RuboCopParser());
         directories.add(new File(System.getProperty("user.dir") + "/src/main/resources/rubocop/"));
         defaults.add(new File(System.getProperty("user.dir") + "/src/main/resources/rubocop/rubocop.yml"));
-        classifications.add(new File(System.getProperty("user.dir") + "/src/main/resources/rubocop/possible_rubocop_group.csv"));
+        classifications.add(new File(System.getProperty("user.dir") + "/src/main/resources/rubocop/possible_rubocop.csv"));
         redefines.add(new File(System.getProperty("user.dir") + "/src/main/resources/rubocop/redefines_rubocop.csv"));
 
         AnalyzerLogger.getLogger().log(Level.INFO, "Reading config files");
