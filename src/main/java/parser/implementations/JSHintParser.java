@@ -36,6 +36,11 @@ public class JSHintParser implements ConfigParser
                     {
                         String configName = (parts[0].split("\"")[1]).trim();
 
+                        if (configName.charAt(0) == '-')
+                        {
+                            configName = configName.substring(1);
+                        }
+
                         // Skip the globals/predef section
                         if (configName.equals("globals") || configName.equals("predef"))
                         {
@@ -43,13 +48,16 @@ public class JSHintParser implements ConfigParser
                         }
                         else
                         {
-                            if (!((parts[1].split(",")[0]).contains("false")))
+                            if (!configName.equals("extends"))
                             {
-                                configAnalysis.addOccurrence(configName);
-                            }
-                            else
-                            {
-                                configAnalysis.addExclusion(configName);
+                                if (!((parts[1].split(",")[0]).contains("false")))
+                                {
+                                    configAnalysis.addOccurrence(configName);
+                                }
+                                else
+                                {
+                                    configAnalysis.addExclusion(configName);
+                                }
                             }
                         }
                     }

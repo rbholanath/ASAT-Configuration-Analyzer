@@ -151,11 +151,17 @@ public class MapConfigAnalysis implements ConfigAnalysis
     {
         List<String> defaultOccurrences = singleConfigAnalysis.getOccurrences();
 
-        defaultOccurrences.forEach(this::addDefaultOccurrence);
+        for (String occurrence : defaultOccurrences)
+        {
+            addDefaultOccurrence(occurrence.trim());
+        }
 
         List<String> defaultExclusions = singleConfigAnalysis.getExclusions();
 
-        defaultExclusions.forEach(this::addDefaultExclusion);
+        for (String exclusion : defaultExclusions)
+        {
+            addDefaultExclusion(exclusion.trim());
+        }
     }
 
     public void addSingleConfigAnalysis(final SingleConfigAnalysis singleConfigAnalysis)
@@ -171,6 +177,8 @@ public class MapConfigAnalysis implements ConfigAnalysis
 
         for (String occurrence : singleOccurrences)
         {
+            occurrence = occurrence.trim();
+
             addOccurrence(occurrence);
 
             if (isPossibleRule(occurrence))
@@ -198,6 +206,8 @@ public class MapConfigAnalysis implements ConfigAnalysis
 
         for (String exclusion : singleExclusions)
         {
+            exclusion = exclusion.trim();
+
             addExclusion(exclusion);
 
             if (isPossibleRule(exclusion))
