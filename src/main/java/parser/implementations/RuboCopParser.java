@@ -1,7 +1,8 @@
 package main.java.parser.implementations;
 
-import main.java.configanalysis.ConfigAnalysis;
-import main.java.parser.Parser;
+import main.java.configanalysis.SingleConfigAnalysis;
+import main.java.configanalysis.implementations.MapSingleConfigAnalysis;
+import main.java.parser.ConfigParser;
 import main.java.util.AnalyzerLogger;
 import org.yaml.snakeyaml.Yaml;
 
@@ -12,15 +13,15 @@ import java.util.List;
 import java.util.Map;
 import java.util.logging.Level;
 
-public class RuboCopParser implements Parser
+public class RuboCopParser implements ConfigParser
 {
     private final String toolName = "rubocop";
 
     private final List<String> filterIdentifiers = new LinkedList<>(Arrays.asList("inherit_from", "AllCops"));
 
-    public ConfigAnalysis parse(final InputStream stream, final ConfigAnalysis oldConfigAnalysis)
+    public SingleConfigAnalysis parse(final InputStream stream)
     {
-        ConfigAnalysis configAnalysis = oldConfigAnalysis;
+        SingleConfigAnalysis configAnalysis = new MapSingleConfigAnalysis();
 
         try
         {

@@ -20,11 +20,17 @@ public class MapConfigAnalysis implements ConfigAnalysis
 
     private final List<String> possibleRules = new ArrayList<>();
 
+    private final List<String> redefineRules = new ArrayList<>();
+
     private int deviations = 0;
 
     private int total = 0;
 
-    private int onlyRedefineDeviations = 0;
+    private int onlyRedefines = 0;
+
+    private int addsRules = 0;
+
+    private int usesCustomRules = 0;
 
     private final String toolName;
 
@@ -111,6 +117,16 @@ public class MapConfigAnalysis implements ConfigAnalysis
         return possibleRules.contains(name);
     }
 
+    public void addRedefineRule(String name)
+    {
+        redefineRules.add(name);
+    }
+
+    public boolean isRedefineRule(String name)
+    {
+        return redefineRules.contains(name);
+    }
+
     public Map<String, Integer> getOccurrences()
     {
         return occurrences;
@@ -121,19 +137,106 @@ public class MapConfigAnalysis implements ConfigAnalysis
         return exclusions;
     }
 
-    public List<String> getDefaultOccurrences()
+    public void addPossibleRuleSet(final List<String> possibleRuleSet)
     {
-        return defaultOccurrences;
+        possibleRuleSet.forEach(this::addPossibleRule);
     }
 
-    public List<String> getDefaultExclusions()
+    public void addRedefineRuleSet(final List<String> redefineRuleSet)
     {
-        return defaultExclusions;
+        redefineRuleSet.forEach(this::addRedefineRule);
     }
 
-    public List<String> getPossibleRules()
+    public void addDefaultConfig(final SingleConfigAnalysis singleConfigAnalysis)
     {
-        return possibleRules;
+        List<String> defaultOccurrences = singleConfigAnalysis.getOccurrences();
+
+        defaultOccurrences.forEach(this::addDefaultOccurrence);
+
+        List<String> defaultExclusions = singleConfigAnalysis.getExclusions();
+
+        defaultExclusions.forEach(this::addDefaultExclusion);
+    }
+
+    public void addSingleConfigAnalysis(final SingleConfigAnalysis singleConfigAnalysis)
+    {
+        total++;
+
+        boolean deviation = false;
+        boolean redefine = false;
+        boolean addingTo = false;
+        boolean useOfCustomRules = false;
+
+        List<String> singleOccurrences = singleConfigAnalysis.getOccurrences();
+
+        for (String occurrence : singleOccurrences)
+        {
+            addOccurrence(occurrence);
+
+            if (isPossibleRule(occurrence))
+            {
+                if (isDefaultOccurrence(occurrence) && isRedefineRule(occurrence))
+                {
+                    redefine = true;
+                }
+                else if (isDefaultExclusion(occurrence))
+                {
+                    deviation = true;
+                }
+                else if (!isDefaultOccurrence(occurrence) && !isDefaultExclusion(occurrence))
+                {
+                    addingTo = true;
+                }
+            }
+            else
+            {
+                useOfCustomRules = true;
+            }
+        }
+
+        List<String> singleExclusions = singleConfigAnalysis.getExclusions();
+
+        for (String exclusion : singleExclusions)
+        {
+            addExclusion(exclusion);
+
+            if (isPossibleRule(exclusion))
+            {
+                // Redefining an exclusion makes no sense and it therefore of no importance to us.
+                if (isDefaultOccurrence(exclusion))
+                {
+                    deviation = true;
+                }
+                else if (!isDefaultExclusion(exclusion))
+                {
+                    addingTo = true;
+                }
+            }
+            else
+            {
+                useOfCustomRules = true;
+            }
+        }
+
+        if (deviation)
+        {
+            deviations++;
+        }
+
+        if (redefine && !deviation)
+        {
+            onlyRedefines++;
+        }
+
+        if (addingTo)
+        {
+            addsRules++;
+        }
+
+        if (useOfCustomRules)
+        {
+            usesCustomRules++;
+        }
     }
 
     public String getToolName()
@@ -141,8 +244,28 @@ public class MapConfigAnalysis implements ConfigAnalysis
         return toolName;
     }
 
-    public void addSingleConfigAnalysis(final SingleConfigAnalysis singleConfigAnalysis)
+    public int getDeviations()
     {
+        return deviations;
+    }
 
+    public int getTotal()
+    {
+        return total;
+    }
+
+    public int getOnlyRedefines()
+    {
+        return onlyRedefines;
+    }
+
+    public int getAddsRules()
+    {
+        return addsRules;
+    }
+
+    public int getUsesCustomRules()
+    {
+        return usesCustomRules;
     }
 }

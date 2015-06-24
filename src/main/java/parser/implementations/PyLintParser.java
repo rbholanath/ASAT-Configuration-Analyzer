@@ -1,7 +1,8 @@
 package main.java.parser.implementations;
 
-import main.java.configanalysis.ConfigAnalysis;
-import main.java.parser.Parser;
+import main.java.configanalysis.SingleConfigAnalysis;
+import main.java.configanalysis.implementations.MapSingleConfigAnalysis;
+import main.java.parser.ConfigParser;
 import main.java.util.AnalyzerLogger;
 
 import java.io.BufferedReader;
@@ -12,13 +13,13 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.logging.Level;
 
-public class PylintParser implements Parser
+public class PylintParser implements ConfigParser
 {
     private final String toolName = "pylint";
 
-    public ConfigAnalysis parse(final InputStream stream, final ConfigAnalysis oldConfigAnalysis)
+    public SingleConfigAnalysis parse(final InputStream stream)
     {
-        ConfigAnalysis configAnalysis = oldConfigAnalysis;
+        SingleConfigAnalysis configAnalysis = new MapSingleConfigAnalysis();
 
         try
         {
@@ -61,9 +62,10 @@ public class PylintParser implements Parser
         return configAnalysis;
     }
 
-    private ConfigAnalysis processEnableDisable(boolean enable, String line, ConfigAnalysis oldConfigAnalysis)
+    private SingleConfigAnalysis processEnableDisable(final boolean enable, final String line,
+                                                      final SingleConfigAnalysis oldConfigAnalysis)
     {
-        ConfigAnalysis configAnalysis = oldConfigAnalysis;
+        SingleConfigAnalysis configAnalysis = oldConfigAnalysis;
 
         List<String> codes = Arrays.asList(line.split(","));
 

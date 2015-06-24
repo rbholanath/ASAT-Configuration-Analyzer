@@ -1,7 +1,8 @@
 package main.java.parser.implementations;
 
-import main.java.configanalysis.ConfigAnalysis;
-import main.java.parser.Parser;
+import main.java.configanalysis.SingleConfigAnalysis;
+import main.java.configanalysis.implementations.MapSingleConfigAnalysis;
+import main.java.parser.ConfigParser;
 import main.java.util.AnalyzerLogger;
 import main.java.util.DOMBuilder;
 import main.java.util.DOMUtil;
@@ -15,13 +16,13 @@ import java.io.InputStream;
 import java.util.List;
 import java.util.logging.Level;
 
-public class FindBugsXMLParser implements Parser
+public class FindBugsXMLParser implements ConfigParser
 {
     private final String toolName = "findbugsfilter";
 
-    public ConfigAnalysis parse(final InputStream stream, final ConfigAnalysis oldConfigAnalysis)
+    public SingleConfigAnalysis parse(final InputStream stream)
     {
-        ConfigAnalysis configAnalysis = oldConfigAnalysis;
+        SingleConfigAnalysis configAnalysis = new MapSingleConfigAnalysis();
 
         try
         {
@@ -47,9 +48,9 @@ public class FindBugsXMLParser implements Parser
         return configAnalysis;
     }
 
-    private ConfigAnalysis parseMatch(final Element element, final ConfigAnalysis oldConfigAnalysis)
+    private SingleConfigAnalysis parseMatch(final Element element, final SingleConfigAnalysis oldConfigAnalysis)
     {
-        ConfigAnalysis configAnalysis = oldConfigAnalysis;
+        SingleConfigAnalysis configAnalysis = oldConfigAnalysis;
 
         List<Node> bugs = DOMUtil.childrenByTagName(element, "Bug");
         List<Node> excludes = DOMUtil.childrenByTagName(element, "Not");
@@ -93,9 +94,9 @@ public class FindBugsXMLParser implements Parser
         return configAnalysis;
     }
 
-    private ConfigAnalysis parseNot(final Element element, final ConfigAnalysis oldConfigAnalysis)
+    private SingleConfigAnalysis parseNot(final Element element, final SingleConfigAnalysis oldConfigAnalysis)
     {
-        ConfigAnalysis configAnalysis = oldConfigAnalysis;
+        SingleConfigAnalysis configAnalysis = oldConfigAnalysis;
 
         List<Node> bugs = DOMUtil.childrenByTagName(element, "Bug");
 

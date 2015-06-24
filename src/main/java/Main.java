@@ -2,7 +2,7 @@ package main.java;
 
 import main.java.configanalysis.ConfigAnalysis;
 import main.java.configreader.ConfigReader;
-import main.java.parser.Parser;
+import main.java.parser.ConfigParser;
 import main.java.parser.implementations.RuboCopParser;
 import main.java.resultwriter.CSVResultWriter;
 import main.java.util.AnalyzerLogger;
@@ -16,10 +16,11 @@ public class Main
 {
     public static void main(String[] args)
     {
-        List<Parser> parsers = new ArrayList<>();
+        List<ConfigParser> parsers = new ArrayList<>();
         List<File> directories = new ArrayList<>();
         List<File> defaults = new ArrayList<>();
         List<File> classifications = new ArrayList<>();
+        List<File> redefines = new ArrayList<>();
 
         // Checkstyle
 //        parsers.add(new CheckstyleParser());
@@ -57,15 +58,16 @@ public class Main
 //        parsers.add(new PylintParser());
 //        directories.add(new File(System.getProperty("user.dir") + "/src/main/resources/pylint/"));
 
-        // Rubocop
+        // RuboCop
         parsers.add(new RuboCopParser());
         directories.add(new File(System.getProperty("user.dir") + "/src/main/resources/rubocop/"));
         defaults.add(new File(System.getProperty("user.dir") + "/src/main/resources/rubocop/rubocop.yml"));
-        classifications.add(new File(System.getProperty("user.dir") + "/src/main/resources/rubocop/possible_rubocop.txt"));
+        classifications.add(new File(System.getProperty("user.dir") + "/src/main/resources/rubocop/possible_rubocop_group.csv"));
+        redefines.add(new File(System.getProperty("user.dir") + "/src/main/resources/rubocop/redefines_rubocop.csv"));
 
         AnalyzerLogger.getLogger().log(Level.INFO, "Reading config files");
 
-        List<ConfigAnalysis> result = ConfigReader.read(parsers, directories, defaults, classifications);
+        List<ConfigAnalysis> result = ConfigReader.read(parsers, directories, defaults, classifications, redefines);
 
         AnalyzerLogger.getLogger().log(Level.INFO, "Reads successful");
 

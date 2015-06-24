@@ -1,7 +1,8 @@
 package main.java.parser.implementations;
 
-import main.java.configanalysis.ConfigAnalysis;
-import main.java.parser.Parser;
+import main.java.configanalysis.SingleConfigAnalysis;
+import main.java.configanalysis.implementations.MapSingleConfigAnalysis;
+import main.java.parser.ConfigParser;
 import main.java.util.AnalyzerLogger;
 
 import java.io.BufferedReader;
@@ -10,13 +11,13 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.logging.Level;
 
-public class FindBugsPrefsParser implements Parser
+public class FindBugsPrefsParser implements ConfigParser
 {
     private final String toolName = "findbugseclipseprefs";
 
-    public ConfigAnalysis parse(final InputStream stream, final ConfigAnalysis oldConfigAnalysis)
+    public SingleConfigAnalysis parse(final InputStream stream)
     {
-        ConfigAnalysis configAnalysis = oldConfigAnalysis;
+        SingleConfigAnalysis configAnalysis = new MapSingleConfigAnalysis();
 
         try
         {

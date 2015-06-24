@@ -43,24 +43,6 @@ public class MapSingleConfigAnalysis implements SingleConfigAnalysis
         return exclusions.contains(name);
     }
 
-    public void addConfig(String name, String config)
-    {
-        // If there is an erroneous duplicate, we will consider only the latter as the config.
-        configs.put(name, config);
-    }
-
-    public String getConfig(String name)
-    {
-        if (configs.containsKey(name))
-        {
-            return configs.get(name);
-        }
-        else
-        {
-            return null;
-        }
-    }
-
     public List<String> getOccurrences()
     {
         return occurrences;
@@ -69,10 +51,5 @@ public class MapSingleConfigAnalysis implements SingleConfigAnalysis
     public List<String> getExclusions()
     {
         return exclusions;
-    }
-
-    public Map<String, String> getConfigs()
-    {
-        return configs;
     }
 }

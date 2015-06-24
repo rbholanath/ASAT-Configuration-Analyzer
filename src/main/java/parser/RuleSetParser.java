@@ -1,20 +1,20 @@
-package main.java.parser.implementations;
+package main.java.parser;
 
-import main.java.configanalysis.ConfigAnalysis;
-import main.java.parser.Parser;
 import main.java.util.AnalyzerLogger;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.logging.Level;
 
-public class PossibleRulesParser implements Parser
+public class RuleSetParser
 {
-    public ConfigAnalysis parse(InputStream stream, ConfigAnalysis oldConfigAnalysis)
+    public List<String> parse(InputStream stream)
     {
-        ConfigAnalysis configAnalysis = oldConfigAnalysis;
+        List<String> rules = new ArrayList<>();
 
         try
         {
@@ -23,7 +23,7 @@ public class PossibleRulesParser implements Parser
             String line;
             while ((line = bufferedReader.readLine()) != null)
             {
-                configAnalysis.addPossibleRule(line.trim());
+                rules.add(line.trim());
             }
         }
         catch (IOException e)
@@ -31,11 +31,6 @@ public class PossibleRulesParser implements Parser
             AnalyzerLogger.getLogger().log(Level.FINER, "Error reading possible rules file: " + e.getMessage());
         }
 
-        return configAnalysis;
-    }
-
-    public String getToolName()
-    {
-        return null;
+        return rules;
     }
 }

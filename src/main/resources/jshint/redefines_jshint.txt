@@ -1,0 +1,12 @@
+maxerr
+quotmark
+maxparams
+maxdepth
+maxstatements
+maxcomplexity
+maxlen       
+unused
+scope
+predef
+latedef
+indent

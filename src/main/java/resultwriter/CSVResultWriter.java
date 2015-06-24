@@ -22,7 +22,7 @@ public class CSVResultWriter
         {
             try
             {
-                Path resultFileOcc = Paths.get(directory.getAbsolutePath() + "/csv/" + result.getToolName() + "occ.csv");
+                Path resultFileOcc = Paths.get(directory.getAbsolutePath() + "/csv/occ_" + result.getToolName() + ".csv");
 
                 BufferedWriter bufferedWriter = Files.newBufferedWriter(resultFileOcc, Charset.forName("UTF-8"));
 
@@ -34,7 +34,7 @@ public class CSVResultWriter
 
                 bufferedWriter.close();
 
-                Path resultFileExcl = Paths.get(directory.getAbsolutePath() + "/csv/" + result.getToolName() + "excl.csv");
+                Path resultFileExcl = Paths.get(directory.getAbsolutePath() + "/csv/excl_" + result.getToolName() + ".csv");
 
                 BufferedWriter bufferedWriterExcl = Files.newBufferedWriter(resultFileExcl, Charset.forName("UTF-8"));
 
@@ -46,9 +46,28 @@ public class CSVResultWriter
 
                 bufferedWriterExcl.close();
 
+                Path resultFileDefaults = Paths.get(directory.getAbsolutePath() + "/csv/defaults_" + result.getToolName() + ".csv");
+
+                BufferedWriter bufferedWriterDefaults = Files.newBufferedWriter(resultFileDefaults, Charset.forName("UTF-8"));
+
+                bufferedWriterDefaults.write("Total," + result.getTotal());
+                bufferedWriterDefaults.newLine();
+
+                bufferedWriterDefaults.write("Deviations," + result.getDeviations());
+                bufferedWriterDefaults.newLine();
+
+                bufferedWriterDefaults.write("Only Redefines," + result.getOnlyRedefines());
+                bufferedWriterDefaults.newLine();
+
+                bufferedWriterDefaults.write("Adds Rules," + result.getAddsRules());
+                bufferedWriterDefaults.newLine();
+
+                bufferedWriterDefaults.write("Uses Custom Rules," + result.getUsesCustomRules());
+                bufferedWriterDefaults.newLine();
+
+                bufferedWriterDefaults.close();
+
                 AnalyzerLogger.getLogger().log(Level.FINE, "Successfully written results from: " + result.getToolName() + " to file.");
-
-
             }
             catch (IOException e)
             {

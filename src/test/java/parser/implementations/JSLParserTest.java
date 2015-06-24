@@ -3,7 +3,7 @@ package test.java.parser.implementations;
 import junit.framework.Assert;
 import main.java.configanalysis.ConfigAnalysis;
 import main.java.configanalysis.implementations.MapConfigAnalysis;
-import main.java.parser.Parser;
+import main.java.parser.ConfigParser;
 import main.java.parser.implementations.JSLParser;
 import org.junit.Before;
 import org.junit.Test;
@@ -14,7 +14,7 @@ import java.io.InputStream;
 public class JSLParserTest
 {
     private InputStream stream;
-    private Parser parser;
+    private ConfigParser parser;
 
     @Before
     public void setUp() throws Exception
@@ -27,7 +27,9 @@ public class JSLParserTest
     @Test
     public void testParse() throws Exception
     {
-        ConfigAnalysis result = parser.parse(stream, new MapConfigAnalysis(parser.getToolName()));
+        ConfigAnalysis result = new MapConfigAnalysis("jsl");
+
+        result.addSingleConfigAnalysis(parser.parse(stream));
 
         Assert.assertEquals(1, result.getSingleOccurrence("leading_decimal_point"));
         Assert.assertEquals(1, result.getSingleOccurrence("trailing_decimal_point"));

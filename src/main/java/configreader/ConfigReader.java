@@ -1,16 +1,12 @@
 package main.java.configreader;
 
 import main.java.configanalysis.ConfigAnalysis;
-import main.java.configanalysis.SingleConfigAnalysis;
 import main.java.configanalysis.implementations.MapConfigAnalysis;
-import main.java.parser.Parser;
+import main.java.parser.ConfigParser;
+import main.java.parser.RuleSetParser;
 import main.java.util.AnalyzerLogger;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 import java.net.URL;
 import java.nio.file.DirectoryStream;
 import java.nio.file.Files;
@@ -22,8 +18,10 @@ import java.util.logging.Level;
 
 public class ConfigReader
 {
-    public static List<ConfigAnalysis> read(final List<Parser> parsers, final List<File> directories, final List<File> defaults,
-                                            final List<File> classifications)
+    private final static RuleSetParser ruleSetParser = new RuleSetParser();
+
+    public static List<ConfigAnalysis> read(final List<ConfigParser> parsers, final List<File> directories, final List<File> defaults,
+                                            final List<File> possibleRules, final List<File> redefines)
     {
         List<ConfigAnalysis> configAnalyses = new ArrayList<>();
 
@@ -31,15 +29,16 @@ public class ConfigReader
         {
             for (int i = 0; i < parsers.size(); i++)
             {
-                configAnalyses.add(readForTool(parsers.get(i), directories.get(i), defaults.get(i), classifications.get(i)));
+                configAnalyses.add(readForTool(parsers.get(i), directories.get(i), defaults.get(i),
+                        possibleRules.get(i), redefines.get(i)));
             }
         }
 
         return configAnalyses;
     }
 
-    private static ConfigAnalysis readForTool(final Parser parser, final File directory, final File defaultConfig,
-                                              final File classification)
+    private static ConfigAnalysis readForTool(final ConfigParser parser, final File directory, final File defaultConfig,
+                                              final File possibleRuleSet, final File redefine)
     {
         try
         {
@@ -47,7 +46,14 @@ public class ConfigReader
 
             DirectoryStream<Path> stream = Files.newDirectoryStream(Paths.get(directory.getAbsolutePath()), "*.{txt}");
 
+            // Before reading any files, set up the possible rules, redefines, and the default configuration.
             ConfigAnalysis configAnalysis = new MapConfigAnalysis(parser.getToolName());
+
+            configAnalysis.addPossibleRuleSet(ruleSetParser.parse(new FileInputStream(possibleRuleSet)));
+
+            configAnalysis.addRedefineRuleSet(ruleSetParser.parse(new FileInputStream(redefine)));
+
+            configAnalysis.addDefaultConfig(parser.parse(new FileInputStream(defaultConfig)));
 
             for (Path entry: stream)
             {
@@ -66,7 +72,7 @@ public class ConfigReader
         return null;
     }
 
-    private static ConfigAnalysis readURLList(final String filename, final Parser parser, final ConfigAnalysis oldConfigAnalysis)
+    private static ConfigAnalysis readURLList(final String filename, final ConfigParser parser, final ConfigAnalysis oldConfigAnalysis)
     {
         int filesRead = 0;
 
@@ -88,7 +94,7 @@ public class ConfigReader
 
                     AnalyzerLogger.getLogger().log(Level.FINER, "Reading file: " + line);
 
-                    configAnalysis = parser.parse(stream, configAnalysis);
+                    configAnalysis.addSingleConfigAnalysis(parser.parse(stream));
 
                     filesRead++;
                 }
@@ -111,14 +117,5 @@ public class ConfigReader
         }
 
         return null;
-    }
-
-    private static ConfigAnalysis addSingleConfigAnalysis(ConfigAnalysis oldConfigAnalysis, SingleConfigAnalysis singleConfiguration)
-    {
-        ConfigAnalysis configAnalysis = oldConfigAnalysis;
-
-
-
-        return configAnalysis;
     }
 }

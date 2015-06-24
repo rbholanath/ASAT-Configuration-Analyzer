@@ -25,15 +25,31 @@ public interface ConfigAnalysis
 
     boolean isPossibleRule(String name);
 
+    void addRedefineRule(String name);
+
+    boolean isRedefineRule(String name);
+
     Map<String, Integer> getOccurrences();
 
     Map<String, Integer> getExclusions();
 
-    List<String> getDefaultOccurrences();
+    void addPossibleRuleSet(final List<String> possibleRuleSet);
 
-    List<String> getDefaultExclusions();
+    void addRedefineRuleSet(final List<String> redefineRuleSet);
 
-    List<String> getPossibleRules();
+    void addDefaultConfig(final SingleConfigAnalysis singleConfigAnalysis);
+
+     void addSingleConfigAnalysis(final SingleConfigAnalysis singleConfigAnalysis);
 
     String getToolName();
+
+    int getDeviations();
+
+    int getTotal();
+
+    int getOnlyRedefines();
+
+    int getAddsRules();
+
+    int getUsesCustomRules();
 }
